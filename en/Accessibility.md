@@ -31,7 +31,7 @@ There are four things in an accessibility tree object:
 name
 :   How can we refer to this thing? For instance, a link with the text ‘Read more’ will have
     ‘Read more’ asits name (more on how names are computed in the
-    [Accessible Name and Description Computation spec)](https://www.w3.org/TR/accname-1.1/).
+    [Accessible Name and Description Computation spec](https://www.w3.org/TR/accname-1.1/)).
 
 description
 :   How do we describe this element, if we want to add anything to the name? The description of a table
