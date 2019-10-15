@@ -22,7 +22,7 @@
     "glossary"
   ],
   "author": "Li Yun <leven.cn@gmail.com>",
-  "license": "APLv2",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/dookbook/dookbook-doc-glossary/issues"
   },
