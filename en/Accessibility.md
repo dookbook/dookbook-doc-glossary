@@ -1,4 +1,4 @@
-TOPIC: Accessibility tree (AOM)
+TOPIC: Accessibility
 AUTHORS: Taylor Hunt; tigt@github.com; github:tigt
          PrinceMatthew; PrinceMatthew@github.com; github:PrinceMatthew
          Jérémie Patonnier; klez@mozilla.net; mdn:klez
@@ -9,7 +9,13 @@ AUTHORS: Taylor Hunt; tigt@github.com; github:tigt
          Thierry Régagnon; tregagnon@github.com; github:tregagnon
          Ajinkya Patil; ajinkya_p@mozilla.net; mdn:ajinkya_p
 
-# Accessibility tree (AOM)
+# Accessibility
+
+*Web Accessibility* (**A11Y**) refers to best practices for keeping a website usable despite physical
+and technical restrictions. Web accessibility is formally defined and discussed at the W3C through
+the Web Accessibility Initiative (WAI).
+
+## Accessibility tree (AOM)
 
 The **accessibility tree**, or **accessibility object model (AOM)**,
 contains accessibility-related information for most HTML elements.
@@ -40,12 +46,6 @@ state
 
 Additionally, the accessibility tree often contains information on what can be done with an
 element: a link can be followed, a text input can be typed into, etc.
-
-## Accessibility
-
-*Web Accessibility* (**A11Y**) refers to best practices for keeping a website usable despite physical
-and technical restrictions. Web accessibility is formally defined and discussed at the W3C through
-the Web Accessibility Initiative (WAI).
 
 ## Learn more
 
