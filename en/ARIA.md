@@ -3,29 +3,6 @@ AUTHORS: Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Joel Gray; jg2703@github.com; github:jg2703
-         MNizam0802; MNizam0802@github.com; github:MNizam0802
-         Alex Kizer; kizerkizer@github.com; github:kizerkizer
-         Scott O'Hara; scottaohara@github.com; github:scottaohara
-         Kasper Christensen; kasper@friischristensen.com; github:fALKENdk
-         Peter Simonsson; sidp@github.com; github:sidp
-         Chafic Najjar; chafic.najjar@gmail.com; github:chaficnajjar
-         Divyanshu Maithani; div.blackcat@gmail.com; github:divyanshu013
-         David Brouillette; davidbrouillette@mozilla.net; mdn:David Brouillette
-         John Whitlock; John-Whitlock@ieee.org; github:jwhitlock
-         Taylor Hunt; tigt@github.com; github:tigt
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Ali; alispivak@mozilla.net; mdn:Ali
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Daniel Imms; Tyriar@github.com; github:Tyriar
-         Frédéric Bourgeon; FredericBourgeon@github.com; github:FredericBourgeon
-         Anastasia Cheetham; anastasia@github.com; github:anastasia
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # ARIA
 
