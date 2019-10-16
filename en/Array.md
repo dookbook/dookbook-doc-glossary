@@ -12,7 +12,7 @@ AUTHORS: Sphinx; SphinxKnight@mozilla.net; mdn:SphinxKnight
 
 # Array
 
-[An array is an ordered collection of data (either primitive or object depending upon the language).
+An array is an ordered collection of data (either primitive or object depending upon the language).
 Arrays are used to store multiple values in a single variable.
 This is compared to a variable that can store only one value.
 
