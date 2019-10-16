@@ -47,4 +47,4 @@ obj.display();
 
 ### General knowledge
 
-- [abstraction](https://en.wikipedia.org/wiki/Abstraction%20(computer%20science)) on Wikipedia
+- [Abstraction](https://en.wikipedia.org/wiki/Abstraction%20(computer%20science)) on Wikipedia
