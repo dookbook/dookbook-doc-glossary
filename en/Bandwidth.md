@@ -13,4 +13,4 @@ for example megabits-per-second (Mbps) or gigabits-per-second (Gbps).
 
 ## Learn more
 
-- [bandwidth](https://en.wikipedia.org/wiki/Bandwidth) on Wikipedia
+- [Bandwidth](https://en.wikipedia.org/wiki/Bandwidth) on Wikipedia
