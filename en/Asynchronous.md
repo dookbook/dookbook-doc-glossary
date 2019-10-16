@@ -11,7 +11,7 @@ The term asynchronous refers to the concept of more than once thing happening at
 or multiple related things happening without waiting for the previous one to complete. In computing,
 the word "asynchronous" is used in two major contexts.
 
-**Networking and communications**:
+## Networking and communications
 
 Asynchronous communication is a method of exchanging messages between two or more parties in which
 each party receives and processes messages whenever it's convenient or possible to do so,
@@ -32,7 +32,7 @@ simply "Ajax", even though JSON is usually used rather than XML in modern applic
 that requests relatively small amounts of data from the server using HTTP,
 with the result being returned when available rather than immediately.
 
-**Software design**:
+## Software design
 
 Asynchronous software design expands upon the concept by building code that allows a program to ask
 that a task be performed alongside the original task (or tasks), without stopping to wait for the
