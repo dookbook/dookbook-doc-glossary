@@ -14,4 +14,4 @@ making ARPAnet a prominent part of the nascent Internet. ARPAnet was closed in e
 
 ### General knowledge
 
-- [arpanet](https://en.wikipedia.org/wiki/Arpanet) on Wikipedia
+- [Arpanet](https://en.wikipedia.org/wiki/Arpanet) on Wikipedia
