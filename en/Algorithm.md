@@ -28,7 +28,7 @@ Neural Network, Convolutional Neural Network (CNN), Deep Convolutional Neural Ne
 
 ### General knowledge
 
-- [algorithm](https://en.wikipedia.org/wiki/Algorithm) on Wikipedia
+- [Algorithm](https://en.wikipedia.org/wiki/Algorithm) on Wikipedia
 
 ### Technical reference
 

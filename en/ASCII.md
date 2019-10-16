@@ -13,4 +13,4 @@ punctuation and control codes into digital form. Since 2007, UTF-8 superseded it
 
 ### General knowledge
 
-- [ascii](https://en.wikipedia.org/wiki/ASCII) on Wikipedia
+- [ASCII](https://en.wikipedia.org/wiki/ASCII) on Wikipedia
