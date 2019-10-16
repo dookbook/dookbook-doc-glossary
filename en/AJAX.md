@@ -21,7 +21,7 @@ while that part of your webpage is trying to reload (compared to synchronously w
 code from running until that part of your webpage is done reloading).
 
 With interactive websites and modern web standards, AJAX is gradually being replaced by functions
-within JavaScript frameworks and the official Fetch API Standard.
+within JavaScript frameworks and the official `Fetch API` Standard.
 
 ## Learn more
 
@@ -32,6 +32,6 @@ within JavaScript frameworks and the official Fetch API Standard.
 
 ## Technical information
 
-- The XMLHttpRequest object
-- The AJAX documentation on MDN
-- Using Fetch API
+- The [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object
+- [The AJAX documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+- [Using Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
