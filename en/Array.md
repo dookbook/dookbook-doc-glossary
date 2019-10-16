@@ -3,7 +3,7 @@ AUTHORS: Sphinx; SphinxKnight@mozilla.net; mdn:SphinxKnight
          MeirOverferst; MeirOverferst@github.com; github:MeirOverferst
          Kurt Larson; KurtHarlandLarson@mozilla.net; mdn:KurtHarlandLarson
          Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Julie Myers; SnoopyRulesmozilla.net; mdn:SnoopyRulesmozilla
+         Julie Myers; SnoopyRules@mozilla.net; mdn:SnoopyRules
          Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
