@@ -5,7 +5,7 @@ AUTHORS: Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Stephanie Hobson; stephaniehobson@mozilla.net; mdn:stephaniehobson
          Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
          Eric Bailey; ericwbailey@github.com; github:ericwbailey
-         Joel Gray; jg2703@github.com; github:jg2703;
+         Joel Gray; jg2703@github.com; github:jg2703
          MNizam0802; MNizam0802@github.com; github:MNizam0802
          Alex Kizer; kizerkizer@github.com; github:kizerkizer
          Scott O'Hara; scottaohara@github.com; github:scottaohara
