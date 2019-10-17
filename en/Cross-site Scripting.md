@@ -1,6 +1,6 @@
 TOPIC: Cross-site Scripting
 AUTHORS: larson reever; larsonreever@github.com; github:larsonreever
-         Spencer Corwin; spencercorwin@icloud.com; gtihub:spencercorwin
+         Spencer Corwin; spencercorwin@icloud.com; github:spencercorwin
          Heather; hbloomer@mozilla.net; mdn:hbloomer
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Federico Culloca; federicoculloca@github.com; github:federicoculloca
