@@ -1,7 +1,7 @@
 TOPIC: Callback Function
 AUTHORS: Vito Traino; avtraino@github.com; github:avtraino
          Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Aijaz Bin Qasim; aijaz.ali@hotmail.com github:aijazbinqasim
+         Aijaz Bin Qasim; aijaz.ali@hotmail.com; github:aijazbinqasim
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker
          Keith Rosenberg; netpoetica@mozilla.net; mdn:netpoetica
          Pushpita Dey; PushpitaPikuDey@mozilla.net; mdn:PushpitaPikuDey
