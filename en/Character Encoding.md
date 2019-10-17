@@ -18,5 +18,5 @@ and they will display reliably.
 
 ### General Knowledge
 
-- [haracter encoding on W3C](https://en.wikipedia.org/wiki/Character%20(computing))
+- [Character encoding on W3C](https://en.wikipedia.org/wiki/Character%20(computing))
 - [character encoding](https://en.wikipedia.org/wiki/Character%20encoding) on Wikipedia
