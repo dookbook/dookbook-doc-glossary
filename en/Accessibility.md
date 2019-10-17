@@ -1,7 +1,7 @@
 TOPIC: Accessibility
 AUTHORS: Taylor Hunt; tigt@github.com; github:tigt
          PrinceMatthew; PrinceMatthew@github.com; github:PrinceMatthew
-         Jérémie Patonnier; klez@mozilla.net; mdn:klez
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Plinio Gatto; plgatto@mozilla.net; mdn:plgatto
