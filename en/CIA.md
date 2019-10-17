@@ -14,4 +14,4 @@ that guides an organization's policies for information security.
 
 ### General Knowledge
 
-- [Cia](https://en.wikipedia.org/wiki/Information_security#Key_concepts) on Wikipedia
+- [CIA](https://en.wikipedia.org/wiki/Information_security#Key_concepts) on Wikipedia
