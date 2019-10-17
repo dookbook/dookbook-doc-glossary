@@ -21,12 +21,12 @@ with additional space on the cross axis, you can use `align-content` to control 
 
 ### Property Reference
 
-- `align-content`
-- `align-items`
-- `align-self`
-- `flex-wrap`
-- `flex-direction`
-- `flex`
+- [`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content)
+- [`align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)
+- [`align-self`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
+- [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
+- [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
+- [`flex`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 
 ### Further Reading
 
