@@ -16,10 +16,3 @@ beginning of the line without advancing to the next line.
 next line without returning to the beginning of the line.
 A CR immediately followed by a LF (CRLF, `\r\n`, or `0x0D0A`) moves the cursor down to the next line
 and then to the beginning of the line.
-
-## Learn More
-
-### General Knowledge
-
-- Unknown prefix: Newline. on Wikipedia
-- Unknown prefix: Carriage return. on Wikipedia
