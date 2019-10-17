@@ -24,7 +24,7 @@ specific JavaScript APIs can draw (such as Canvas 2D or WebGL).
 
 ### Learning Resources
 
-- The Canvas tutorial on MDN
+- [The Canvas tutorial on MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
 
 ### Technical Information
 
