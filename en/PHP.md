@@ -1,7 +1,7 @@
 TOPIC: PHP
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Sphinx; SphinxKnight@github.com; github:SphinxKnight;
+         Sphinx; SphinxKnight@github.com; github:SphinxKnight
          Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
          Danilo Dos Santos Carreiro; Danilo_Santos@github.com; github:Danilo_Santos
          Shivam Singhal; shivams2799@gmail.com; github:championshuttler
