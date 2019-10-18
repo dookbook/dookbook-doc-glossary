@@ -6,5 +6,10 @@
         "heading_line_length": 60,
         "code_blocks": false,
         "tables": false
+    },
+    "no-inline-html": {
+        "allowed_elements": [
+            "br"
+        ]
     }
 }
