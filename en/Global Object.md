@@ -1,5 +1,5 @@
 TOPIC: Global Object
-AUTHORS: brian; bminard@flatfoot.ca github:bminard
+AUTHORS: brian; bminard@flatfoot.ca; github:bminard
          Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker
          Yahya Elharony; yahya@elharony.com; github:elharony
