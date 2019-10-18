@@ -29,8 +29,8 @@ it will always evaluate to “falsy”
 |  |  |
 | -- | -- |
 | false | The keyword false |
-| 0 | The number zero.<br>BigInt, when used as a boolean, follows the same rule as a Number. 0n is falsy. |
-| "", '', `` | This is an empty string(the length of the string is zero).<br>Strings in JavaScript can be defined with double quotes "", or single quotes '', as well as [Template literals](url) `` |
+| 0 | The number zero.BigInt, when used as a boolean, follows the same rule as a Number. 0n is falsy. |
+| "", '', `` | This is an empty string(the length of the string is zero).Strings in JavaScript can be defined with double quotes "", or single quotes '', as well as Template literals `` |
 | null | null  - the absence of any object value |
 | undefined | undefined - the primitive value |
 | NaN | NaN - not a number |
