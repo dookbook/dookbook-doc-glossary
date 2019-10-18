@@ -1,5 +1,8 @@
 {
     "default": true,
-    "MD041": false,
-    "MD013": {"line_length": 100}
+    "first-line-heading": false,
+    "line-length": {
+        "line_length": 100,
+        "heading_line_length": 60
+    }
 }
