@@ -54,5 +54,6 @@ build fully functional HTTP and Web Sockets servers.
 ### Technical Reference
 
 - [The latest ECMAScript standard](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
-- The [JavaScript reference](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) on MDN
+- The [JavaScript reference](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+on MDN
 - [The *Eloquent JavaScript* book](http://eloquentjavascript.net/)
