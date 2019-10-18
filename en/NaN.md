@@ -6,7 +6,7 @@ AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Jongryul Yang; urty5656@gmail.com; github:alattalatta
-         Rick Waldron; waldron.rick@gmail.com; rwaldron
+         Rick Waldron; waldron.rick@gmail.com; github:rwaldron
          Schalk Neethling; schalkneethling@mozilla.net; mdn:schalkneethling
          Florian Scholz; fscholz@mozilla.net; mdn:fscholz
          Teoli; teoli@mozilla.net; mdn:teoli
