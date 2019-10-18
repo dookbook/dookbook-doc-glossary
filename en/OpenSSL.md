@@ -14,5 +14,5 @@ OpenSSL is an open-source implementation of SSL and TLS.
 
 ### General Knowledge
 
-- [OpenSSL](url) on Wikipedia
-- [Official website](url)
+- [OpenSSL](https://en.wikipedia.org/wiki/OpenSSL) on Wikipedia
+- [Official website](http://www.openssl.org/)
