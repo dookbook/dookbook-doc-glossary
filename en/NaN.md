@@ -15,7 +15,7 @@ AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Janet Swisher; jmswisher@github.com; github:jmswisher
          David Bruant; bruant.d@gmail.com; github:DavidBruant
          Tom Schuster; evilpie@github.com; github:evilpie
-         Nickolay Ponomarev; asqueella@gmail.com github:nickolay
+         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
          Marek Stępień; marcoos@github.com; github:marcoos
 
 # NaN
