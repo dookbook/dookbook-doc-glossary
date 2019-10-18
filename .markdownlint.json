@@ -3,6 +3,7 @@
     "first-line-heading": false,
     "line-length": {
         "line_length": 100,
-        "heading_line_length": 60
+        "heading_line_length": 60,
+        "code_blocks": false
     }
 }
