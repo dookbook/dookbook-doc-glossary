@@ -18,7 +18,7 @@ and downlink values.
 |`3g`|270ms|700 Kbps|The network is suited for transfers of large assets such as high resolution images, audio, and SD video. |
 | `4g` | 0ms | ∞ | The network is suited for HD video, real-time video, etc. |
 
-effectiveType is a property of the Network Information API, exposed to JavaScript via
+`effectiveType` is a property of the Network Information API, exposed to JavaScript via
 the navigator.connection object. To see your effective connection type, in the console of the
 developer tools of a supporing browser, enter the following:
 
