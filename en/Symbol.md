@@ -1,7 +1,7 @@
 TOPIC: Symbol
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         DwijBavisi; Dwijbavisi@gmail.com github:DwijBavisi
+         DwijBavisi; Dwijbavisi@gmail.com; github:DwijBavisi
          Michael[tm] Smith; mike@w3.org; github:sideshowbarker
          Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
          Florian Scholz; fscholz@mozilla.net; mdn:fscholz
