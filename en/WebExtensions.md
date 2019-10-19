@@ -13,4 +13,5 @@ Google Chrome, Opera Browser, and Microsoft Edge.
 
 ### Technical Reference
 
-- [Browser extensions](https://wiki.developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions) on MDN
+- [Browser extensions](https://wiki.developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
+on MDN
