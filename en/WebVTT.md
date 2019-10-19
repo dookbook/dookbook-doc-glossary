@@ -1,7 +1,7 @@
 TOPIC: WebVTT
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Doug Sillars; doug.sillars@gmail.com; goithub:dougsillars
+         Doug Sillars; doug.sillars@gmail.com; github:dougsillars
          brian; bminard@flatfoot.ca; github:bminard
          Florian Scholz; fscholz@mozilla.net; mdn:fscholz
          Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
