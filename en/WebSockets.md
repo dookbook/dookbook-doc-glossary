@@ -1,7 +1,7 @@
 TOPIC: WebSockets
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Raphael Bertoche; rbertoche@github.com; githubrbertoche
+         Raphael Bertoche; rbertoche@github.com; github:rbertoche
          Heather; hbloomer@mozilla.net; mdn:hbloomer
          Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
