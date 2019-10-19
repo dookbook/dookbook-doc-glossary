@@ -1,0 +1,36 @@
+TOPIC: SDP
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Teoli; teoli@mozilla.net; mdn:teoli
+
+# SDP
+
+**SDP** (Session Description Protocol) is the standard describing a peer-to-peer
+connection. SDP contains the codec, source address, and timing information of audio and video.
+
+Here is a typical SDP message:
+
+```http
+v=0
+   o=alice 2890844526 2890844526 IN IP4 host.anywhere.com
+   s=
+   c=IN IP4 host.anywhere.com
+   t=0 0
+   m=audio 49170 RTP/AVP 0
+   a=rtpmap:0 PCMU/8000
+   m=video 51372 RTP/AVP 31
+   a=rtpmap:31 H261/90000
+   m=video 53000 RTP/AVP 32
+   a=rtpmap:32 MPV/90000
+```
+
+SDP is never used alone, but by protocols like RTP and RTSP. SDP is also as component of WebRTC,
+which uses SDP as a way of describing a session.
+
+## Learn More
+
+### General Knowledge
+
+- [WebRTC protocols](https://wiki.developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Architecture/Protocols)
+- [Session Description Protocol](https://en.wikipedia.org/wiki/Session%20Description%20Protocol) on Wikipedia
