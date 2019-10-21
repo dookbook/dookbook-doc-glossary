@@ -2,7 +2,7 @@ TOPIC: DOM (Document Object Model)
 AUTHORS: hurunlin; hurunlin@github.com; github:hurunlin
          韩; byoungd@mozilla.net; mdn:byoungd
          sunnylost; sunnylost@gmail.com; github:sunnylost
-         邹凯; jianzhou520mozilla.net; mdn:jianzhou520
+         邹凯; jianzhou520@mozilla.net; mdn:jianzhou520
 
 # DOM (Document Object Model)
 
