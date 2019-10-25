@@ -11,5 +11,8 @@
         "allowed_elements": [
             "br"
         ]
+    },
+    "ul-indent": {
+        "indent": 4
     }
 }
