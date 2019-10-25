@@ -64,30 +64,30 @@ The resulting page content is styled like this:
 - [Learn More about CSS selectors](https://wiki.developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)
 in our introduction to CSS.
 - Basic selectors
-  - [Type selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) `elementname`
-  - [Class selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) `.classname`
-  - [ID selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) `#idname`
-  - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
-  `* ns|* *|*`
-  - [Attribute selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
-  `[attr=value]`
-  - [State selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-  `a:active, a:visited`
+    - [Type selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) `elementname`
+    - [Class selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) `.classname`
+    - [ID selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) `#idname`
+    - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+    `* ns|* *|*`
+    - [Attribute selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+    `[attr=value]`
+    - [State selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+    `a:active, a:visited`
 - Grouping
-  - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
+    - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
   `A, B`
 - Combinators
-  - [Adjacent sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors)
-  `A + B`
-  - [General sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
-  `A ~ B`
-  - [Child selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors)
-  `A > B`
-  - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
-  `A B`
+    - [Adjacent sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors)
+    `A + B`
+    - [General sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
+    `A ~ B`
+    - [Child selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors)
+    `A > B`
+    - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
+    `A B`
 - Pseudo
-  - [Pseudo-classes](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)`:`
-  - [Pseudo-elements](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)`::`
+    - [Pseudo-classes](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)`:`
+    - [Pseudo-elements](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)`::`
 
 ## Technical Reference
 

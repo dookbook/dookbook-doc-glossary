@@ -57,9 +57,9 @@ The structure of a WebVTT consists of the following components, some of them opt
 - An optional byte order mark (BOM).
 - The string "`WEBVTT`".
 - An optional text header to the right of `WEBVTT`.
-  - There must be at least one space after `WEBVTT`.
-  - You could use this to add a description to the file.
-  - You may use anything in the text header except newlines or the string "`-->`".
+    - There must be at least one space after `WEBVTT`.
+    - You could use this to add a description to the file.
+    - You may use anything in the text header except newlines or the string "`-->`".
 - A blank line, which is equivalent to two consecutive newlines.
 - Zero or more cues or comments.
 - Zero or more blank lines.
@@ -350,7 +350,7 @@ Each cue timing contains five components:
 - The string "-->".
 - At least one space.
 - Timestamp for end time.
-  - Which must be greater than the start time.
+    - Which must be greater than the start time.
 
 The timestamps must be in one of two formats:
 
@@ -360,14 +360,14 @@ The timestamps must be in one of two formats:
 Where the components are defined as follows:
 
 - `hh` is hours.
-  - Must be at least two digits.
-  - Hours can be greater than two digits (e.g., 9999:00:00.000).
+    - Must be at least two digits.
+    - Hours can be greater than two digits (e.g., 9999:00:00.000).
 - `mm` is minutes.
-  - Must be between 00 and 59 inclusive.
+    - Must be between 00 and 59 inclusive.
 - `ss` is seconds.
-  - Must be between 00 and 59 inclusive.
+    - Must be between 00 and 59 inclusive.
 - `ttt` is miliseconds.
-  - Must be between 000 and 999 inclusive.
+    - Must be between 000 and 999 inclusive.
 
 ### Example 10 - Basic cue timing examples
 
@@ -408,8 +408,8 @@ separated by a colon. The settings are case sensitive so use lower case as shown
 There are five cue settings:
 
 - vertical
-  - Indicates that the text will be displayed vertically rather than horizontally, such as in some
-  Asian languages.
+    - Indicates that the text will be displayed vertically rather than horizontally, such as in some
+    Asian languages.
 
 | Table 1 - vertical values | |
 | - | - |
@@ -417,14 +417,15 @@ There are five cue settings:
 | `vertical:lr` | writing direction is left to right |
 
 - line
-  - Specifies where text appears vertically. If vertical is set, line specifies where text appears horizontally.
-  - Value can be a line number.
-    - The line height is the height of the first line of the cue as it appears on the video.
-    - Positive numbers indicate top down.
-    - Negative numbers indicate bottom up.
-  - Or value can be a percentage.
-    - Must be an integer (i.e., no decimals) between 0 and 100 inclusive.
-    - Must be followed by a percent sign (%).
+    - Specifies where text appears vertically. If vertical is set, line specifies where text appears
+    horizontally.
+    - Value can be a line number.
+        - The line height is the height of the first line of the cue as it appears on the video.
+        - Positive numbers indicate top down.
+        - Negative numbers indicate bottom up.
+    - Or value can be a percentage.
+        - Must be an integer (i.e., no decimals) between 0 and 100 inclusive.
+        - Must be followed by a percent sign (%).
 
 | Table 2 - line examples | | | |
 | - | - | - | - |
@@ -435,11 +436,11 @@ There are five cue settings:
 | `line:100%` | bottom | left | right |
 
 - position
-  - Specifies where the text will appear horizontally. If vertical is set, position specifies where
-  the text will appear vertically.
-  - Value is a percentage.
-  - Must be an integer (no decimals) between 0 and 100 inclusive.
-  - Must be followed by a percent sign (%).
+    - Specifies where the text will appear horizontally. If vertical is set, position specifies where
+    the text will appear vertically.
+    - Value is a percentage.
+    - Must be an integer (no decimals) between 0 and 100 inclusive.
+    - Must be followed by a percent sign (%).
 
 | Table 3 - position examples | | | |
 | - | - | - | - |
@@ -448,10 +449,11 @@ There are five cue settings:
 | `position:100%` | right | bottom | bottom |
 
 - size
-  - Specifies the width of the text area. If vertical is set, size specifies the height of the text area.
-  - Value is a percentage.
-  - Must be an integer (i.e., no decimals) between 0 and 100 inclusive.
-  - Must be followed by a percent sign (%).
+    - Specifies the width of the text area. If vertical is set, size specifies the height of the
+    text area.
+    - Value is a percentage.
+    - Must be an integer (i.e., no decimals) between 0 and 100 inclusive.
+    - Must be followed by a percent sign (%).
 
 | Table 4 - size examples | | | |
 | - | - | - | - |
@@ -460,8 +462,8 @@ There are five cue settings:
 | `size:50%` | half width | half height | half height
 
 - align
-  - Specifies the alignment of the text. Text is aligned within the space given by the size cue
-  setting if it is set.
+    - Specifies the alignment of the text. Text is aligned within the space given by the size cue
+    setting if it is set.
 
 | Table 5 - align values | | | |
 | | `vertical` omitted | `vertical:rl` | `vertical:lr`
@@ -512,11 +514,11 @@ There are a number of TOPIC, such as `<bold>`, that can be used. However, if the
 in a `<track>` element where the attribute kind is chapters then you cannot use TOPIC.
 
 - **Timestamp tag**
-  - The timestamp must be greater that the cue's start timestamp, greater than any previous timestamp
-  in the cue payload, and less than the cue's end timestamp. The active text is the text between the
-  timestamp and the next timestamp or to the end of the payload if there is not another timestamp in
-  the payload. Any text before the active text in the payload is previous text . Any text beyond the
-  active text is future text . This enables karaoke style captions.
+    - The timestamp must be greater that the cue's start timestamp, greater than any previous timestamp
+    in the cue payload, and less than the cue's end timestamp. The active text is the text between the
+    timestamp and the next timestamp or to the end of the payload if there is not another timestamp in
+    the payload. Any text before the active text in the payload is previous text . Any text beyond the
+    active text is future text . This enables karaoke style captions.
 
 ### Example 12 - Karaoke style text
 
@@ -537,7 +539,7 @@ That's <00:00:21.000>amore
 The following TOPIC are the HTML TOPIC allowed in a cue and require opening and closing TOPIC (e.g.,`<b>text</b>`).
 
 - **Class tag** (`<c></c>`)
-  - Style the contained text using a CSS class.
+    - Style the contained text using a CSS class.
 
 ### Example 14 - Class tag
 
@@ -546,7 +548,7 @@ The following TOPIC are the HTML TOPIC allowed in a cue and require opening and 
 ```
 
 - **Italics tag** (`<i></i>`)
-  - Italicize the contained text.
+    - Italicize the contained text.
 
 ### Example 15 - Italics tag
 
@@ -555,7 +557,7 @@ The following TOPIC are the HTML TOPIC allowed in a cue and require opening and 
 ```
 
 - **Bold tag** (`<b></b>`)
-  - Bold the contained text.
+    - Bold the contained text.
 
 ### Example 16 - Bold tag
 
@@ -564,7 +566,7 @@ The following TOPIC are the HTML TOPIC allowed in a cue and require opening and 
 ```
 
 - **Underline tag** (`<u></u>`)
-  - Underline the contained text.
+    - Underline the contained text.
 
 ### Example 17 - Underline tag
 
@@ -573,8 +575,8 @@ The following TOPIC are the HTML TOPIC allowed in a cue and require opening and 
 ```
 
 - **Ruby tag** (`<ruby></ruby>`)
-  - Used with ruby text TOPIC to display ruby characters (i.e., small annotative characters above
-  other characters).
+    - Used with ruby text TOPIC to display ruby characters (i.e., small annotative characters above
+    other characters).
 
 ### Example 18 - Ruby tag
 
@@ -583,7 +585,8 @@ The following TOPIC are the HTML TOPIC allowed in a cue and require opening and 
 ```
 
 - **Ruby text tag** (`<rt></rt>`)
-  - Used with ruby TOPIC to display ruby characters (i.e., small annotative characters above other characters).
+    - Used with ruby TOPIC to display ruby characters (i.e., small annotative characters above other
+    characters).
 
 ### Example 19 - Ruby text tag
 
@@ -592,7 +595,7 @@ The following TOPIC are the HTML TOPIC allowed in a cue and require opening and 
 ```
 
 - **Voice tag** (`<v></v>`)
-  - Similar to class tag, also used to style the contained text using CSS.
+    - Similar to class tag, also used to style the contained text using CSS.
 
 ### Example 20 - Voice tag
 
@@ -671,17 +674,17 @@ both interfaces are different. We can categorize them for better understanding r
 to each interface in WebVTT:
 
 - VTTCueSection
-  - The methods which are available in this interface are:
-    - GetCueAsHTML to get the HTML of that Cue.
-    - VTT Constructor for creating new objects of Cues.
-    - Autokeyword.
-    - DirectionSetting: to set the direction of caption or text in a file.
-    - LineAlignment: to adjust the line alignment.
-    - PositionAlignSetting: to adjust the position of text.
+    - The methods which are available in this interface are:
+        - GetCueAsHTML to get the HTML of that Cue.
+        - VTT Constructor for creating new objects of Cues.
+        - Autokeyword.
+        - DirectionSetting: to set the direction of caption or text in a file.
+        - LineAlignment: to adjust the line alignment.
+        - PositionAlignSetting: to adjust the position of text.
 - VTTRegionSection
-  - The methods used for region are listed below along with description of their functionality:
-    - ScrollSetting: For adjusting the scrolling setting of all nodes present in given region.
-    - VTT Region Constructor: for construction of new VTT Regions.
+    - The methods used for region are listed below along with description of their functionality:
+        - ScrollSetting: For adjusting the scrolling setting of all nodes present in given region.
+        - VTT Region Constructor: for construction of new VTT Regions.
 
 ## Tutorial on how to write a WebVTT file
 
@@ -689,7 +692,7 @@ There are few steps that can be followed to write a simple webVTT file. Before s
 noted that you can make use of a notepad and then save the file as ‘.vtt’ file. Steps are given below:
 
 1. Open a notepad.
-1. The first line of WebVTT is standardized similar in the way some other languages require you to put
+2. The first line of WebVTT is standardized similar in the way some other languages require you to put
 headers as the file starts to indicate the file type. One the very first line you have to write.
 
 >WEBVTT
