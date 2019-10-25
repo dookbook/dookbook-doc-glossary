@@ -13,6 +13,6 @@ TOPIC: Reporting Directive
 
 - [Content-Security-Policy](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Security-Policy)
 - 其他类型的指令：
-  - Fetch directive
-  - Document directive
-  - Navigation directive
+    - Fetch directive
+    - Document directive
+    - Navigation directive
