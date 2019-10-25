@@ -44,9 +44,9 @@ git push
 ```
 
 - All documents in this library are written in **Markdown**,
-more details please refer to [Dookbook Help - Markdown](https://dookbook.info/help/markdown/)
+more details please refer to [Dookbook Help - Markdown](https://dookbook.info/en/help/markdown/)
 此文档库中所有的文档都是由**Markdown**语言撰写，所支持的语法规则及示例
-请参考[Dookbook帮助 - Markdown](https://dookbook.info/help/markdown/zh-hans/)
+请参考[Dookbook帮助 - Markdown](https://dookbook.info/zh-hans/help/markdown/)
 
 - It's better to submit only minor changes at a time and write clear **Commit Messages**.
 最好每次只提交较小的修改，并写好清晰明确的**Commit Messages（提交说明）**.
