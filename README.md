@@ -1,8 +1,8 @@
 # dookbook-doc-glossary
 
-Dookbook&reg; (Developers' Cookbook) Document Library (Subject: Glossary)
+Dookbook&reg; (Developers' Cookbook) Document Library (Subject: **Glossary**)
 
-开发者的日常菜谱 - 文档库
+开发者的日常菜谱 - 文档库**术语表**
 
 ## Getting Started 快速入门
 
