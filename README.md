@@ -13,7 +13,8 @@ Please refer to [about Dookbook&reg;](https://dookbook.info/about/)
 ### Preparation in advance 前期准备
 
 1. Clone this repo 克隆仓库
-2. Open and install [GitHub App](https://github.com/apps/dookbook). 打开并安装[GitHub App](https://github.com/apps/dookbook)
+2. Open and install [GitHub App](https://github.com/apps/dookbook).
+   打开并安装[GitHub App](https://github.com/apps/dookbook)
 3. Add original (upstream) repo into your local git 增加上游仓库地址到你本地
 
 ```bash
