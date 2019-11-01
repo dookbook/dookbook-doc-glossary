@@ -1,4 +1,12 @@
 TOPICS: HyperText Markup Language
+        Hyperlink
+AUTHORS: Fernando López; ferlopezcarr@github.com; github:ferlopezcarr
+         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+         Teoli; teoli@mozilla.net; mdn:teoli
 
 # HyperText Markup Language (HTML)
 
@@ -31,6 +39,12 @@ browser interprets the element:
 An HTML file is normally saved with an `.htm` or `.html` extension, served by a web server,
 and can be rendered by any Web browser.
 
+### Hyperlink
+
+Hyperlinks connect webpages or data items to one another. In HTML, `<a>` elements define hyperlinks
+from a spot on a webpage (like a text string or image) to another spot on some other webpage
+(or even on the same page).
+
 ## HTML5
 
 The latest stable release of HTML, **HTML5** takes HTML from a simple markup for structuring a document
@@ -42,14 +56,20 @@ APIs to enhance storage, multimedia, and hardware access.
 ### General Knowledge
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) on Wikipedia
+- [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) on Wikipedia
+- [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
 
 ### Learning HTML
 
 - [HTML Tutorial on MDN](https://wiki.developer.mozilla.org/en-US/Learn/HTML)
 - [HTML5 Guide on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [The web course on codecademy.com](http://www.codecademy.com/en/tracks/web)
+- [The Web course on codecademy.com](http://www.codecademy.com/en/tracks/web)
+- [`<a>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+- [`<link>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
 ### Technical Reference
 
 - [The HTML documentation on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML)
 - [The HTML specification](http://www.w3.org/TR/html5/)
+- [Links in HTML Documents - W3C](https://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html)
+- [HTML5 a - hyperlink - W3C](https://w3c.github.io/html-reference/a.html)
