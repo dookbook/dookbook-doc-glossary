@@ -2,6 +2,8 @@ TOPICS: 超文本标记语言
         HyperText Markup Language
         超链接
         Hyperlink
+        超文本
+        Hypertext
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
@@ -34,6 +36,12 @@ HTML 文件通常会以 `.htm` 或 `.html`为扩展名。用户可以从Web服�
 也可以是相同网页上的不同位置，还可以是一个图片，一个电子邮件地址，一个文件，甚至是一个应用程序。而在一个网页中用来超链接的对象，
 可以是一段文本或者是一个图片。当浏览者单击已经链接的文字或图片后，链接目标将显示在浏览器上，并且根据目标的类型来打开或运行。
 
+### 超文本 (Hypertext)
+
+**超文本**(*Hypertext*)包含了指向其他文本的链接，而不是像小说中的单一线性流。
+
+这个术语是由*Ted Nelson*在1965年左右提出的。
+
 ## HTML5
 
 HTML的最新稳定版本, **HTML5**将HTML从用于构造一个文档的一个简单标记，到一个完整的应用程序开发平台。除其他功能外,
@@ -45,3 +53,4 @@ HTML5还包括新元素和用于增强存储、多媒体和硬件访问的JavaSc
 - [超链接维基百科](https://en.wikipedia.org/wiki/Hyperlink)
 - [超链接百度百科](https://baike.baidu.com/item/%E8%B6%85%E9%93%BE%E6%8E%A5/97857)
 - [HTML规范](http://www.w3.org/TR/html5/)
+- [超文本维基百科](https://en.wikipedia.org/wiki/Hypertext)
