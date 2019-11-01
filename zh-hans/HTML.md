@@ -27,7 +27,7 @@ HTML文档是包含多个HTML元素的文本文档。每个元素都用一对开
 
 ![text](https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png)
 
-HTML 文件通常会以 `.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一Web浏览器来解析和显示。
+HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一Web浏览器来解析和显示。
 
 ### 超链接 (Hyperlink)
 
