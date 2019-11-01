@@ -1,20 +1,4 @@
 TOPIC: Primitive
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Jonathan Soifer; me@jonathansoifer.com; github:jonathan-soifer
-         Brett Schellenberg; brett.schellenberg@gmail.com; github:pabo
-         Alex Rao; alexhrao@github.com; github:alexhrao
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Aaron Franke; arnfranke@yahoo.com; github:aaronfranke
-         Linus Cash; linuscash@github.com; github:linuscash
-         Yahya Elharony; yahya@elharony.com; github:elharony
-         Den McHenry; denmch@github.com; github:denmch
-         Danny Bautista; PyroLagus@mozilla.net; mdn:PyroLagus
-         Akinjide Bankole; akinjide@mozilla.net; mdn:akinjide
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
 
 # Primitive
 
@@ -94,13 +78,13 @@ creates a local copy. These copies, existing only inside the functions' scopes, 
 accessible via the identifiers we specified in the functions' definitions (`num` for
 `addTwo`, `foo` for `addTwo_v2`)
 - Then, the functions' statements are executed:
-  - In the first function, a local `num` variable had been created. We are increasing
-  its value by 2, not the original `foo`'s value!
-  - In the second function, a local `foo` variable had been created. We are increasing
-  its value by 2, not the original (external) `foo`'s value! Also, in this situation,
-  the external `foo` variable cannot be accessed in any way. This is because of
-  JavaScript's lexical scoping and the resulting variable shadowing. The local `foo`
-  hides the external `foo`. For more information, see Closures.
+    - In the first function, a local `num` variable had been created. We are increasing
+    its value by 2, not the original `foo`'s value!
+    - In the second function, a local `foo` variable had been created. We are increasing
+    its value by 2, not the original (external) `foo`'s value! Also, in this situation,
+    the external `foo` variable cannot be accessed in any way. This is because of
+    JavaScript's lexical scoping and the resulting variable shadowing. The local `foo`
+    hides the external `foo`. For more information, see Closures.
 - In conclusion, any changes inside our functions **won't** affect the ORIGINAL `foo` at
 all, as we are working on our **copies** of it
 
