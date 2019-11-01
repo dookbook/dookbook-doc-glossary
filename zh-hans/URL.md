@@ -1,6 +1,7 @@
 TOPICS: Uniform Resource Locator
+        统一资源定位器
 
-# Uniform Resource Locator (URL)
+# 统一资源定位器 (Uniform Resource Locator, URL)
 
 **统一资源定位器**（*URL*）是指定在Internet上可以找到资源的位置的文本字符串。
 
