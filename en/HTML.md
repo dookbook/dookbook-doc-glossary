@@ -1,12 +1,9 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-AUTHORS: Fernando López; ferlopezcarr@github.com; github:ferlopezcarr
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Federico Culloca; federicoculloca@github.com; github:federicoculloca
+        Hypertext
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Teoli; teoli@mozilla.net; mdn:teoli
+         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
 
 # HyperText Markup Language (HTML)
 
@@ -45,6 +42,12 @@ Hyperlinks connect webpages or data items to one another. In HTML, `<a>` element
 from a spot on a webpage (like a text string or image) to another spot on some other webpage
 (or even on the same page).
 
+### Hypertext
+
+Hypertext is text that contains links to other texts, as opposed to a single linear flow like in a novel.
+
+The term was coined by *Ted Nelson* around 1965.
+
 ## HTML5
 
 The latest stable release of HTML, **HTML5** takes HTML from a simple markup for structuring a document
@@ -57,6 +60,7 @@ APIs to enhance storage, multimedia, and hardware access.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) on Wikipedia
 - [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) on Wikipedia
+- [Hypertext](https://en.wikipedia.org/wiki/Hypertext) on Wikipedia
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
 
 ### Learning HTML
@@ -73,3 +77,4 @@ APIs to enhance storage, multimedia, and hardware access.
 - [The HTML specification](http://www.w3.org/TR/html5/)
 - [Links in HTML Documents - W3C](https://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html)
 - [HTML5 a - hyperlink - W3C](https://w3c.github.io/html-reference/a.html)
+- [Hypertext Information Base](http://www.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/aix6kdov/hyperv1aix.htm)
