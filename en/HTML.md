@@ -31,7 +31,7 @@ few empty or void TOPIC that cannot enclose any text, for instance `<img>`.
 You can extend HTML TOPIC with attributes, which provide additional information affecting how the
 browser interprets the element:
 
-![text](https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png)
+![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)
 
 An HTML file is normally saved with an `.htm` or `.html` extension, served by a web server,
 and can be rendered by any Web browser.
