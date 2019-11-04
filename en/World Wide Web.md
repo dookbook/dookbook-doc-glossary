@@ -1,15 +1,8 @@
 TOPIC: World Wide Web
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         David Ross; bunnybooboo@github.com; github:bunnybooboo
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Janet Swisher; jmswisher@github.com; github:jmswisher
-         Ajinkya Patil; ajinkya_p@mozilla.net; mdn:ajinkya_p
 
 # World Wide Web
 
-The World Wide Web—commonly referred to as **WWW**, **W3**, or **the Web**—is an interconnected
+The **World Wide Web** — commonly referred to as **WWW**, **W3**, or **the Web** — is an interconnected
 system of public webpages accessible through the Internet. The Web is not the same as the Internet:
 the Web is one of many applications built on top of the Internet.
 
@@ -45,5 +38,5 @@ Its mission includes education and outreach.
 
 ### General Knowledge
 
-- [world wide web](https://en.wikipedia.org/wiki/World%20Wide%20Web) on Wikipedia
-- [The W3C website](http://w3.org/)
+- [World Wide Web](https://en.wikipedia.org/wiki/World%20Wide%20Web) on Wikipedia
+- [The W3C Website](http://w3.org/)
