@@ -1,20 +1,35 @@
 TOPICS: 用户代理
         User Agent
         用户代理欺骗
+        user agent spoofing
+        Web浏览器
+        Web Browser
 
 # 用户代理 (User Agent)
 
-**用户代理**是代表一个人的计算机程序，例如[[Web浏览器]]。
+**用户代理**是代表一个人的计算机程序。
 
-除了浏览器之外，用户代理可以是抓取网页的机器人、下载管理器或可以访问Web的其他应用程序。随着向服务器发送的每个请求，
-浏览器包含一个可表明身份的`User-Agent`HTTP的协议头，
+除了浏览器之外，用户代理可以是抓取网页的机器人、下载管理器或可以访问Web的其他应用程序。
+
+垃圾邮件机器人、下载管理器和一些浏览器通常会发送一个*假*UA字符串来宣称自己是不同的客户端。这被称为*用户代理欺骗*。
+
+## Web浏览器 (Web Browser)
+
+最常见的用户代理是Web浏览器。网页浏览器是一种从[[Web]]获取和显示页面的程序，并且让用户通过[[超链接]]访问更多页面。
+
+随着向服务器发送的每个请求，浏览器包含一个可表明身份的`User-Agent`[[HTTP]]的协议头，
 叫作*用户代理*（*UA*，*User Agent*）字符串。此字符串通常标识浏览器、及其版本号及其主机操作系统。
-
-垃圾邮件机器人、下载管理器和一些浏览器通常会发送一个假UA字符串来宣称自己是不同的客户端。这被称为*用户代理欺骗*。
 
 用户代理的字符串可以被JavaScript在客户端中使用`navigator.userAgent`获取。
 
-典型的用户代理字符串如下所示： `"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`.
+典型的用户代理字符串如下所示： `"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`。
+
+### 常见浏览器
+
+- [谷歌浏览器 (Google Chrome)](http://www.google.com/chrome/)
+- [火狐 (Mozilla Firefox)](http://www.mozilla.org/en-US/firefox/)
+- [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
+- [欧朋浏览器 (Opera Browser)](http://www.opera.com/)
 
 ## 了解更多
 

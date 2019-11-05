@@ -1,30 +1,38 @@
 TOPICS: User Agent
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Michiel Renty; mrenty@mozilla.net; mdn:mrenty
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Saurabh / Jsx; jsx@mozilla.net; mdn:jsx
+        user agent spoofing
+        Web Browser
 
 # User Agent
 
-A user agent is a computer program representing a person, for example, a browser in a Web context.
+A user agent is a computer program representing a person, for example, a Web browser in a Web context.
 
 Besides a browser, a user agent could be a bot scraping webpages, a download manager, or another app
-accessing the Web. Along with each request they make to the server, browsers include a
-self-identifying `User-Agent` HTTP header called a *user agent* (*UA*) string. This string often
-identifies the browser, its version number, and its host operating system.
+accessing the Web.
 
-Spam bots, download managers, and some browsers often send a fake UA string to announce themselves
-as a different client. This is known as user agent spoofing.
+Spam bots, download managers, and some browsers often send a *fake* UA string to announce themselves
+as a different client. This is known as *user agent spoofing*.
+
+A typical user agent string looks like this:
+`"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`.
+
+## Web Browser
+
+The most familiar type of user agent is *Web browser*. A **Web browser** or **browser** is a program
+that retrieves and displays pages from the [[Web]], and lets users access further pages through [[hyperlink]]s.
+
+Along with each request they make to the server, browsers include a
+self-identifying `User-Agent` [[HTTP]] header called a *user agent* (*UA*) string. This string often
+identifies the browser, its version number, and its host operating system.
 
 The user agent string can be accessed with JavaScript on the client side using the
 `navigator.userAgent` property.
 
-A typical user agent string looks like this:
-`"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`.
+### Popular Browsers
+
+- [Google Chrome](http://www.google.com/chrome/)
+- [Mozilla Firefox](http://www.mozilla.org/en-US/firefox/)
+- [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
+- [Opera Browser](http://www.opera.com/)
 
 ## Learn More
 
