@@ -20,7 +20,7 @@ TOPICS: 用户代理
 随着向服务器发送的每个请求，浏览器包含一个可表明身份的`User-Agent`[[HTTP]]的协议头，
 叫作*用户代理*（*UA*，*User Agent*）字符串。此字符串通常标识浏览器、及其版本号及其主机操作系统。
 
-用户代理的字符串可以被JavaScript在客户端中使用`navigator.userAgent`获取。
+用户代理的字符串可以被[[JavaScript]]在客户端中使用`navigator.userAgent`获取。
 
 典型的用户代理字符串如下所示： `"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`。
 

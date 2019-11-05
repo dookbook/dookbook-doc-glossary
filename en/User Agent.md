@@ -24,7 +24,7 @@ Along with each request they make to the server, browsers include a
 self-identifying `User-Agent` [[HTTP]] header called a *user agent* (*UA*) string. This string often
 identifies the browser, its version number, and its host operating system.
 
-The user agent string can be accessed with JavaScript on the client side using the
+The user agent string can be accessed with [[JavaScript]] on the client side using the
 `navigator.userAgent` property.
 
 ### Popular Browsers
