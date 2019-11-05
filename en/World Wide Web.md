@@ -19,7 +19,7 @@ The system we know today as "the Web" consists of several components:
 
 - To access a Web component, a client supplies a unique universal identifier, called a **[[URL]]**
 (uniform resource location) or [[URI]] (uniform resource identifier)
-(formally called Universal Document Identifier ([[UDI]])).
+(formally called *Universal Document Identifier* (*UDI*)).
 
 - **[[HTML]]** (hypertext markup language) is the most common format for publishing web documents.
 Linking, or connecting resources through [[hyperlink]]s, is a defining concept of the Web, aiding its
