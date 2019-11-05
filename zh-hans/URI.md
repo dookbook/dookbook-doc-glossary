@@ -17,7 +17,7 @@ TOPICS: 统一资源标识符
 **统一资源定位器**（*URL*）是指定在[[Internet]]上可以找到资源的位置的文本字符串。
 
 在[[HTTP]]的上下文中，**URL**被叫做”*网络地址*“或“*链接*”。你的[[Web浏览器]]在其地址栏显示URL，
-例如 `https://developer.mozilla.org`。
+例如 `https://dookbook.info`。
 
 URL也可用于文件传输（**FTP**），电子邮件（**SMTP**）和其他应用。
 
