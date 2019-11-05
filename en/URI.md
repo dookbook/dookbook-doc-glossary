@@ -14,7 +14,7 @@ a resource by a name, in a given namespace, such as the *ISBN* of a book.
 page, image, or video) can be found on the [[Internet]].
 
 In the context of [[HTTP]], URLs are called "*Web address*" or "*link*". Your [[browser]] displays
-URLs in its address bar, for example: `https://developer.mozilla.org`. Some browsers display only the
+URLs in its address bar, for example: `https://dookbook.info`. Some browsers display only the
 part of a URL after the `//`, that is, the Domain name.
 
 URLs can also be used for file transfer (**FTP**) , emails (**SMTP**), and other applications.
