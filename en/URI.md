@@ -1,4 +1,4 @@
-TOPIC: URI
+TOPICS: Uniform Resource Identifier
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Max R; Damnful@github.com; github:Damnful
@@ -15,8 +15,8 @@ AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
 # URI
 
 A **URI** (Uniform Resource Identifier) is a string that refers to a resource. The most common are
-URLs, which identify the resource by giving its location on the Web. URNs, by contrast, refer to a
-resource by a name, in a given namespace, such as the ISBN of a book.
+[[URL]]s, which identify the resource by giving its location on the Web. URNs, by contrast, refer to
+a resource by a name, in a given namespace, such as the ISBN of a book.
 
 ## Learn More
 
