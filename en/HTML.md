@@ -20,7 +20,7 @@ and published the HTML 3.2 recommendation a year later. HTML 4.0 was released in
 became an ISO standard in 2000.
 
 At that time, the W3C nearly abandoned HTML in favor of XHTML, prompting the founding of an
-independent group called **WHATWG** in 2004. Thanks to WHATWG, work on HTML5 continued: the two
+independent group called **[[WHATWG]]** in 2004. Thanks to WHATWG, work on HTML5 continued: the two
 organizations released the first draft in 2008 and the final standard in 2014.
 
 ## Concept And Syntax
