@@ -1,5 +1,4 @@
-TOPICS: 超文本传输协议
-        HyperText Transfer Protocol
+TOPICS: HyperText Transfer Protocol
 
 # 超文本传输协议 (HyperText Transfer Protocol, HTTP)
 
