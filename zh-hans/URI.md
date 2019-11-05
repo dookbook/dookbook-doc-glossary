@@ -1,8 +1,5 @@
-TOPICS: 统一资源标识符
-        Uniform Resource Identifier
-        统一资源定位器
+TOPICS: Uniform Resource Identifier
         Uniform Resource Locator
-        统一资源名称
         Uniform Resource Name
 
 # 统一资源标识符 (Uniform Resource Identifier, URI)
