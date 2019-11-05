@@ -5,16 +5,16 @@ TOPICS: HyperText Markup Language
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
-HTML（HyperText Markup Language，超文本标记语言）是用来定义网页结构的一种描述语言。
+HTML（**HyperText Markup Language**，*超文本标记语言*）是用来定义网页结构的一种描述语言。
 
 ## 发展简史
 
-1990年，由于对Web未来发展的远见，*Tim Berners-Lee*提出了超文本的概念，并在第二年在*SGML*的基础上将其正式定义为一个标记语言。
-IETF于1993年正式开始制定HTML规范，并在经历了几个版本的草案后于1995年发布了*HTML 2.0*版本。1994年，*Berners-Lee*为了Web发展而成立了W3C。
-1996年，W3C接管了HTML的标准化工作，并在1年后发布了*HTML 3.2*推荐标准。1999年，*HTML 4.0*发布，并在 2000 年成为 ISO 标准。
+1990年，由于对[[Web]]未来发展的远见，*Tim Berners-Lee*提出了超文本的概念，并在第二年在*SGML*的基础上将其正式定义为一个标记语言。
+IETF于1993年正式开始制定HTML规范，并在经历了几个版本的草案后于1995年发布了*HTML 2.0*版本。1994年，*Berners-Lee*为了Web发展而成立了[[W3C]]。
+1996年，W3C接管了HTML的标准化工作，并在1年后发布了*HTML 3.2*推荐标准。1999年，*HTML 4.0*发布，并在2000年成为ISO标准。
 
-自那以后，W3C几乎放弃了HTML而转向XHTML，并于2004年成立了另一个独立的小组**WHATWG**。幸运的是，WHATWG后来又转回来参与了HTML5标准的制定，
-两个组织（译注：即 W3C 和 WHATWG）在2008年发布了第一份草案，并在2014年发布了HTML5标准的最终版。
+自那以后，W3C几乎放弃了HTML而转向XHTML，并于2004年成立了另一个独立的小组**[[WHATWG]]**。幸运的是，WHATWG后来又转回来参与了HTML5标准的制定，
+两个组织（即[[W3C]]和[[WHATWG]]）在2008年发布了第一份草案，并在2014年发布了HTML5标准的最终版。
 
 ## 概念和语法
 

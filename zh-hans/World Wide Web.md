@@ -1,6 +1,7 @@
 TOPICS: World Wide Web
+        Web Standard
 
-# World Wide Web
+# 万维网 (World Wide Web, WWW)
 
 万维网（**World Wide Web**）一般称其为**WWW**，**W3**，或**Web**是通过[[Internet]]访问公共网页的互连系统。网络与[[互联网]]不一样：Web是建立在互联网之上的许多应用程序之一。
 
@@ -17,7 +18,20 @@ TOPICS: World Wide Web
 
 *Tim Berners-Lee*在发明Web之后不久就创建了[[W3C]]（万维网联盟），进一步规范和开发Web。该联盟由核心Web兴趣小组组成，如[[Web浏览器]]开发人员，政府机构，研究人员和大学。其使命包括教育和外联。
 
+## Web标准
+
+Web标准相关制定机构：
+
+- **[[IETF]]** (*Internet工程任务组*): Internet标准 (**STD**), 比如[[URI]]s, [[HTTP]], 和**MIME**
+- **[[W3C]]** 和 **[[WHATWG]]**: [[HTML]]规范, 样式定义CSS,
+  DOM, accessibility
+- **IANA** (Internet Assigned Numbers Authority): name and number registries
+- **Ecma Intl.**: scripting standards, most prominently for [[JavaScript]]
+- **ISO** (International Organization for Standardization): standards governing a diverse array of
+aspects, including character encodings, website management, and user-interface design
+
 ## 了解更多
 
 - [World Wide Web维基百科](https://en.wikipedia.org/wiki/World%20Wide%20Web)
+- [Web标准维基百科](https://en.wikipedia.org/wiki/Web%20standards) on Wikipedia
 - [W3C官网](http://w3.org/)
