@@ -1,16 +1,37 @@
 TOPICS: Uniform Resource Identifier
+        Uniform Resource Locator
 
 # Uniform Resource Identifier (URI)
 
 A **URI** (Uniform Resource Identifier) is a string that refers to a resource. The most common are
-[[URL]]s, which identify the resource by giving its location on the Web. *URN*s, by contrast, refer to
+*URL*s, which identify the resource by giving its location on the Web. *URN*s, by contrast, refer to
 a resource by a name, in a given namespace, such as the *ISBN* of a book.
+
+## Uniform Resource Locator (URL)
+
+**Uniform Resource Locator** (*URL*) is a text string that specifies where a resource (such as a web
+page, image, or video) can be found on the [[Internet]].
+
+In the context of [[HTTP]], URLs are called "*Web address*" or "*link*". Your [[browser]] displays
+URLs in its address bar, for example: `https://developer.mozilla.org`. Some browsers display only the
+part of a URL after the `//`, that is, the Domain name.
+
+URLs can also be used for file transfer (**FTP**) , emails (**SMTP**), and other applications.
 
 ## Learn More
 
 ### General Knowledge
 
 - [URI](https://en.wikipedia.org/wiki/URI) on Wikipedia
+- [URL](https://en.wikipedia.org/wiki/URL) on Wikipedia
 - [RFC 3986 on URI](http://tools.ietf.org/html/rfc3986)
 - [data URIs](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs)
 - [www vs non-www](https://wiki.developer.mozilla.org/en-US/docs/URI/www_vs_non-www_URLs)
+
+### Learn About It
+
+- [Understanding URLs and their structure](https://wiki.developer.mozilla.org/en-US/Learn/Understanding_URLs)
+
+### Specification
+
+- The syntax of URLs is defined in the [URL Living Standard](https://url.spec.whatwg.org/).
