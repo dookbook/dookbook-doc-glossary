@@ -23,7 +23,7 @@ TOPICS: World Wide Web
 Web标准相关制定机构：
 
 - **[[IETF]]** (*Internet工程任务组*): Internet标准 (**STD**), 比如[[URI]]s, [[HTTP]], 和**MIME**
-- **[[W3C]]**: [[HTML]]规范, 样式定义CSS,
+- **[[W3C]]** 和 **[[WHATWG]]**: [[HTML]]规范, 样式定义CSS,
   DOM, accessibility
 - **IANA** (Internet Assigned Numbers Authority): name and number registries
 - **Ecma Intl.**: scripting standards, most prominently for [[JavaScript]]

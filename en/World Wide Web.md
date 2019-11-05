@@ -45,8 +45,8 @@ websites and network systems must conform to:
 
 - **[[IETF]]** (*Internet Engineering Task Force*): Internet standards (STD), which among other
   things govern set-up and use of [[URI]]s, [[HTTP]], and MIME
-- **[[W3C]]**: specifications for markup language (e.g., [[HTML]]), style definitions (i.e., CSS),
-  DOM, accessibility
+- **[[W3C]]** and **[[WHATWG]]**: specifications for markup language (e.g., [[HTML]]), style
+  definitions (i.e., CSS), DOM, accessibility
 - **IANA** (Internet Assigned Numbers Authority): name and number registries
 - **Ecma Intl.**: scripting standards, most prominently for [[JavaScript]]
 - **ISO** (International Organization for Standardization): standards governing a diverse array of
