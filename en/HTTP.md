@@ -16,7 +16,21 @@ aware of previous communications). This property makes it ideal for humans to re
 on the [[World Wide Web]]. However, HTTP can also be used as a basis for *REST* web services from
 server to server or *AJAX* requests within web sites to make them more dynamic.
 
+## HTTP/2
+
+**HTTP/2** is a major revision of the HTTP network protocol. The primary goals for HTTP/2 are to
+reduce latency by enabling full request and response multiplexing, minimize protocol
+overhead via efficient compression of HTTP header fields,
+and add support for request prioritization and server push.
+
+HTTP/2 does not modify the application semantics of HTTP in any way. All the core concepts found in
+*HTTP 1.1*, such as HTTP methods, status codes, [[URI]]s, and header fields, remain in place. Instead,
+HTTP/2 modifies how the data is formatted (framed) and transported between the client and server,
+both of which manage the entire process, and hides application complexity within the new framing layer.
+As a result, all existing applications can be delivered without modification.
+
 ## Learn More
 
 - [HTTP](https://en.wikipedia.org/wiki/Hypertext%20Transfer%20Protocol) on Wikipedia
+- [RFC 2616 on HTTP/1.1](https://tools.ietf.org/html/rfc2616 "Hypertext Transfer Protocol -- HTTP/1.1")
 - [HTTP on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP)
