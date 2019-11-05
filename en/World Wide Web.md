@@ -11,16 +11,18 @@ the first web server, web browser, and webpage on his computer at the CERN physi
 In 1991, he announced his creation on the *alt.hypertext* newsgroup,
 marking the moment the Web was first made public.
 
+## Components
+
 The system we know today as "the Web" consists of several components:
 
 The **[[HTTP]]** protocol governs data transfer between a server and a client.
 
-To access a Web component, a client supplies a unique universal identifier, called a URL
-(uniform resource location) or URI (uniform resource identifier)
+To access a Web component, a client supplies a unique universal identifier, called a **[[URL]]**
+(uniform resource location) or [[URI]] (uniform resource identifier)
 (formally called Universal Document Identifier (UDI)).
 
-**HTML** ([[hypertext markup language]]) is the most common format for publishing web documents.
-Linking, or connecting resources through hyperlinks, is a defining concept of the Web, aiding its
+**[[HTML]]** ([[hypertext markup language]]) is the most common format for publishing web documents.
+Linking, or connecting resources through [[hyperlinks]], is a defining concept of the Web, aiding its
 identity as a collection of connected documents.
 
 Soon after inventing the Web, *Tim Berners-Lee* founded the W3C ([[World Wide Web Consortium]]) to
