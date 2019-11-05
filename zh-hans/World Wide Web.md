@@ -1,5 +1,4 @@
-TOPICS: 万维网
-        World Wide Web
+TOPICS: World Wide Web
 
 # World Wide Web
 
