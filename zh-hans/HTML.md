@@ -22,7 +22,7 @@ HTML文档是包含多个HTML元素的文本文档。每个元素都用一对开
 
 你可以使用**属性**来扩展HTML标签。属性用来提供一些附加信息，这些信息可能会影响浏览器对元素的解析：
 
-![text](https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png)
+![html元素的结构剖析](/media/glossary__anatomy-of-an-html-element.png)
 
 HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一Web浏览器来解析和显示。
 
