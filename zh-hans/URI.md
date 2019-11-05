@@ -2,6 +2,8 @@ TOPICS: 统一资源标识符
         Uniform Resource Identifier
         统一资源定位器
         Uniform Resource Locator
+        统一资源名称
+        Uniform Resource Name
 
 # 统一资源标识符 (Uniform Resource Identifier, URI)
 
@@ -41,9 +43,26 @@ URL的格式由三部分组成：
 
 第一部分和第二部分是不可缺少的，第三部分有时可以省略。
 
+## Uniform Resource Name (URN)
+
+**统一资源名称**（*URN*）是统一资源标识（*URI*）的历史名字，它使用`urn:`作为URI scheme。
+
+1997年的[RFC 2141](https://tools.ietf.org/html/rfc2141 "URN Syntax")于中定义了*URN*，
+期望为资源提供持久的、位置无关的标识方式，并允许简单地将多个命名空间映射到单个URN命名空间。
+这样一个URI的存在并不意味着被标识的资源一定是可用的，但它仍然需要保持全局唯一和持久，即使资源已经不存在了或变得不可用。
+
+自从2005年[RFC 3986](https://tools.ietf.org/html/rfc3986)发布，这一术语的使用已被限制更少的**URI**取代。
+这是[[W3C]]和[[IETF]]联合组成的工作组所提议的。**URN**和**URL**都已经是URI的一种，而且特定情况下URL可能同时拥有名字（URN）和位置（URL）。
+
+在1990年，URN作为一个元数据框架，原本被期望和URL、URC（统一资源特征）一起组成一个第三方互联网信息架构。
+然而URC一直停留在理论阶段，随之更晚出现的其他技术（例如资源描述框架）取代了它们。
+
 ## 了解更多
 
 - [URI维基百科](https://en.wikipedia.org/wiki/URI)
-- [RFC 3986 on URI](http://tools.ietf.org/html/rfc3986)
 - [URL维基百科](https://zh.wikipedia.org/wiki/URL)
+- [URN维基百科](https://en.wikipedia.org/wiki/URN)
+- [RFC 3986 关于URI](https://tools.ietf.org/html/rfc3986 "Uniform Resource Identifier (URI): Generic Syntax")
+- [RFC 3305 关于URIs, URLs, URNs](https://tools.ietf.org/html/rfc3305 "URIs, URLs, URNs")
+- [RFC 8141 关于URN](https://tools.ietf.org/html/rfc8141 "Uniform Resource Names (URNs)")
 - [URL最新标准](https://url.spec.whatwg.org/)
