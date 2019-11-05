@@ -1,6 +1,7 @@
 TOPICS: HyperText Markup Language
         Hyperlink
         Hypertext
+        Dynamic HTML
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
@@ -22,7 +23,7 @@ HTML文档是包含多个HTML元素的文本文档。每个元素都用一对开
 
 你可以使用**属性**来扩展HTML标签。属性用来提供一些附加信息，这些信息可能会影响浏览器对元素的解析：
 
-![text](https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png)
+![html元素的结构剖析](/media/glossary__anatomy-of-an-html-element.png)
 
 HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一Web浏览器来解析和显示。
 
@@ -44,10 +45,18 @@ HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务�
 HTML的最新稳定版本, **HTML5**将HTML从用于构造一个文档的一个简单标记，到一个完整的应用程序开发平台。除其他功能外,
 HTML5还包括新元素和用于增强存储、多媒体和硬件访问的JavaScript APIs。
 
+## DHTML
+
+**DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，CSS，DOM和[[JavaScript]]的组合功能。
+
+DHTML不是[[W3C]]标准。它是一个营销术语，被网景公司（Netscape）和微软公司用来描述4.x代浏览器应当支持的新技术。
+
+DHTML不是一种技术、标准或规范，只是一种将目前已有的网页技术、语言标准整合运用，制作出能在下载后仍然能实时变换页面元素效果的网页设计概念。
+
 ## 了解更多
 
 - [HTML维基百科](https://en.wikipedia.org/wiki/HTML)
 - [超链接维基百科](https://en.wikipedia.org/wiki/Hyperlink)
-- [超链接百度百科](https://baike.baidu.com/item/%E8%B6%85%E9%93%BE%E6%8E%A5/97857)
-- [HTML规范](http://www.w3.org/TR/html5/)
 - [超文本维基百科](https://en.wikipedia.org/wiki/Hypertext)
+- [DHTML维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
+- [HTML规范](http://www.w3.org/TR/html5/)

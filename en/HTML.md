@@ -1,6 +1,7 @@
 TOPICS: HyperText Markup Language
         Hyperlink
         Hypertext
+        Dynamic HTML
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
@@ -54,6 +55,12 @@ The latest stable release of HTML, **HTML5** takes HTML from a simple markup for
 to a full app development platform. Among other features, HTML5 includes new elements and JavaScript
 APIs to enhance storage, multimedia, and hardware access.
 
+## DHTML
+
+**DHTML** (*Dynamic HTML*) refers to the code behind interactive webpages that need no plugins like
+*Flash* or *Java*. DHTML aggregates the combined functionality of HTML, CSS, the DOM,
+and [[JavaScript]].
+
 ## Learn More
 
 ### General Knowledge
@@ -61,6 +68,7 @@ APIs to enhance storage, multimedia, and hardware access.
 - [HTML](https://en.wikipedia.org/wiki/HTML) on Wikipedia
 - [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) on Wikipedia
 - [Hypertext](https://en.wikipedia.org/wiki/Hypertext) on Wikipedia
+- [DHTML](https://en.wikipedia.org/wiki/Dynamic%20HTML) on Wikipedia
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
 
 ### Learning HTML
