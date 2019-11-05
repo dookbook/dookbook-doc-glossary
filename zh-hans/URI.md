@@ -1,4 +1,4 @@
-TOPIC: 统一资源标识符
+TOPICS: 统一资源标识符
        Uniform Resource Identifier
 
 # 统一资源标识符 (Uniform Resource Identifier, URI)
@@ -8,5 +8,5 @@ TOPIC: 统一资源标识符
 
 ## 了解更多
 
-- [URI](https://en.wikipedia.org/wiki/URI) on Wikipedia
+- [URI维基百科](https://en.wikipedia.org/wiki/URI)
 - [RFC 3986 on URI](http://tools.ietf.org/html/rfc3986)
