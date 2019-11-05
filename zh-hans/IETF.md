@@ -1,7 +1,4 @@
-TOPICS: 互联网工程任务组
-        Internet Engineering Task Force
-        互联网架构委员会
-        互联网工程指导委员会
+TOPICS: Internet Engineering Task Force
 
 # 互联网工程任务组 (Internet Engineering Task Force, IETF)
 

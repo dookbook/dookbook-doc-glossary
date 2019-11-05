@@ -16,6 +16,13 @@ aware of previous communications). This property makes it ideal for humans to re
 on the [[World Wide Web]]. However, HTTP can also be used as a basis for *REST* web services from
 server to server or *AJAX* requests within web sites to make them more dynamic.
 
+## HTTPS
+
+**HTTPS** (*HTTP Secure*) is an encrypted version of the HTTP protocol. It usually uses
+**SSL** or **TLS** to encrypt all communication between a client and a server. This secure
+connection allows clients to safely exchange sensitive data with a server, for example for banking
+activities or online shopping.
+
 ## HTTP/2
 
 **HTTP/2** is a major revision of the HTTP network protocol. The primary goals for HTTP/2 are to
@@ -32,5 +39,8 @@ As a result, all existing applications can be delivered without modification.
 ## Learn More
 
 - [HTTP](https://en.wikipedia.org/wiki/Hypertext%20Transfer%20Protocol) on Wikipedia
+- [HTTPS](https://en.wikipedia.org/wiki/HTTPS) on Wikipedia
 - [RFC 2616 on HTTP/1.1](https://tools.ietf.org/html/rfc2616 "Hypertext Transfer Protocol -- HTTP/1.1")
 - [HTTP on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP)
+- [Moving to HTTPS community guide](https://movingtohttps.com/)
+- [Secure Contexts](https://wiki.developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts)

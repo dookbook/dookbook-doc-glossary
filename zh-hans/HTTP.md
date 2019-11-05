@@ -1,5 +1,4 @@
-TOPICS: 超文本传输协议
-        HyperText Transfer Protocol
+TOPICS: HyperText Transfer Protocol
 
 # 超文本传输协议 (HyperText Transfer Protocol, HTTP)
 
@@ -11,6 +10,14 @@ TOPICS: 超文本传输协议
 
 HTTP是**基于文本** (所有的通信都是以纯文本的形式进行) 以及**无状态的** (当前通信不会发现以前的通信状态)。
 这个特点对在[[Web]]上访问网页的人是很理想的。而且，HTTP也可以让网站更加的灵活多变，利用在*AJAX*上等。
+
+## HTTPS
+
+**HTTPS**（全称：*Hyper Text Transfer Protocol over SecureSocket Layer*），是以安全为目标的HTTP通道，在HTTP的基础上通过传输加密和
+身份认证保证了传输过程的安全性。HTTPS在HTTP的基础下加入**SSL**/**TLS**层，作为其安全基础。
+
+HTTPS存在不同于HTTP(`80`)的默认端口`443`及一个加密/身份验证层（在HTTP与TCP之间）。这个系统提供了身份验证与加密通讯方法。
+现在它被广泛用于万维网上安全敏感的通讯，例如交易支付等方面。
 
 ## HTTP/2
 
@@ -24,4 +31,5 @@ HTTP/2并没有在应用中改变HTTP的语义，而是通过在客户端和服�
 ## 更多
 
 - [HTTP维基百科](https://en.wikipedia.org/wiki/Hypertext%20Transfer%20Protocol)
+- [HTTPS维基百科](https://en.wikipedia.org/wiki/HTTPS)
 - [RFC 2616 关于HTTP/1.1](https://tools.ietf.org/html/rfc2616 "Hypertext Transfer Protocol -- HTTP/1.1")

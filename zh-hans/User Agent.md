@@ -1,8 +1,5 @@
-TOPICS: 用户代理
-        User Agent
-        用户代理欺骗
+TOPICS: User Agent
         user agent spoofing
-        Web浏览器
         Web Browser
 
 # 用户代理 (User Agent)

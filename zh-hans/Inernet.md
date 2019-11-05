@@ -1,6 +1,4 @@
-TOPICS: 互联网
-        因特网
-        Internet
+TOPICS: Internet
 
 # 互联网 (Internet)
 

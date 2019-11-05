@@ -1,8 +1,5 @@
-TOPICS: 超文本标记语言
-        HyperText Markup Language
-        超链接
+TOPICS: HyperText Markup Language
         Hyperlink
-        超文本
         Hypertext
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
