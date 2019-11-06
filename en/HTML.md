@@ -2,25 +2,22 @@ TOPICS: HyperText Markup Language
         Hyperlink
         Hypertext
         Dynamic HTML
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
 
 # HyperText Markup Language (HTML)
 
-**HTML** (HyperText Markup Language) is a descriptive language that specifies webpage structure.
+**HTML** (*HyperText Markup Language*) is a descriptive language that specifies webpage structure.
 
 ## Brief History
 
-In 1990, as part of his vision of the Web, *Tim Berners-Lee* defined the concept of hypertext,
-which *Berners-Lee* formalized the following year through a markup mainly based on SGML. The IETF
+In 1990, as part of his vision of the [[Web]], *Tim Berners-Lee* defined the concept of **hypertext**,
+which *Berners-Lee* formalized the following year through a markup mainly based on *SGML*. The [[IETF]]
 began formally specifying HTML in 1993, and after several drafts released version 2.0 in 1995.
-In 1994 *Berners-Lee* founded the W3C to develop the Web. In 1996, the W3C took over the HTML work
-and published the HTML 3.2 recommendation a year later. HTML 4.0 was released in 1999 and
+In 1994 *Berners-Lee* founded the **[[W3C]]** to develop the Web. In 1996, the W3C took over the HTML
+work and published the HTML 3.2 recommendation a year later. *HTML 4.0* was released in 1999 and
 became an ISO standard in 2000.
 
-At that time, the W3C nearly abandoned HTML in favor of XHTML, prompting the founding of an
-independent group called **[[WHATWG]]** in 2004. Thanks to WHATWG, work on HTML5 continued: the two
+At that time, the W3C nearly abandoned HTML in favor of *XHTML*, prompting the founding of an
+independent group called **[[WHATWG]]** in 2004. Thanks to WHATWG, work on *HTML5* continued: the two
 organizations released the first draft in 2008 and the final standard in 2014.
 
 ## Concept And Syntax
@@ -39,13 +36,14 @@ and can be rendered by any Web browser.
 
 ### Hyperlink
 
-Hyperlinks connect webpages or data items to one another. In HTML, `<a>` elements define hyperlinks
+**Hyperlinks** connect webpages or data items to one another. In HTML, `<a>` elements define hyperlinks
 from a spot on a webpage (like a text string or image) to another spot on some other webpage
 (or even on the same page).
 
 ### Hypertext
 
-Hypertext is text that contains links to other texts, as opposed to a single linear flow like in a novel.
+**Hypertext** is text that contains links to other texts, as opposed to a single linear flow like in
+a novel.
 
 The term was coined by *Ted Nelson* around 1965.
 
