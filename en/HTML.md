@@ -2,6 +2,9 @@ TOPICS: HyperText Markup Language
         Hyperlink
         Hypertext
         Dynamic HTML
+        HTML Element
+        HTML Tag
+        HTML Attribute
 
 # HyperText Markup Language (HTML)
 
@@ -22,17 +25,32 @@ organizations released the first draft in 2008 and the final standard in 2014.
 
 ## Concept And Syntax
 
-An HTML document is a plaintext document structured with elements. Elements are surrounded by
-matching opening and closing TOPIC. Each tag begins and ends with angle brackets (`<>`). There are a
-few empty or void TOPIC that cannot enclose any text, for instance `<img>`.
-
-You can extend HTML TOPIC with attributes, which provide additional information affecting how the
-browser interprets the element:
+An HTML document is a plaintext document structured with **elements**.
 
 ![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)
 
 An HTML file is normally saved with an `.htm` or `.html` extension, served by a web server,
-and can be rendered by any Web browser.
+and can be rendered by any [[Web browser]].
+
+### Element
+
+**Elements** are surrounded by matching opening and closing TOPIC. *Elements* and *TOPIC* are not the
+same things. TOPIC begin or end an element in source code, whereas elements are part of the **DOM**,
+the document model for displaying the page in the [[browser]].
+
+A typical **element** includes an *opening tag* with some *attributes*, *enclosed text content*, and
+*a closing tag*.
+
+There are a few **empty** or **void** TOPIC that cannot enclose any text, for instance `<img>`.
+
+### Tag
+
+Each **tag** begins and ends with angle brackets (`<>`).
+
+### Attribute
+
+You can extend HTML TOPIC with **attributes**, which provide additional information affecting how the
+[[browser]] interprets the element.
 
 ### Hyperlink
 
@@ -68,6 +86,10 @@ and [[JavaScript]].
 - [Hypertext](https://en.wikipedia.org/wiki/Hypertext) on Wikipedia
 - [DHTML](https://en.wikipedia.org/wiki/Dynamic%20HTML) on Wikipedia
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
+- The [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) interface, representing
+an element in the DOM.
+- [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
+- [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
 
 ### Learning HTML
 

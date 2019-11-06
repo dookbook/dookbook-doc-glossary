@@ -2,6 +2,9 @@ TOPICS: HyperText Markup Language
         Hyperlink
         Hypertext
         Dynamic HTML
+        HTML Element
+        HTML Tag
+        HTML Attribute
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
@@ -18,14 +21,25 @@ HTML（**HyperText Markup Language**，*超文本标记语言*）是用来定义
 
 ## 概念和语法
 
-HTML文档是包含多个HTML元素的文本文档。每个元素都用一对开始和结束标签包裹。每个标签以尖括号`<>`开始和结束。
-也有一部分标签中不需要包含文本，这些标签称为空标签，如 `<img>`。
+HTML文档是包含多个HTML**元素**的文本文档。
 
-你可以使用**属性**来扩展HTML标签。属性用来提供一些附加信息，这些信息可能会影响浏览器对元素的解析：
+![HTML元素的结构剖析](/media/glossary__anatomy-of-an-html-element.png)
 
-![html元素的结构剖析](/media/glossary__anatomy-of-an-html-element.png)
+HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一[[Web浏览器]]来解析和显示。
 
-HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一Web浏览器来解析和显示。
+### 元素 (Element)
+
+每个典型的**元素**都包含一个*开始标签*，一些*属性*，包含的*文本内容*，和一个*结束标签*。
+
+也有一部分标签中不需要包含文本，这些标签称为*空标签*，如 `<img>`。
+
+### 标签 (Tag)
+
+每个标签以尖括号`<>`开始和结束。
+
+### 属性
+
+你可以使用**属性**来扩展HTML*标签*。属性用来提供一些附加信息，这些信息可能会影响[[浏览器]]对元素的解析。
 
 ### 超链接 (Hyperlink)
 
