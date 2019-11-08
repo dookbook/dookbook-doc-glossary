@@ -5,6 +5,13 @@ TOPICS: HyperText Markup Language
         HTML Element
         HTML Tag
         HTML Attribute
+AUTHORS: Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
+         Евгений; boxa6@github.com; github:boxa6
+         Ahmad Nourallah; ahmadnurallah@gmail.com; github:ahmadnourallah
+         T. Uemura; Uemmra3@gmail.com; github:Uemmra3
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
 
 # HyperText Markup Language (HTML)
 
@@ -45,6 +52,11 @@ There are a few **empty** or **void** TOPIC that cannot enclose any text, for in
 
 ### Tag
 
+In HTML a **tag** is used for creating an *element*.  The **name** of an HTML element is the **name**
+used in angle brackets such as `<p>` for paragraph.  Note that the end tag's **name** is preceded by
+a slash character, "`</p>`", and that in empty elements the end tag is neither required nor allowed.
+If *attributes* are not mentioned, default values are used in each case.
+
 Each **tag** begins and ends with angle brackets (`<>`).
 
 ### Attribute
@@ -82,9 +94,11 @@ and [[JavaScript]].
 ### General Knowledge
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) on Wikipedia
+- [HTML element](https://en.wikipedia.org/wiki/HTML%20element) on Wikipedia
 - [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) on Wikipedia
 - [Hypertext](https://en.wikipedia.org/wiki/Hypertext) on Wikipedia
 - [DHTML](https://en.wikipedia.org/wiki/Dynamic%20HTML) on Wikipedia
+- [HTML TOPIC on W3](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/TOPIC.html)
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
 - The [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) interface, representing
 an element in the DOM.
@@ -101,6 +115,7 @@ an element in the DOM.
 
 ### Technical Reference
 
+- [Introduction to HTML](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 - [The HTML documentation on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML)
 - [The HTML specification](http://www.w3.org/TR/html5/)
 - [Links in HTML Documents - W3C](https://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html)
