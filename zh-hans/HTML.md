@@ -5,6 +5,7 @@ TOPICS: HyperText Markup Language
         HTML Element
         HTML Tag
         HTML Attribute
+AUTHORS: itplus; eforegist@github.com; github:eforegist
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
@@ -35,9 +36,13 @@ HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务�
 
 ### 标签 (Tag)
 
+在HTML中，**tag**用来创建一个*element*。HTML*元素*的**名称**是在尖括号中使用的名称，例如`<p>`用于段落（paragraph）。
+注意，*结束*标记的名称前面有一个斜杠字符"`</p>`"。在*空元素*中，结束标记既不需要也不允许。
+在任何情况下，如果没有提及*属性*(*attributes*)，那么将使用默认值。
+
 每个标签以尖括号`<>`开始和结束。
 
-### 属性
+### 属性 (Attribute)
 
 你可以使用**属性**来扩展HTML*标签*。属性用来提供一些附加信息，这些信息可能会影响[[浏览器]]对元素的解析。
 
@@ -70,6 +75,7 @@ DHTML不是一种技术、标准或规范，只是一种将目前已有的网页
 ## 了解更多
 
 - [HTML维基百科](https://en.wikipedia.org/wiki/HTML)
+- [HTML元素维基百科](https://en.wikipedia.org/wiki/HTML%20element)
 - [超链接维基百科](https://en.wikipedia.org/wiki/Hyperlink)
 - [超文本维基百科](https://en.wikipedia.org/wiki/Hypertext)
 - [DHTML维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
