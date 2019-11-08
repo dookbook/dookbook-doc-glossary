@@ -5,7 +5,7 @@ TOPICS: HyperText Markup Language
         HTML Element
         HTML Tag
         HTML Attribute
-AUTHORS: itplus; eforegist@github.com; github:eforegist
+AUTHORS: Rattling_shiba_inu; Rattlingshinuiba@github.com; github:Rattlingshinuiba
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
@@ -45,6 +45,8 @@ HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务�
 ### 属性 (Attribute)
 
 你可以使用**属性**来扩展HTML*标签*。属性用来提供一些附加信息，这些信息可能会影响[[浏览器]]对元素的解析。
+
+标签**属性** (**Attribute**）用于拓展HTML*标签*，可改变标签行为或提供元数据，属性总是以`name = value`的格式（属性的识别码后接与之相关的值）。
 
 ### 超链接 (Hyperlink)
 

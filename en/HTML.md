@@ -5,13 +5,13 @@ TOPICS: HyperText Markup Language
         HTML Element
         HTML Tag
         HTML Attribute
-AUTHORS: Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Евгений; boxa6@github.com; github:boxa6
-         Ahmad Nourallah; ahmadnurallah@gmail.com; github:ahmadnourallah
-         T. Uemura; Uemmra3@gmail.com; github:Uemmra3
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+AUTHORS: Taylor Hunt; tigt@github.com; github:tigt
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+         Teoli; teoli@mozilla.net; mdn:teoli
+         Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         luke crouch; lcrouch@mozilla.com; github:groovecoder
 
 # HyperText Markup Language (HTML)
 
@@ -63,6 +63,9 @@ Each **tag** begins and ends with angle brackets (`<>`).
 
 You can extend HTML TOPIC with **attributes**, which provide additional information affecting how the
 [[browser]] interprets the element.
+
+An **attribute** extends a *tag*, changing its behavior or providing metadata. An attribute always has
+the form `name=value` (the attribute's identifier followed by its associated value).
 
 ### Hyperlink
 
@@ -119,5 +122,7 @@ an element in the DOM.
 - [The HTML documentation on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML)
 - [The HTML specification](http://www.w3.org/TR/html5/)
 - [Links in HTML Documents - W3C](https://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html)
+- [HTML attribute reference](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+- Information about HTML's [global attributes](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 - [HTML5 a - hyperlink - W3C](https://w3c.github.io/html-reference/a.html)
 - [Hypertext Information Base](http://www.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/aix6kdov/hyperv1aix.htm)
