@@ -1,23 +1,16 @@
-TOPIC: API
-AUTHORS: Jett Husher; jetthusher@mozilla.net; mdn:jetthusher
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Justin Crawford; hoosteeno@github.com; github:hoosteeno
-         Ajinkya Patil; ajinkya_p@mozilla.net; mdn:ajinkya_p
+TOPIC: Application Programming Interface
 
-# API
+# Application Programming Interface (API)
 
-An API (Application Programming Interface) is a set of features and rules that exist inside a software
-program (the application) enabling interaction with it through software - as opposed to a human user
-interface. The API can be seen as a simple contract (the interface) between the application offering
-itand other items, such as third party software or hardware.
+An **API** (**Application Programming Interface**) is a set of features and rules that exist inside
+a software program (the application) enabling interaction with it through software - as opposed to a
+human user interface. The API can be seen as a simple contract (the interface) between the
+application offering it and other items, such as third party software or hardware.
 
 In Web development, an API is generally a set of code features (e.g. methods, properties, events,
-and URLs) that a developer can use in their apps for interacting with components of a user's web browser,
-or other software/hardware on the user's computer, or third party websites and services.
+and [URL](/en/glossary/Uniform_Resource_Identifier)s) that a developer can use in their apps for
+interacting with components of a user's [[web browser]], or other software/hardware on the user's
+computer, or third party websites and services.
 
 For example:
 

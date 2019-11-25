@@ -1,5 +1,4 @@
 TOPICS: User Agent
-        user agent spoofing
         Web Browser
 
 # 用户代理 (User Agent)
@@ -12,10 +11,10 @@ TOPICS: User Agent
 
 ## Web浏览器 (Web Browser)
 
-最常见的用户代理是Web浏览器。网页浏览器是一种从[[Web]]获取和显示页面的程序，并且让用户通过[[超链接]]访问更多页面。
+最常见的用户代理是Web浏览器。网页浏览器是一种从[Web](/zh-hans/glossary/World_Wide_Web)获取和显示页面的程序，并且让用户通过**超链接**访问更多页面。
 
-随着向服务器发送的每个请求，浏览器包含一个可表明身份的`User-Agent`[[HTTP]]的协议头，
-叫作*用户代理*（*UA*，*User Agent*）字符串。此字符串通常标识浏览器、及其版本号及其主机操作系统。
+随着向服务器发送的每个请求，浏览器包含一个可表明身份的`User-Agent`[HTTP](/zh-hans/glossary/HyperText_Transfer_Protocol)的协议头，
+叫作**用户代理**（**UA**，**User Agent**）字符串。此字符串通常标识浏览器、及其版本号及其主机操作系统。
 
 用户代理的字符串可以被[[JavaScript]]在客户端中使用`navigator.userAgent`获取。
 
@@ -23,8 +22,9 @@ TOPICS: User Agent
 
 ### 常见浏览器
 
-- [谷歌浏览器 (Google Chrome)](http://www.google.com/chrome/)
-- [火狐 (Mozilla Firefox)](http://www.mozilla.org/en-US/firefox/)
+- [谷歌浏览器 (Google Chrome)](/zh-hans/glossary/Google_Chrome_Browser)
+- [[Apple Safari]]
+- [火狐浏览器 (Mozilla Firefox)](/zh-hans/glossary/Mozilla_Firefox)
 - [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 - [欧朋浏览器 (Opera Browser)](http://www.opera.com/)
 

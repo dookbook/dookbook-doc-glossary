@@ -1,15 +1,13 @@
 TOPIC: Mozilla Firefox
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
 
 # Mozilla Firefox
 
-Mozilla Firefox is a free open-source browser whose development is overseen by the Mozilla Corporation.
-Firefox runs on Windows, OS X, Linux, and Android.
+**Mozilla Firefox** is a free open-source [browser](/en/glossary/Web_Browser) whose development is
+overseen by the *Mozilla* Corporation.
+Firefox runs on *Windows*, *OS X*, *Linux*, *Android* and *iOS*.
 
 First released in November 2004, Firefox is completely customizable with themes, plug-ins,
-and add-ons.  Firefox uses Gecko to render webpages,
+and add-ons.  Firefox uses **Gecko** to render webpages,
 and implements both current and upcoming Web standards.
 
 ## Learn More
