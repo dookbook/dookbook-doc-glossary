@@ -13,7 +13,8 @@ TOPICS: Uniform Resource Identifier
 
 **统一资源定位器**（*URL*）是指定在[[Internet]]上可以找到资源的位置的文本字符串。
 
-在[[HTTP]]的上下文中，**URL**被叫做”*网络地址*“或“*链接*”。你的[[Web浏览器]]在其地址栏显示URL，
+在[HTTP](/zh-hans/glossary/HyperText_Transfer_Protocol)的上下文中，**URL**被叫做”*网络地址*“或“*链接*”。
+你的[Web浏览器](/zh-hans/glossary/Web_browser)在其地址栏显示URL，
 例如 `https://dookbook.info`。
 
 URL也可用于文件传输（**FTP**），电子邮件（**SMTP**）和其他应用。
@@ -49,7 +50,9 @@ URL的格式由三部分组成：
 这样一个URI的存在并不意味着被标识的资源一定是可用的，但它仍然需要保持全局唯一和持久，即使资源已经不存在了或变得不可用。
 
 自从2005年[RFC 3986](https://tools.ietf.org/html/rfc3986)发布，这一术语的使用已被限制更少的**URI**取代。
-这是[[W3C]]和[[IETF]]联合组成的工作组所提议的。**URN**和**URL**都已经是URI的一种，而且特定情况下URL可能同时拥有名字（URN）和位置（URL）。
+这是[W3C](/zh-hans/glossary/World_Wide_Web_Consortium)和
+[IETF](/zh-hans/glossary/Internet_Engineering_Task_Force)联合组成的工作组所提议的。
+**URN**和**URL**都已经是URI的一种，而且特定情况下URL可能同时拥有名字（URN）和位置（URL）。
 
 在1990年，URN作为一个元数据框架，原本被期望和URL、URC（统一资源特征）一起组成一个第三方互联网信息架构。
 然而URC一直停留在理论阶段，随之更晚出现的其他技术（例如资源描述框架）取代了它们。

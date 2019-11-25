@@ -13,7 +13,8 @@ a resource by a name, in a given namespace, such as the *ISBN* of a book.
 **Uniform Resource Locator** (*URL*) is a text string that specifies where a resource (such as a web
 page, image, or video) can be found on the [[Internet]].
 
-In the context of [[HTTP]], URLs are called "*Web address*" or "*link*". Your [[browser]] displays
+In the context of [HTTP](/en/glossary/HyperText_Transfer_Protocol), URLs are called "*Web address*"
+or "*link*". Your [browser](/en/glossary/Web_browser) displays
 URLs in its address bar, for example: `https://dookbook.info`. Some browsers display only the
 part of a URL after the `//`, that is, the Domain name.
 
