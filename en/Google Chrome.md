@@ -1,16 +1,11 @@
-TOPIC: Google Chrome
-AUTHORS: Joe Medley; jmedley@chromium.org;github:jpmedley
-         MNizam0802; MNizam0802@github.com; github:MNizam0802
-         sensesuksawat; sensesuksawat@github.com; github:sensesuksawat
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+TOPIC: Google Chrome Browser
 
-# Google Chrome
+# Google Chrome Browser
 
-Google Chrome is a free Web browser developed by Google. It's based on the [Chromium](http://www.chromium.org/)
+**Google Chrome** is a free [[Web browser]] developed by *Google*. It's based on the [Chromium](http://www.chromium.org/)
 open source project. Some key differences are described on the [Chromium wiki](https://code.google.com/p/chromium/wiki/ChromiumBrowserVsGoogleChrome).
-Chrome supports its own layout called Blink. Note that the iOS version of Chrome uses
-that platform's webview, not Blink.
+Chrome supports its own layout called **Blink**. Note that the iOS version of Chrome uses
+that platform's *WebView*, not Blink.
 
 ## Learn More
 
