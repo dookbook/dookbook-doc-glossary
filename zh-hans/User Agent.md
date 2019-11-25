@@ -24,7 +24,7 @@ TOPICS: User Agent
 
 - [谷歌浏览器 (Google Chrome)](/zh-hans/glossary/Google_Chrome_Browser)
 - [[Apple Safari]]
-- [火狐 (Mozilla Firefox)](http://www.mozilla.org/en-US/firefox/)
+- [火狐 (Mozilla Firefox)](/zh-hans/glossary/Mozilla_Firefox)
 - [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 - [欧朋浏览器 (Opera Browser)](http://www.opera.com/)
 
