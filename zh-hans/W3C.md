@@ -26,7 +26,7 @@ W3C最重要的工作是发展Web规范（称为推荐，Recommendations）。�
 工作组的经费来自公司和其他组织，并会创建一个工作草案，最后是一份提议推荐。
 一般来说，为了获得正式的批准，推荐都会被提交给W3C会员和主任。
 
-W3C致力于实现所有的用户都能够对[[Web]]加以利用（不论其文化教育背景、能力、财力以及其身体残疾）。
+W3C致力于实现所有的用户都能够对[Web](/zh-hans/glossary/World_Wide_Web)加以利用（不论其文化教育背景、能力、财力以及其身体残疾）。
 
 W3C同时与其他标准化组织协同工作，比如Internet工程工作小组（**[[Internet Engineering Task Force]], IETF**）、无线应用协议（WAP）
 以及Unicode联盟（Unicode Consortium）。

@@ -3,12 +3,13 @@ TOPICS: HyperText Transfer Protocol
 # HyperText Transfer Protocol (HTTP)
 
 The **HyperText Transfer Protocol** (**HTTP**) is the underlying network protocol that enables transfer
-of hypermedia documents on the Web, typically between a [[browser]] and a server so that humans can
-read them. The current version of the HTTP specification is called *HTTP/2*.
+of hypermedia documents on the Web, typically between a [browser](/en/glossary/Web_browser) and a
+server so that humans can read them. The current version of the HTTP specification is called *HTTP/2*.
 
-As part of a [[URI]], the `"http://"` is called "schema" and usually stands at the beginning of an address,
-for instance in "[https://dookbook.info](https://dookbook.info)" to indicate to
-the browser to request the document using the HTTP protocol. The **https** in this case refers to the
+As part of a [URI](/en/glossary/Uniform_Resource_Identifier), the `"http://"` is called "schema" and
+usually stands at the beginning of an address, for instance in
+"[https://dookbook.info](https://dookbook.info)" to indicate to
+the browser to request the document using the *HTTP* protocol. The **https** in this case refers to the
 secure version of the HTTP protocol, **SSL** (also called **TLS**).
 
 HTTP is **textual** (all communication is done in plain text) and **stateless** (no communication is
@@ -31,10 +32,11 @@ overhead via efficient compression of HTTP header fields,
 and add support for request prioritization and server push.
 
 HTTP/2 does not modify the application semantics of HTTP in any way. All the core concepts found in
-*HTTP 1.1*, such as HTTP methods, status codes, [[URI]]s, and header fields, remain in place. Instead,
-HTTP/2 modifies how the data is formatted (framed) and transported between the client and server,
-both of which manage the entire process, and hides application complexity within the new framing layer.
-As a result, all existing applications can be delivered without modification.
+*HTTP 1.1*, such as HTTP methods, status codes, [URI](/en/glossary/Uniform_Resource_Identifier)s,
+and header fields, remain in place. Instead, HTTP/2 modifies how the data is formatted (framed) and
+transported between the client and server, both of which manage the entire process, and hides
+application complexity within the new framing layer. As a result, all existing applications can be
+delivered without modification.
 
 ## Learn More
 
