@@ -31,6 +31,7 @@ The user agent string can be accessed with [[JavaScript]] on the client side usi
 ### Popular Browsers
 
 - [Google Chrome](/en/glossary/Google_Chrome_Browser)
+- [[Apple Safari]]
 - [Mozilla Firefox](http://www.mozilla.org/en-US/firefox/)
 - [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 - [Opera Browser](http://www.opera.com/)
