@@ -1,8 +1,5 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-        Element
-        Tag
-        Attribute
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
