@@ -1,11 +1,5 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-AUTHORS: Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
 
 # HyperText Markup Language (HTML)
 
@@ -116,7 +110,6 @@ an element in the DOM.
 
 - [HTML Tutorial on MDN](https://wiki.developer.mozilla.org/en-US/Learn/HTML)
 - [HTML5 Guide on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [The Web course on codecademy.com](http://www.codecademy.com/en/tracks/web)
 - [`<a>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 - [`<link>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
