@@ -2,13 +2,12 @@ TOPIC: Document Object Model
 
 # 文档对象模型 (Document Object Model, DOM)
 
-**DOM**（**Document Object Model**, **文档对象模型**）是用来呈现以及与任意
-[HTML](/zh-hans/glossary/HyperText_Markup_Language) 或 XML文档交互的 **[API](/zh-hans/glossary/Application_Programming_Interface)**。
+**DOM**（**Document Object Model**, **文档对象模型**）是用来呈现以及与任意 [[HTML]] 或 XML文档交互的 **[[API]]**。
 DOM 是载入到浏览器中的文档模型，以**节点树**的形式来表现文档，每个节点代表文档的构成部分（例如:页面元素、字符串或注释等等）。
 
 DOM 是万维网上使用最为广泛的API之一，因为它允许运行在浏览器中的代码访问文件中的节点并与之交互。节点可以被创建，移动或修改。事件监听器可以被添加到节点上并在给定事件发生时触发。
 
-DOM 并不是天生就被规范好了的，它是浏览器开始实现[[JavaScript]]时才出现的。这个传统的 DOM 有时会被称为 **DOM 0**。现在， [WHATWG](/zh-hans/glossary/Web_Hypertext_Application_Technology_Working_Group)维护DOM现存标准。
+DOM 并不是天生就被规范好了的，它是浏览器开始实现[[JavaScript]]时才出现的。这个传统的 DOM 有时会被称为 **DOM 0**。现在，[[WHATWG]]维护DOM现存标准。
 
 ## 更多
 
