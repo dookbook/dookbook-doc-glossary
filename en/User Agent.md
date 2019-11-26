@@ -16,14 +16,13 @@ A typical user agent string looks like this:
 
 ## Web Browser
 
-The most familiar type of user agent is *Web browser*. A **Web browser** or **browser** is a program
+The most familiar type of user agent is **Web browser**. A Web browser or browser is a program
 that retrieves and displays pages from the [Web](/en/glossary/World_Wide_Web), and lets users access
 further pages through **hyperlinks**.
 
 Along with each request they make to the server, browsers include a
-self-identifying `User-Agent` [HTTP](/en/glossary/HyperText_Transfer_Protocol) header called a
-**user agent** (**UA**) string. This string often identifies the browser, its version number, and its
-host operating system.
+self-identifying `User-Agent` [[HTTP]] header called a **user agent** (**UA**) string. This string
+often identifies the browser, its version number, and its host operating system.
 
 The user agent string can be accessed with [[JavaScript]] on the client side using the
 `navigator.userAgent` property.
@@ -32,7 +31,7 @@ The user agent string can be accessed with [[JavaScript]] on the client side usi
 
 - [Google Chrome](/en/glossary/Google_Chrome_Browser)
 - [[Apple Safari]]
-- [Mozilla Firefox](/en/glossary/Mozilla_Firefox)
+- [[Mozilla Firefox]]
 - [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 - [Opera Browser](http://www.opera.com/)
 
