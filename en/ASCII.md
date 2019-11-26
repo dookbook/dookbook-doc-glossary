@@ -1,4 +1,4 @@
-TOPIC: ASCII
+TOPIC: American Standard Code for Information Interchange
 
 # American Standard Code for Information Interchange (ASCII)
 
