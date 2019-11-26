@@ -32,8 +32,6 @@ The user agent string can be accessed with [[JavaScript]] on the client side usi
 - [Google Chrome](/en/glossary/Google_Chrome_Browser)
 - [[Apple Safari]]
 - [[Mozilla Firefox]]
-- [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
-- [Opera Browser](http://www.opera.com/)
 
 ## Learn More
 
