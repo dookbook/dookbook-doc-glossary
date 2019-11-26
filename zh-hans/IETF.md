@@ -3,7 +3,7 @@ TOPICS: Internet Engineering Task Force
 # 互联网工程任务组 (Internet Engineering Task Force, IETF)
 
 **国际互联网工程任务组**（**The Internet Engineering Task Force**，简称*IETF*）成立于1985年底，
-是全球[[互联网]]最具权威的技术标准化组织，主要任务是负责互联网相关技术规范的研发和制定，当前绝大多数国际互联网技术标准出自IETF。
+是全球[互联网](/zh-hans/glossary/World_Wide_Web)最具权威的技术标准化组织，主要任务是负责互联网相关技术规范的研发和制定，当前绝大多数国际互联网技术标准出自IETF。
 
 ## 主要任务
 
