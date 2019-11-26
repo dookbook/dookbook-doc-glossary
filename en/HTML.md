@@ -1,8 +1,11 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-        Element
-        Tag
-        Attribute
+AUTHORS: Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
+         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         luke crouch; lcrouch@mozilla.com; github:groovecoder
 
 # HyperText Markup Language (HTML)
 
@@ -31,7 +34,15 @@ An HTML document is a plaintext document structured with **elements**.
 An HTML file is normally saved with an `.htm` or `.html` extension, served by a web server,
 and can be rendered by any [[Web browser]].
 
-### Element
+## Doctype
+
+The **doctype** is the required "`<!DOCTYPE html>`" preamble found at the top of all documents.
+Its sole purpose is to prevent a browser from switching into so-called "*quirks mode*" when
+rendering a document; that is, the "`<!DOCTYPE html>`" doctype ensures that the browser makes a
+best-effort attempt at following the relevant specifications, rather than using a different rendering
+mode that is incompatible with some specifications.
+
+## Element
 
 **Elements** are surrounded by matching opening and closing TOPIC. *Elements* and *TOPIC* are not the
 same things. TOPIC begin or end an element in source code, whereas elements are part of the **[[DOM]]**,
@@ -42,7 +53,7 @@ A typical **element** includes an *opening tag* with some *attributes*, *enclose
 
 There are a few **empty** or **void** TOPIC that cannot enclose any text, for instance `<img>`.
 
-### Tag
+## Tag
 
 In HTML a **tag** is used for creating an *element*.  The **name** of an HTML element is the **name**
 used in angle brackets such as `<p>` for paragraph.  Note that the end tag's **name** is preceded by
@@ -51,7 +62,7 @@ If *attributes* are not mentioned, default values are used in each case.
 
 Each **tag** begins and ends with angle brackets (`<>`).
 
-### Attribute
+## Attribute
 
 You can extend HTML TOPIC with **attributes**, which provide additional information affecting how the
 [browser](/en/glossary/Web_browser) interprets the element.
@@ -59,13 +70,13 @@ You can extend HTML TOPIC with **attributes**, which provide additional informat
 An **attribute** extends a *tag*, changing its behavior or providing metadata. An attribute always has
 the form `name=value` (the attribute's identifier followed by its associated value).
 
-### Hyperlink
+## Hyperlink
 
 **Hyperlinks** connect webpages or data items to one another. In HTML, `<a>` elements define hyperlinks
 from a spot on a webpage (like a text string or image) to another spot on some other webpage
 (or even on the same page).
 
-### Hypertext
+## Hypertext
 
 **[[Hypertext]]** is text that contains links to other texts, as opposed to a single linear flow
 like in a novel.
@@ -98,6 +109,8 @@ APIs to enhance storage, multimedia, and hardware access.
 an element in the DOM.
 - [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
+- [Definition of the DOCTYPE in the HTML specification](https://html.spec.whatwg.org/multipage/syntax.html#the-doctype)
+- [Quirks Mode and Standards Mode](https://wiki.developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)
 
 ### Learning HTML
 
@@ -117,3 +130,5 @@ an element in the DOM.
 - Information about HTML's [global attributes](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 - [HTML5 a - hyperlink - W3C](https://w3c.github.io/html-reference/a.html)
 - [Hypertext Information Base](http://www.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/aix6kdov/hyperv1aix.htm)
+- [Document.doctype](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Document/doctype),
+  a JavaScript method that returns the doctype
