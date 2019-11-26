@@ -49,8 +49,9 @@ websites and network systems must conform to:
   definitions (i.e., CSS), DOM, accessibility
 - **IANA** (Internet Assigned Numbers Authority): name and number registries
 - **Ecma Intl.**: scripting standards, most prominently for [[JavaScript]]
-- **ISO** (International Organization for Standardization): standards governing a diverse array of
-aspects, including character encodings, website management, and user-interface design
+- **[[ISO]]** (*International Organization for Standardization*): standards governing a diverse
+  array of aspects, including *[[character encoding]]s*, *website management*, and
+  *[[user interface]]* design
 
 ## Learn More
 

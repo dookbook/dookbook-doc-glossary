@@ -22,13 +22,13 @@ TOPICS: World Wide Web
 
 Web标准相关制定机构：
 
-- **[[IETF]]** (*Internet工程任务组*): Internet标准 (**STD**), 比如[[URI]]s, [[HTTP]], 和**MIME**
+- **[[IETF]]** (*Internet工程任务组*): Internet标准 (**STD**), 比如[[URI]]s, [[HTTP]], 和[[MIME]]
 - **[[W3C]]** 和 **[[WHATWG]]**: [[HTML]]规范, 样式定义CSS,
   DOM, accessibility
 - **IANA** (Internet Assigned Numbers Authority): name and number registries
 - **Ecma Intl.**: scripting standards, most prominently for [[JavaScript]]
-- **ISO** (International Organization for Standardization): standards governing a diverse array of
-aspects, including character encodings, website management, and user-interface design
+- **[[ISO]]** (*International Organization for Standardization*): standards governing a diverse
+  array of aspects, including *character encodings*, *website management*, and [[user interface]] design
 
 ## 了解更多
 
