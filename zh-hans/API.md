@@ -6,7 +6,7 @@ TOPIC: Application Programming Interface
 （与用户界面相对）。API可被视为提供它的应用与其他软硬件之间的一个简单的合约（接口）。
 
 在 [Web](/zh-hans/glossary/World_Wide_Web) 开发中，API通常是开发者能用在应用（app）中的一系列代码特性
-（如*方法*、*属性*、*事件*和 *[URL](/zh-hans/glossary/Uniform_Resource_Locator)*），
+（如*方法*、*属性*、*事件*和 *[[URL]]* ），
 这些特性被用于与用户的[Web浏览器](/zh-hans/glossary/Web_browser)中的组件、用户电脑上的其他软硬件或者第三方软件与服务交互。
 
 例如：

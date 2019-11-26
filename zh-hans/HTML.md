@@ -1,11 +1,9 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-        Hypertext
         Dynamic HTML
-        HTML Element
-        HTML Tag
-        HTML Attribute
-AUTHORS: Rattling_shiba_inu; Rattlingshinuiba@github.com; github:Rattlingshinuiba
+        Element
+        Tag
+        Attribute
 
 # 超文本标记语言 (HyperText Markup Language, HTML)
 
@@ -13,8 +11,10 @@ HTML（**HyperText Markup Language**，*超文本标记语言*）是用来定义
 
 ## 发展简史
 
-1990年，由于对[[Web]]未来发展的远见，*Tim Berners-Lee*提出了**超文本**的概念，并在第二年在*SGML*的基础上将其正式定义为一个标记语言。
-[[IETF]]于1993年正式开始制定HTML规范，并在经历了几个版本的草案后于1995年发布了*HTML 2.0*版本。1994年，*Berners-Lee*为了Web发展而成立了**[[W3C]]**。
+1990年，由于对 [Web](/zh-hans/glossary/World_Wide_Web) 未来发展的远见，*Tim Berners-Lee*提出了
+**[超文本](/zh-hans/glossary/Hypertext)** 的概念，并在第二年在*SGML*的基础上将其正式定义为一个标记语言。
+[[IETF]]于1993年正式开始制定HTML规范，并在经历了几个版本的草案后于1995年发布了
+*HTML 2.0*版本。1994年，*Berners-Lee*为了Web发展而成立了**[[W3C]]**。
 1996年，W3C接管了HTML的标准化工作，并在1年后发布了*HTML 3.2*推荐标准。1999年，*HTML 4.0*发布，并在2000年成为ISO标准。
 
 自那以后，W3C几乎放弃了HTML而转向*XHTML*，并于2004年成立了另一个独立的小组**[[WHATWG]]**。幸运的是，WHATWG后来又转回来参与了*HTML5*标准的制定，
@@ -26,7 +26,7 @@ HTML文档是包含多个HTML**元素**的文本文档。
 
 ![HTML元素的结构剖析](/media/glossary__anatomy-of-an-html-element.png)
 
-HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一[[Web浏览器]]来解析和显示。
+HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一[Web浏览器](/zh-hans/glossary/Web_browser)来解析和显示。
 
 ### 元素 (Element)
 
@@ -44,7 +44,7 @@ HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务�
 
 ### 属性 (Attribute)
 
-你可以使用**属性**来扩展HTML*标签*。属性用来提供一些附加信息，这些信息可能会影响[[浏览器]]对元素的解析。
+你可以使用**属性**来扩展HTML*标签*。属性用来提供一些附加信息，这些信息可能会影响[浏览器](/zh-hans/glossary/Web_browser)对元素的解析。
 
 标签**属性** (**Attribute**）用于拓展HTML*标签*，可改变标签行为或提供元数据，属性总是以`name = value`的格式（属性的识别码后接与之相关的值）。
 
@@ -68,7 +68,7 @@ HTML5还包括新元素和用于增强存储、多媒体和硬件访问的JavaSc
 
 ## DHTML
 
-**DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，CSS，DOM和[[JavaScript]]的组合功能。
+**DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，CSS，[[DOM]]和[[JavaScript]]的组合功能。
 
 DHTML不是[[W3C]]标准。它是一个营销术语，被网景公司（Netscape）和微软公司用来描述4.x代浏览器应当支持的新技术。
 

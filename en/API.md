@@ -8,7 +8,7 @@ human user interface. The API can be seen as a simple contract (the interface) b
 application offering it and other items, such as third party software or hardware.
 
 In Web development, an API is generally a set of code features (e.g. methods, properties, events,
-and [URL](/en/glossary/Uniform_Resource_Identifier)s) that a developer can use in their apps for
+and [[URL]]s) that a developer can use in their apps for
 interacting with components of a user's [[web browser]], or other software/hardware on the user's
 computer, or third party websites and services.
 
