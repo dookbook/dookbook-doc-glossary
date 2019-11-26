@@ -1,6 +1,5 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-        Dynamic HTML
         Element
         Tag
         Attribute
@@ -19,7 +18,7 @@ in 1995. In 1994 *Berners-Lee* founded the **[[W3C]]** to develop the Web. In 19
 over the HTML work and published the HTML 3.2 recommendation a year later. *HTML 4.0* was released
 in 1999 and became an [[ISO]] standard in 2000.
 
-At that time, the W3C nearly abandoned HTML in favor of *XHTML*, prompting the founding of an
+At that time, the W3C nearly abandoned HTML in favor of *[[XHTML]]*, prompting the founding of an
 independent group called **[[WHATWG]]** in 2004. Thanks to WHATWG, work on *HTML5* continued: the
 two organizations released the first draft in 2008 and the final standard in 2014.
 
