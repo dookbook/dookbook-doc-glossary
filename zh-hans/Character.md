@@ -26,8 +26,8 @@ A一套编码系统定义字节与文本间的映射。一连串字节文本能�
 - [[ASCII]]
 - [[Unicode]]
 - [[UTF-8]]
-- [Character (computing)维基百科](https://en.wikipedia.org/wiki/Character%20(computing))
-- [Character Encoding维基百科](https://en.wikipedia.org/wiki/Character%20encoding)
-- [ASCII维基百科](https://en.wikipedia.org/wiki/ASCII)
-- [UTF-8维基百科](https://en.wikipedia.org/wiki/UTF-8)
-- [Unicode维基百科](https://en.wikipedia.org/wiki/Unicode)
+- [Character (computing) - 维基百科](https://en.wikipedia.org/wiki/Character%20(computing))
+- [Character Encoding - 维基百科](https://en.wikipedia.org/wiki/Character%20encoding)
+- [ASCII - 维基百科](https://en.wikipedia.org/wiki/ASCII)
+- [UTF-8 - 维基百科](https://en.wikipedia.org/wiki/UTF-8)
+- [Unicode - 维基百科](https://en.wikipedia.org/wiki/Unicode)
