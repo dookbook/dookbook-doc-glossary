@@ -35,4 +35,4 @@ to make images move around or rotate.
 
 ### Technical reference
 
-- [Web API reference](https://developer.mozilla.org/en-US/docs/Web/API)
+- [Web API Reference](https://developer.mozilla.org/en-US/docs/Web/API)
