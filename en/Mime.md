@@ -19,8 +19,8 @@ from the MIME standard originally used in E-Mail.
 
 ### General Knowledge
 
-- [MIME](https://en.wikipedia.org/wiki/MIME) on Wikipedia
-- [Internet media type](https://en.wikipedia.org/wiki/Internet%20media%20type) on Wikipedia
+- [MIME on Wikipedia](https://en.wikipedia.org/wiki/MIME)
+- [Internet Media Type on Wikipedia](https://en.wikipedia.org/wiki/Internet%20media%20type)
 
 ### Technical Reference
 
