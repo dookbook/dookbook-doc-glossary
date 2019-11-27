@@ -2,14 +2,16 @@ TOPIC: WebKit
 
 # WebKit
 
-**WebKit**是一个开源的浏览器引擎，与之相对应的引擎有*Gecko*（[[Mozilla Firefox]]等使用），*Trident*（也称MSHTML，IE使用）和*EdgeHTML*（也称Chakra，Edge和其他UWP浏览器使用）。
+**WebKit**是一个开源的浏览器渲染框架，可根据其标记显示格式正确的网页。[[Apple Safari]]依赖于*WebKit*，许多移动浏览器也是如此（因为WebKit具有高度的可移植性
+和可定制的）。它拥有清晰的源码结构、极快的渲染速度。
 
-同时WebKit也是苹果Mac OS X系统引擎框架版本的名称，主要用于[Safari](/zh-hans/glossary/Apple_Safari)，Dashboard，Mail和其他一些
-Mac OS X程序。WebKit前身是KDE小组的*KHTML*，WebKit所包含的**WebCore**排版引擎和**JSCore**引擎来自于KDE的KHTML和KJS，当年苹果比较了
-Gecko和KHTML后，仍然选择了后者，就因为它拥有清晰的源码结构、极快的渲染速度。Apple将KHTML发扬光大，
-推出了装备了KHTML改进型WebKit引擎的浏览器[[Apple Safari]]。
+WebKit最初是KDE的*KHTML*和*KJS*库的分支，但许多个人和公司此后做出了贡献（包括KDE，Apple，Google和Nokia）。
+
+## 许可证
+
+WebKit是*Apple*的**商标**，该框架是根据**BSD**形式的许可证分发的。然而两个重要的组件，*WebCore*渲染库和*JavaScriptCore*引擎，是在*LGPL*许可之下。
 
 ## 更多
 
-- [WebKit维基百科](https://en.wikipedia.org/wiki/WebKit)
+- [WebKit - 维基百科](https://en.wikipedia.org/wiki/WebKit)
 - [WebKit主页](http://www.webkit.org/)
