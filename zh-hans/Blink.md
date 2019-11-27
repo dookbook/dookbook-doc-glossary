@@ -8,4 +8,4 @@ TOPIC: Blink
 ## 更多
 
 - [Blink项目主页](http://www.chromium.org/blink)
-- [Blink维基百科](http://en.wikipedia.org/wiki/Blink_%28layout_engine%29)
+- [Blink - 维基百科](http://en.wikipedia.org/wiki/Blink_%28layout_engine%29)
