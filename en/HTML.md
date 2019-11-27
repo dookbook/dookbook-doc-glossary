@@ -99,7 +99,7 @@ APIs to enhance storage, multimedia, and hardware access.
 - [DHTML on Wikipedia](https://en.wikipedia.org/wiki/Dynamic%20HTML)
 - [HTML TOPIC on W3](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/TOPIC.html)
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
-- [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element) 
+- [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
 - [Definition of the DOCTYPE in the HTML specification](https://html.spec.whatwg.org/multipage/syntax.html#the-doctype)
