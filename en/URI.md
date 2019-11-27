@@ -11,7 +11,7 @@ a resource by a name, in a given namespace, such as the *ISBN* of a book.
 ## Uniform Resource Locator (URL)
 
 **Uniform Resource Locator** (*URL*) is a text string that specifies where a resource (such as a web
-page, image, or video) can be found on the [[Internet]].
+page, image, or video) can be found on the [[Internet]]. It is a **subset** of *URI*.
 
 In the context of [[HTTP]], URLs are called "*Web address*" or "*link*". Your [browser](/en/glossary/Web_browser)
 displays URLs in its address bar, for example: `https://dookbook.info`. Some browsers display only the
@@ -21,8 +21,9 @@ URLs can also be used for file transfer (**FTP**) , emails (**SMTP**), and other
 
 ## Uniform Resource Name (URN)
 
-URN (Uniform Resource Name) is a URI in a standard format, referring to a resource without specifying
-its location or whether it exists. This example comes from [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt):
+**Uniform Resource Name** (**URN**) is a *URI* in a standard format, referring to a resource without
+specifying its location or whether it exists. This example comes from [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt):
+
 `urn:oasis:names:specification:docbook:dtd:xml:4.1.2`
 
 ## Learn More
