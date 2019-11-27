@@ -2,7 +2,7 @@ TOPIC: XHTML
 
 # XHTML
 
-HTML can travel over the network to a browser either in [[HTML]] syntax or an XML syntax called XHTML.
+**XHTML** can be called *eXtensible HyperText Markup Language*.
 
 ## HTML5 and HTML/XHTML
 
