@@ -3,7 +3,7 @@ TOPICS: User Agent
 
 # 用户代理 (User Agent)
 
-**用户代理**是代表一个人的计算机程序。
+**用户代理**是代表一个人的计算机程序，例如Web浏览器。
 
 除了浏览器之外，用户代理可以是抓取网页的机器人、下载管理器或可以访问Web的其他应用程序。
 
@@ -28,5 +28,5 @@ TOPICS: User Agent
 
 ## 了解更多
 
-- [User Agent维基百科](https://en.wikipedia.org/wiki/User%20agent)
-- [RFC 2616: 14.43](https://tools.ietf.org/html/rfc2616): The `User-Agent` header
+- [User Agent - 维基百科](https://en.wikipedia.org/wiki/User%20agent)
+- [RFC 2616: 14.43: The `User-Agent` Header](https://tools.ietf.org/html/rfc2616)
