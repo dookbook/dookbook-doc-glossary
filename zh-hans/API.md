@@ -20,5 +20,5 @@ TOPIC: Application Programming Interface
 
 ## 更多
 
-- [API维基百科](https://en.wikipedia.org/wiki/Application_programming_interface)
+- [API - 维基百科](https://en.wikipedia.org/wiki/Application_programming_interface)
 - [Web API Reference](https://developer.mozilla.org/en-US/docs/Web/API)

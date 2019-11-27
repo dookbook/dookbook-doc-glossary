@@ -1,11 +1,5 @@
 TOPICS: HyperText Markup Language
         Hyperlink
-AUTHORS: Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         luke crouch; lcrouch@mozilla.com; github:groovecoder
 
 # HyperText Markup Language (HTML)
 
@@ -98,15 +92,14 @@ APIs to enhance storage, multimedia, and hardware access.
 
 ### General Knowledge
 
-- [HTML](https://en.wikipedia.org/wiki/HTML) on Wikipedia
-- [HTML element](https://en.wikipedia.org/wiki/HTML%20element) on Wikipedia
-- [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) on Wikipedia
-- [Hypertext](https://en.wikipedia.org/wiki/Hypertext) on Wikipedia
-- [DHTML](https://en.wikipedia.org/wiki/Dynamic%20HTML) on Wikipedia
+- [HTML on Wikipedia](https://en.wikipedia.org/wiki/HTML)
+- [HTML element on Wikipedia](https://en.wikipedia.org/wiki/HTML%20element)
+- [Hyperlink on Wikipedia](https://en.wikipedia.org/wiki/Hyperlink)
+- [Hypertext on Wikipedia](https://en.wikipedia.org/wiki/Hypertext)
+- [DHTML on Wikipedia](https://en.wikipedia.org/wiki/Dynamic%20HTML)
 - [HTML TOPIC on W3](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/TOPIC.html)
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
-- The [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) interface, representing
-an element in the DOM.
+- [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
 - [Definition of the DOCTYPE in the HTML specification](https://html.spec.whatwg.org/multipage/syntax.html#the-doctype)
@@ -116,7 +109,6 @@ an element in the DOM.
 
 - [HTML Tutorial on MDN](https://wiki.developer.mozilla.org/en-US/Learn/HTML)
 - [HTML5 Guide on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [The Web course on codecademy.com](http://www.codecademy.com/en/tracks/web)
 - [`<a>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 - [`<link>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
@@ -124,7 +116,7 @@ an element in the DOM.
 
 - [Introduction to HTML](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 - [The HTML documentation on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML)
-- [The HTML specification](http://www.w3.org/TR/html5/)
+- [The HTML 5 specification](http://www.w3.org/TR/html5/)
 - [Links in HTML Documents - W3C](https://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html)
 - [HTML attribute reference](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 - Information about HTML's [global attributes](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)

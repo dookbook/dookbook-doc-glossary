@@ -7,10 +7,10 @@ AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
 
 # World Wide Web Consortium (W3C)
 
-The **World Wide Web Consortium** (*W3C*) is an international body that maintains Web-related rules
-and frameworks.
+The **World Wide Web Consortium** (**W3C**) is an international body that maintains
+[Web](/zh-hans/glossary/World_Wide_Web)-related rules and frameworks.
 
-It consists of over 350 member-organizations that jointly develop Web standards, run outreach programs,
+It consists of over 350 member-organizations that jointly develop *Web standards*, run *outreach programs*,
 and maintain an open forum for talking about the Web. The W3C coordinates companies in the industry
 to make sure they implement the same W3C standards.
 

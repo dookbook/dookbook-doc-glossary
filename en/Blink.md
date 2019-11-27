@@ -12,4 +12,4 @@ layout, rendering, and [[DOM]], but now stands on its own as a separate renderin
 ### General knowledge
 
 - [Blink Project Home](http://www.chromium.org/blink)
-- [Blink](http://en.wikipedia.org/wiki/Blink_%28layout_engine%29) on Wikipedia
+- [Blink on Wikipedia](http://en.wikipedia.org/wiki/Blink_%28layout_engine%29)

@@ -63,6 +63,6 @@ websites and network systems must conform to:
 
 ### General Knowledge
 
-- [World Wide Web](https://en.wikipedia.org/wiki/World%20Wide%20Web) on Wikipedia
-- [Web Standards](https://en.wikipedia.org/wiki/Web%20standards) on Wikipedia
+- [World Wide Web on Wikipedia](https://en.wikipedia.org/wiki/World%20Wide%20Web)
+- [Web Standards on Wikipedia](https://en.wikipedia.org/wiki/Web%20standards)
 - [The W3C Website](http://w3.org/)

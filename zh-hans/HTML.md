@@ -24,6 +24,11 @@ HTML文档是包含多个HTML**元素**的文本文档。
 
 HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一[Web浏览器](/zh-hans/glossary/Web_browser)来解析和显示。
 
+## 文档类型 (Doctype)
+
+**Doctype**是在所有文档顶部找到的必需的“`<!DOCTYPE html>`”前导。其唯一目的是防止呈现文档时浏览器切换到所谓的“*quirks模式*”。
+也就是说，“`<!DOCTYPE html>`”文档类型可确保浏览器尽最大努力遵循相关规范，而不是使用与某些规范不兼容的其他呈现模式。
+
 ## 元素 (Element)
 
 每个典型的**元素**都包含一个*开始标签*，一些*属性*，包含的*文本内容*，和一个*结束标签*。
@@ -72,9 +77,9 @@ DHTML不是一种技术、标准或规范，只是一种将目前已有的网页
 
 ## 了解更多
 
-- [HTML维基百科](https://en.wikipedia.org/wiki/HTML)
-- [HTML元素维基百科](https://en.wikipedia.org/wiki/HTML%20element)
-- [超链接维基百科](https://en.wikipedia.org/wiki/Hyperlink)
-- [超文本维基百科](https://en.wikipedia.org/wiki/Hypertext)
-- [DHTML维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
-- [HTML规范](http://www.w3.org/TR/html5/)
+- [HTML - 维基百科](https://en.wikipedia.org/wiki/HTML)
+- [HTML元素 - 维基百科](https://en.wikipedia.org/wiki/HTML%20element)
+- [超链接 - 维基百科](https://en.wikipedia.org/wiki/Hyperlink)
+- [超文本 - 维基百科](https://en.wikipedia.org/wiki/Hypertext)
+- [DHTML - 维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
+- [HTML5 规范](http://www.w3.org/TR/html5/)

@@ -2,11 +2,12 @@ TOPIC: Unicode Transformation Format 8
 
 # UTF-8
 
-**UTF-8**（8位元，**Universal Character Set**/**Unicode Transformation Format**）是针对[[Unicode]]的一种*可变长度*字符编码。
-它可以用来表示Unicode标准中的任何字符，而且其编码中的第一个字节仍与[[ASCII]]相容，使得原来处理ASCII字符的软件无须或只进行少部份修改后，便可继续使用。
-因此，它逐渐成为电子邮件、网页及其他存储或传送文字的应用中，优先采用的编码。
+**UTF-8**是[[World Wide Web]]最常见的字符编码。每个字符由*一到四个字节*表示。UTF-8与[[ASCII]]向后兼容，并且可以表示任何标准[[Unicode]]字符。
 
-## 编码
+前128个UTF-8字符与前128个[[ASCII]]字符（编号为`0`-`127`）精确匹配，这意味着现有的[[ASCII]]文本已经是有效的UTF-8。所有其他字符使用2到4个字节。
+每个字节都有一些保留用于编码的位。由于非ASCII字符需要一个以上的字节来存储，因此如果字节分开并且不重新组合，它们就有被破坏的风险。
+
+## 编码规则
 
 UTF-8使用`1`~`4`字节为每个字符编码：
 
@@ -19,4 +20,4 @@ UTF-8编码规则：如果只有一个字节则其最高二进制位为`0`；如
 
 ## 更多
 
-- [UTF-8维基百科](https://en.wikipedia.org/wiki/UTF-8)
+- [UTF-8 - 维基百科](https://en.wikipedia.org/wiki/UTF-8)

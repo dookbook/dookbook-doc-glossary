@@ -1,13 +1,11 @@
 TOPIC: Internet
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Sukanta Pal; Sukanta.Pal@mozilla.net; mdn:Sukanta.Pal
 
 # Internet
 
 The Internet is a worldwide network of networks that uses the Internet protocol suite (also named
 TCP/IP from its two most important protocols).
+
+The Internet began in 1969 from **APARNET** in the United States.
 
 ## Learn More
 
