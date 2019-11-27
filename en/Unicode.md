@@ -20,4 +20,4 @@ or the obsolete UCS-2, but *UTF-8 is recommended*.
 ## Learn More
 
 - [The Unicode Standard: A Technical Introduction](http://www.unicode.org/standard/principles.html)
-- [Unicode](https://en.wikipedia.org/wiki/Unicode) on Wikipedia
+- [Unicode on Wikipedia](https://en.wikipedia.org/wiki/Unicode)
