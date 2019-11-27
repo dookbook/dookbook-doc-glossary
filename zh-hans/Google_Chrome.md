@@ -8,7 +8,7 @@ TOPIC: Google Chrome Browser
 
 ## 更多
 
-- [Google Chrome维基百科](https://en.wikipedia.org/wiki/Google%20Chrome)
+- [Google Chrome - 维基百科](https://en.wikipedia.org/wiki/Google%20Chrome)
 - [Google Chrome官网](http://www.google.com/chrome/)
 - [Chrome发布博客](http://goo.gl/CCPRW)
 - [Android下载 - Google Play](https://play.google.com/store/apps/details?id=com.android.chrome)
