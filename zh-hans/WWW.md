@@ -32,6 +32,6 @@ Web标准相关制定机构：
 
 ## 了解更多
 
-- [World Wide Web维基百科](https://en.wikipedia.org/wiki/World%20Wide%20Web)
-- [Web标准维基百科](https://en.wikipedia.org/wiki/Web%20standards) on Wikipedia
+- [World Wide Web - 维基百科](https://en.wikipedia.org/wiki/World%20Wide%20Web)
+- [Web标准 - 维基百科](https://en.wikipedia.org/wiki/Web%20standards)
 - [W3C官网](http://w3.org/)
