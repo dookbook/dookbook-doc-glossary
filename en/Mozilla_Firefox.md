@@ -3,8 +3,7 @@ TOPIC: Mozilla Firefox
 # Mozilla Firefox
 
 **Mozilla Firefox** is a free open-source [browser](/en/glossary/Web_Browser) whose development is
-overseen by the *Mozilla* Corporation.
-Firefox runs on *Windows*, *OS X*, *Linux*, *Android* and *iOS*.
+overseen by the *Mozilla* Corporation. Firefox runs on *Windows*, *OS X*, *Linux*, *Android* and *iOS*.
 
 First released in November 2004, Firefox is completely customizable with themes, plug-ins,
 and add-ons.  Firefox uses **Gecko** to render webpages,
