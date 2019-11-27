@@ -40,8 +40,8 @@ framing layer. As a result, all existing applications can be delivered without m
 
 ## Learn More
 
-- [HTTP](https://en.wikipedia.org/wiki/Hypertext%20Transfer%20Protocol) on Wikipedia
-- [HTTPS](https://en.wikipedia.org/wiki/HTTPS) on Wikipedia
+- [HTTP on Wikipedia](https://en.wikipedia.org/wiki/Hypertext%20Transfer%20Protocol)
+- [HTTPS on Wikipedia](https://en.wikipedia.org/wiki/HTTPS)
 - [RFC 2616 on HTTP/1.1](https://tools.ietf.org/html/rfc2616 "Hypertext Transfer Protocol -- HTTP/1.1")
 - [HTTP on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP)
 - [Moving to HTTPS community guide](https://movingtohttps.com/)
