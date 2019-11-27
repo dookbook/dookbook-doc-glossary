@@ -6,6 +6,10 @@ TOPIC: American Standard Code for Information Interchange
 method used by computers for converting letters, numbers,
 punctuation and control codes into digital form. Since 2007, [[UTF-8]] superseded it on the [Web](/en/glossary/World_Wide_Web).
 
+ASCII was developed by the *American National Standards Institute* (*ANSI*), and has been designated
+as an international standard by the *International Standards Organization* (*[[ISO]]*), which is
+called the **ISO 646** standard.
+
 ## Character Encoding Table
 
 Bin | Oct | Dec | Hex | Char | Comment
@@ -143,4 +147,4 @@ Bin | Oct | Dec | Hex | Char | Comment
 
 ### General knowledge
 
-- [ASCII](https://en.wikipedia.org/wiki/ASCII) on Wikipedia
+- [ASCII on Wikipedia](https://en.wikipedia.org/wiki/ASCII)
