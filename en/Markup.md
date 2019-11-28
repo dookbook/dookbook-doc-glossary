@@ -1,12 +1,9 @@
 TOPIC: Markup
-AUTHORS: Евгений; boxa6@github.com; github:boxa6
-         Kobe Davis; Llamaless@mozilla.net; mdn:Llamaless
-         Rafey Iqbal Rahman; rafey.iqbal16@gmail.com; github:RafeyIqbalRahman
 
 # Markup
 
-A markup language is one that is designed for defining and presenting text. HTML
-(HyperText Markup Language), is an example of a markup language.
+A **markup language** is one that is designed for defining and presenting text. *[[HTML]]*
+(*HyperText Markup Language*), is an example of a markup language.
 
 Within a text file such as an HTML file, elements are marked up using TOPIC which
 explain the purpose of that part of the content.
@@ -15,7 +12,7 @@ explain the purpose of that part of the content.
 
 ### Presentational Markup
 
-Used by traditional word processing sytem with WYSIWYG (what you see it is what you get);
+Used by traditional word processing system with **WYSIWYG** (**what you see it is what you get**);
 this is hidden from human authors, users and editors.
 
 ### Procedural Markup
@@ -26,11 +23,11 @@ visibly manipulated by the author.
 ### Descriptive Markup
 
 Labels sections of documents as to how the program should handle them. For example, the HTML
-`<td>` defines a cell in a HTML table
+`<td>` defines a cell in a HTML table.
 
 ## See Also
 
-- HTML
-- XHTML
-- XML
-- SVG
+- [[HTML]]
+- [[XHTML]]
+- [[XML]]
+- [[SVG]]
