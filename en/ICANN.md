@@ -1,15 +1,11 @@
-TOPIC: ICANN
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+TOPIC: Internet Corporation of Assigned Names and Numbers
 
-# ICANN
+# Internet Corporation of Assigned Names and Numbers (ICANN)
 
-**ICANN** (Internet Corporation of Assigned Names and Numbers) is an international nonprofit that
-maintains the domain name system and the record of IP addresses.
+**ICANN** (**Internet Corporation of Assigned Names and Numbers**) is an international nonprofit that
+maintains the [[domain name system]] and the record of IP addresses.
 
-## Learn More
+## More
 
-### General Knowledge
-
-- [Official website](https://www.icann.org/)
-- [ICANN](https://en.wikipedia.org/wiki/ICANN) on Wikipedia
+- [ICANN Official Website](https://www.icann.org/)
+- [ICANN on Wikipedia](https://en.wikipedia.org/wiki/ICANN)
