@@ -3,13 +3,13 @@ TOPICS: HyperText Markup Language
 
 # HyperText Markup Language (HTML)
 
-**HTML** (*HyperText Markup Language*) is a descriptive language that specifies webpage structure.
+**HTML** (*HyperText Markup Language*) is a *descriptive* language that specifies webpage structure.
 
 ## Brief History
 
 In 1990, as part of his vision of the [Web](/en/glossary/World_Wide_Web), *Tim Berners-Lee* defined
 the concept of **[[hypertext]]**,
-which *Berners-Lee* formalized the following year through a markup mainly based on *SGML*.
+which *Berners-Lee* formalized the following year through a markup mainly based on *[[SGML]]*.
 The [[IETF]] began formally specifying HTML in 1993, and after several drafts released version 2.0
 in 1995. In 1994 *Berners-Lee* founded the **[[W3C]]** to develop the Web. In 1996, the W3C took
 over the HTML work and published the HTML 3.2 recommendation a year later. *HTML 4.0* was released
