@@ -1,21 +1,19 @@
-TOPIC: Robots​.txt
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         adithya; adithya_mani@mozilla.net; mdn:adithya_mani
+TOPIC: robots​.txt
 
-# Robots​.txt
+# `robots​.txt`
 
-Robots.txt is a file which is usually placed in the root of any website. It decides
-whether crawlers are permitted or forbidden access to the web site.
+`robots.txt` is a file which is usually placed in the root of any website. It decides
+whether [crawlers](/en/glossary/Web_crawler) are permitted or forbidden access to the web site.
 
-For example, the site admin can forbid crawlers to visit a certain folder (and all the
-files therein contained) or to crawl a specific file, usually to prevent those files
-being indexed by other search engines.
+For example, the site admin can forbid [crawlers](/en/glossary/Web_Crawler) to visit a certain
+folder (and all the files therein contained) or to crawl a specific file, usually to prevent those files
+being indexed by other [search engines](/en/glossary/Search_Engine).
 
 ## Learn More
 
 ### General Knowledge
 
-- [Robots.txt](https://en.wikipedia.org/wiki/Robots.txt) on Wikipedia
-- [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
-- Standard specification draft: [https://tools.ietf.org/html/draft-rep-wg-topic](https://tools.ietf.org/html/draft-rep-wg-topic-00)
-- [https://www.robotstxt.org/](https://www.robotstxt.org/)
+- [Robots.txt on Wikipedia](https://en.wikipedia.org/wiki/Robots.txt)
+- [Google Search Engine robots.txt](https://developers.google.com/search/reference/robots_txt)
+- [Standard specification draft](https://tools.ietf.org/html/draft-rep-wg-topic-00)
+- [robots.txt Home](https://www.robotstxt.org/)

@@ -7,11 +7,7 @@
         "code_blocks": false,
         "tables": false
     },
-    "no-inline-html": {
-        "allowed_elements": [
-            "br"
-        ]
-    },
+    "no-inline-html": false,
     "ul-indent": {
         "indent": 4
     }
