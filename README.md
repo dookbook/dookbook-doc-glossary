@@ -12,8 +12,9 @@ Please refer to [about Dookbook&reg;](https://dookbook.info/about/)
 
 ### Preparation in advance 前期准备
 
-1. Clone this repo 克隆仓库
-2. Add original (upstream) repo into your local git 增加上游仓库地址到你本地
+1. [GitHub OAuth](https://dookbook.info/helper/github/oauth/en/) / [GitHub OAuth授权](https://dookbook.info/helper/github/oauth/zh-hans/)
+2. Clone this repo / 克隆仓库
+3. Add original (upstream) repo into your local git / 增加上游仓库地址到你本地
 
 ```bash
 git remote add upstream https://github.com/dookbook/dookbook-doc-glossary.git
