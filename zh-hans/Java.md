@@ -1,6 +1,14 @@
 TOPIC: Java
-AUTHORS: zylyye; zylyye@gmail.com; github:zylyye
 
-# Java
+# Java编程语言
 
-Java 是一个旨在实现最小的依赖关系的基于类的 面向对象的 便携式  计算机程序 语言。
+**Java** 是一个**编译型**、**面向对象**、**高可移植性**的*编程语言*。
+
+Java是**静态类型**的，并且具有类似于**C**的语法。它带有大量易于使用的函数库，即**Java软件开发工具包**（**SDK**）。
+
+程序仅提前一次编译为在**Java虚拟机**（**JVM**）中运行的专有**字节码**和*包*格式。JVM可在许多平台上使用，这使得Java程序几乎可以在任何地方运行，而无需再次编译或打包。
+这使它成为许多具有异构环境的大型企业的首选语言，但可能会被视为“沉重”。
+
+## 了解更多
+
+- [Java - 维基百科](https://en.wikipedia.org/wiki/Java%20(programming%20language))
