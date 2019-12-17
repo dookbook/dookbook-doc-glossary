@@ -1,6 +1,10 @@
 TOPIC: ECMAScript
-AUTHORS: sub/dance; subdance@github.com; github:subdance
 
 # ECMAScript
 
-**ECMAScript** 是 JavaScript 所基于的脚本语言。[Ecma 国际组织](http://www.ecma-international.org/) 负责将ECMAScript 标准化。
+**ECMAScript** 是 **[[JavaScript]]**所基于的脚本语言。*[[ECMA国际组织]]**负责将*ECMAScript标准化*。
+
+## 了解更多
+
+- [ECMAScript - 维基百科](https://en.wikipedia.org/wiki/ECMAScript)
+- [ECMAScript官网](http://www.ecmascript.org/)
