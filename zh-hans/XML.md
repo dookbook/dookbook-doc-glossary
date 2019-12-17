@@ -1,12 +1,8 @@
-TOPIC: XML
-AUTHORS: codeofjackie; codeofjackie@github.com; github:codeofjackie
-         William Tung; horizontung@gmail.com; github:horizontung
-         普鲁文; pluwen@gmail.com; github:pluwen
-         夏凌晨; xgqfrms@mozilla.net; mdn:xgqfrms
+TOPIC: eXtensible Markup Language
 
-# XML
+# 可扩展标记语言 (XML)
 
-可扩展标记语言（XML）是由 W3C 指定的一种通用标记语言。信息技术（IT）行业使用许多基于 XML 的语言作为数据描述性语言。
+**可扩展标记语言**（**XML**）是由[[W3C]]指定的一种**通用标记语言**。信息技术行业使用许多基于XML的语言作为数据描述性语言。
 
-XML 标签 类似 HTML 标签，但由于 XML 允许用户定义他们自己的标签，所以 XML 更加灵活。从这个层面来看，XML 表现的像一种元语言——也就是说，它可以被用来定义其他语言，例如  RSS。
-不仅如此，HTML 是陈述性语言，而 XML 是数据描述性语言。这意味着 XML 除了 Web 之外有更远更广的应用。例如，Web 服务可以利用 XML 去交换请求和响应。
+XML标签类似[[HTML]]标签，但由于XML允许用户定义他们自己的标签，所以XML*更加灵活*。从这个层面来看，XML表现的像一种**元语言** —— 也就是说，它可以被用来定义其他语言，例如RSS。
+不仅如此，HTML是陈述性语言，而XML是数据描述性语言。这意味着XML除了Web之外有更远更广的应用。例如，Web服务可以利用XML去交换请求和响应。
