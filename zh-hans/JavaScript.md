@@ -8,8 +8,8 @@ JavaScript (JS) 是一种编程语言，为通常用于客户端（client-side�
 
 ## 历史
 
-*Brendan Eich*（彼时受雇于Netscape（网景）公司）为服务器端构想的语言JavaScript，不久却在1995年9月加入*Netscape Navigator 2.0*å项目。
-JavaScript很快获得了成功，而Internet Explorer 3.0也在1996年8月引入了对JavaScript的支持，冠以*JScript*之名。å
+*Brendan Eich*（彼时受雇于Netscape（网景）公司）为服务器端构想的语言JavaScript，不久却在1995年9月加入*Netscape Navigator 2.0*项目。
+JavaScript很快获得了成功，而Internet Explorer 3.0也在1996年8月引入了对JavaScript的支持，冠以*JScript*之名。
 
 1996年11月，Netscape开始与[[ECMA]]国际化组织合作以使JavaScript成为行业标准。从此以后，标准化的JavaScript就被称为 *[[ECMAScript]]*，并规范于
 **ECMA-262**之下。
@@ -20,7 +20,7 @@ JavaScript通常用于*浏览器*，使开发者能通过[[DOM]]来操纵网页�
 各种设备交互等等。由于近年来的发展、以及各浏览器的APIs性能改善，JavaScript成了世界上最常用的编程语言之一。
 
 最近，JavaScript的流行程度 ，由于 **[Node.js](http://nodejs.org/)**平台 —— 这个除浏览器外最流行的跨平台JavaScript运行环境 —— 的成功而大大提升。
-Node.js使开发者可以在PC上使用JavaScript作为脚本语言使用以自动化处理和构建功能完备的HTTP和WebSockets服务器。
+Node.js使开发者可以在PC上使用JavaScript作为脚本语言使用以自动化处理和构建功能完备的[[HTTP]]和[[WebSocket]]服务器。
 
 ## 面向对象
 

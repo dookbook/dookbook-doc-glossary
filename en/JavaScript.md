@@ -16,7 +16,7 @@ Conceived as a server-side language by *Brendan Eich* (then employed by the Nets
 JavaScript soon came to *Netscape Navigator 2.0* in September 1995. JavaScript enjoyed immediate success
 and Internet Explorer 3.0 introduced JavaScript support under the name *JScript* in August 1996.
 
-In November 1996, Netscape began working with [[ECMA International]] to make JavaScript an industry
+In November 1996, Netscape began working with *[[ECMA]] International* to make JavaScript an industry
 standard. Since then, the standardized JavaScript is called *[[ECMAScript]]* and specified under **ECMA-262**.
 
 ## Application Scenarios
@@ -30,7 +30,7 @@ improvement of APIs available in browsers.
 Recently, JavaScript's popularity has expanded even further through the successful **[Node.js](http://nodejs.org/)**
 platform - the most popular cross-platform JavaScript runtime environment outside the browser.
 Node.js allows developers to use JavaScript as a scripting language to automate things on a PC and
-build fully functional HTTP and Web Sockets servers.
+build fully functional [[HTTP]] and [[WebSocket]] servers.
 
 ## Object-Oriented
 

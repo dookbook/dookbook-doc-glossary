@@ -3,7 +3,7 @@ TOPIC: ECMAScript
 # ECMAScript
 
 **ECMAScript** is the scripting language on which **[[JavaScript]]** is based.
-**[[ECMA International]]** is in charge of *standardizing ECMAScript*.
+**[[ECMA]] International** is in charge of *standardizing ECMAScript*.
 
 ## Learn More
 

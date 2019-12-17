@@ -2,7 +2,7 @@ TOPIC: ECMAScript
 
 # ECMAScript
 
-**ECMAScript** 是 **[[JavaScript]]**所基于的脚本语言。*[[ECMA国际组织]]**负责将*ECMAScript标准化*。
+**ECMAScript** 是 **[[JavaScript]]**所基于的脚本语言。*[[ECMA]]国际组织* 负责将*ECMAScript标准化*。
 
 ## 了解更多
 
