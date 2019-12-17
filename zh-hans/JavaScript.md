@@ -20,7 +20,7 @@ JavaScript通常用于*浏览器*，使开发者能通过[[DOM]]来操纵网页�
 各种设备交互等等。由于近年来的发展、以及各浏览器的APIs性能改善，JavaScript成了世界上最常用的编程语言之一。
 
 最近，JavaScript的流行程度 ，由于 **[Node.js](http://nodejs.org/)**平台 —— 这个除浏览器外最流行的跨平台JavaScript运行环境 —— 的成功而大大提升。
-Node.js使开发者可以在PC上使用JavaScript作为脚本语言使用以自动化处理和构建功能完备的[[HTTP]]和[[WebSockets]]服务器。
+Node.js使开发者可以在PC上使用JavaScript作为脚本语言使用以自动化处理和构建功能完备的[[HTTP]]和[[WebSocket]]服务器。
 
 ## 面向对象
 

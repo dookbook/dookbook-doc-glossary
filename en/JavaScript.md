@@ -30,7 +30,7 @@ improvement of APIs available in browsers.
 Recently, JavaScript's popularity has expanded even further through the successful **[Node.js](http://nodejs.org/)**
 platform - the most popular cross-platform JavaScript runtime environment outside the browser.
 Node.js allows developers to use JavaScript as a scripting language to automate things on a PC and
-build fully functional [[HTTP]] and [[WebSockets]] servers.
+build fully functional [[HTTP]] and [[WebSocket]] servers.
 
 ## Object-Oriented
 
