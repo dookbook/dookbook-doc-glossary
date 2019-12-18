@@ -43,6 +43,7 @@
             "DNS",
             "WebSocket",
             "WAI",
+            "ARIA",
             "jQuery"
         ],
         "code_blocks": false
