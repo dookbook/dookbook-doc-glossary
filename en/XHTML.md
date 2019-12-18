@@ -67,7 +67,7 @@ problems, as described in these articles:
 
 - [Beware of XHTML](http://www.webdevout.net/articles/beware-of-xhtml) by David Hammond
 
-- [Sending XHTML as text/html Considered Harmful](http://www.hixie.ch/advocacy/xhtml) by Ian Hickson
+- [Sending XHTML as `text/html` Considered Harmful](http://www.hixie.ch/advocacy/xhtml) by Ian Hickson
 
 - [XHTML's Dirty Little Secret](http://www.xml.com/pub/a/2003/03/19/dive-into-xml.html) by Mark Pilgrim
 
