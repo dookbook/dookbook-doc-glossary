@@ -25,4 +25,4 @@ Congestion control algorithms use this flow of sent packets and ACKs to determin
 ## See Also
 
 - [Populating the page: how browsers work](https://wiki.developer.mozilla.org/en-US/docs/Web/Performance/Populating_the_page:_how_browsers_work)
-- [http overview](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [HTTP overview](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP/Overview)

@@ -22,7 +22,7 @@ The following status code are cacheable: `200`, `203`, `204`, `206`,
 - There is no specific headers in the response, like `Cache-Control`, that prevents caching.
 
 Note that some non-cacheable requests/responses to a specific URI may invalidate previously cached
-responses on the same URI. For example, a `PUT` to pageX.html will invalidate all cached
+responses on the same URI. For example, a `PUT` to `pageX.html` will invalidate all cached
 `GET` or `HEAD` requests to the same URI.
 
 When both, the method of the request and the status of the response, are cacheable,

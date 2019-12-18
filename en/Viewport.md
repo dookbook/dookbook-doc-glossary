@@ -23,6 +23,6 @@ The **layout viewport** remains the same, but the visual viewport became smaller
 - [Viewport](https://en.wikipedia.org/wiki/Viewport) on Wikipedia
 - [What is viewport in HTML](https://stackoverflow.com/questions/2939693/what-is-viewport-in-html)
 on Stackoverflow
-- [Get viewport/window size (width and height) with javascript](https://andylangton.co.uk/blog/development/get-viewportwindow-size-width-and-height-javascript)
+- [Get viewport/window size (width and height) with JavaScript](https://andylangton.co.uk/blog/development/get-viewportwindow-size-width-and-height-javascript)
 - [A tale of two viewports](https://www.quirksmode.org/mobile/viewports.html) (Quirksmode)
 - [VisualViewport API](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Visual_Viewport_API)

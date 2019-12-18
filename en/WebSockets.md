@@ -11,7 +11,7 @@ allowing for dynamic content updates.
 
 ## Learn More
 
-- [Websocket on Wikipedia](https://en.wikipedia.org/wiki/Websocket)
+- [WebSocket on Wikipedia](https://en.wikipedia.org/wiki/Websocket)
 
 ### Learn About It
 

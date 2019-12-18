@@ -4,6 +4,6 @@ AUTHORS: David Ross; bunnybooboo@github.com; github:bunnybooboo
 
 # Privileged Code
 
-**Privileged code** - Javascript code of your extension. For example, code in content scripts.
+**Privileged code** - JavasSript code of your extension. For example, code in content scripts.
 
-**Non-privileged** - Javascript on web-page.
+**Non-privileged** - JavaScript on web-page.

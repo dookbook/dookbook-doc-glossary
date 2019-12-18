@@ -22,7 +22,7 @@ to be resolvable into a single XML document.
 (Note that this has not been thoroughly tested for all circumstances and may not necessarily reflect
 the standard behavior completely.)
 
-Note also that if you wish to allow xml:base, you will need the xml:base function, and the
+Note also that if you wish to allow `xml:base`, you will need the `xml:base` function, and the
 line beginning var `href = ...` should become:
 
 ```javascript

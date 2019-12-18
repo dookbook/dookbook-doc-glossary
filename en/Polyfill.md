@@ -22,8 +22,7 @@ Other times, polyfills are used to address issues where browsers implement the s
 different ways. The polyfill uses non-standard features in a certain browser to give JavaScript a
 standards-complaint way to access the feature. Although this reason for polyfilling is very rare today,
 it was especially prevalent back in the days of IE6, Netscape, and NNav where each browser implemented
-Javascript very differently. The [1st version of JQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js)
-was an early example of a polyfill. It was
+JavaScript very differently. The 1st version of jQuery was an early example of a polyfill. It was
 essentially a compilation of browser-specific workarounds so that JavaScript developers could have a
 single common API that worked in all browsers. At the time, JavaScript developers were grasping at
 straws trying to get their website to work across all devices because there was such a discrepancy

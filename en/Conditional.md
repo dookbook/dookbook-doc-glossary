@@ -25,5 +25,5 @@ or set of instructions, while a condition is not yet fulfilled.
 
 ### Learn About It
 
-- [Control flow and error handling in Javascript](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+- [Control flow and error handling in JavaScript](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 on MDN
