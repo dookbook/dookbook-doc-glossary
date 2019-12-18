@@ -28,6 +28,6 @@ XLink is used in SVG, MathML, and other important standards.
 - [Code snippets:getAttributeNS](https://wiki.developer.mozilla.org/en/Code_snippets/getAttributeNS)
 - a wrapper for dealing with some browsers not
 supporting this DOM method
-- [Code snippets:xml:base function](https://wiki.developer.mozilla.org/en/Code_snippets/xml/base_function)
+- [Code `snippets:xml:base` function](https://wiki.developer.mozilla.org/en/Code_snippets/xml/base_function)
 - a rough attempt to find a full XLink-based on an
-xlink:href attribute (or `<xi:include href=>`) and its or an ancestor's xml:base.
+xlink:href attribute (or `<xi:include href=>`) and its or an ancestor's `xml:base`.

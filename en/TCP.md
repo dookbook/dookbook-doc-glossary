@@ -21,4 +21,4 @@ computers, servers, and network can support.
 - IPv6
 - Packet
 - Wikipedia [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission%20Control%20Protocol)
-- [http overview](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [HTTP overview](https://wiki.developer.mozilla.org/en-US/docs/Web/HTTP/Overview)

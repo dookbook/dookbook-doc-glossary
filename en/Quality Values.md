@@ -16,7 +16,7 @@ default value is `1`.
 
 The following syntax
 
-> text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+> `text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8`
 
 indicates the order of priority:
 
@@ -30,7 +30,7 @@ If there is no priority defined for the first two values, the order in the list 
 
 Nevertheless, with the same quality, more specific values have priority over less specific ones:
 
-> text/html;q=0.8,text/*;q=0.8,*/*;q=0.8
+> `text/html;q=0.8,text/*;q=0.8,*/*;q=0.8`
 
 | Value | Priority |
 | -- | -- |
