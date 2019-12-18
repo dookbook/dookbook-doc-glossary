@@ -1,10 +1,10 @@
 TOPIC: Web Accessibility
        Accessibility Object Model
 
-# 网页易读性
+# 无障碍网页
 
 **无障碍网页**（**Web Accessibility** ，缩写：**A11Y**）指在物理条件和技术条件限制下，保证网站达到*最佳可用性的实践*。
-Web accessibility的正式定义与论述，在[[W3C]]上的[网页易读性倡议 (Web Accessibility Initiative, WAI)](/zh-hans/glossary/WAI)。
+Web accessibility的正式定义与论述，在[[W3C]]上的[网页无障碍倡议 (Web Accessibility Initiative, WAI)](/zh-hans/glossary/WAI)。
 
 ## 可访问性对象模型 (AOM)
 
