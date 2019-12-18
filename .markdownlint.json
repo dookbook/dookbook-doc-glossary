@@ -42,6 +42,7 @@
             "Adobe",
             "DNS",
             "WebSocket",
+            "WAI",
             "jQuery"
         ],
         "code_blocks": false
