@@ -18,7 +18,30 @@
     },
     "proper-names": {
         "names": [
-            "JavaScript"
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python",
+            "Java",
+            "XHTML",
+            "MIME",
+            "HTTP",
+            "W3C",
+            "WHATWG",
+            "IETF",
+            "IANA",
+            "ICANN",
+            "DOM",
+            "XML",
+            "SVG",
+            "SEO",
+            "ASCII",
+            "API",
+            "WebKit",
+            "Google",
+            "Adobe",
+            "DNS",
+            "WebSocket"
         ],
         "code_blocks": true
     }
