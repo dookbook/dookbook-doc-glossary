@@ -41,7 +41,8 @@
             "Google",
             "Adobe",
             "DNS",
-            "WebSocket"
+            "WebSocket",
+            "jQuery"
         ],
         "code_blocks": true
     }
