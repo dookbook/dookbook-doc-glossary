@@ -22,7 +22,7 @@ HTML文档是包含多个HTML**元素**的文本文档。
 
 ![HTML元素的结构剖析](/media/glossary__anatomy-of-an-html-element.png)
 
-HTML文件通常会以`.htm` 或 `.html`为扩展名。用户可以从Web服务器中下载，并使用任一[Web浏览器](/zh-hans/glossary/Web_browser)来解析和显示。
+HTML文件通常会以`.htm`或`.html`为扩展名。用户可以从Web服务器中下载，并使用任一[Web浏览器](/zh-hans/glossary/Web_browser)来解析和显示。
 
 ## 文档类型 (Doctype)
 

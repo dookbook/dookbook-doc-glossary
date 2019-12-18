@@ -44,6 +44,6 @@
             "WebSocket",
             "jQuery"
         ],
-        "code_blocks": true
+        "code_blocks": false
     }
 }
