@@ -1,5 +1,6 @@
 {
     "default": true,
+    "first-heading-h1": true,
     "first-line-heading": false,
     "line-length": {
         "line_length": 100,
@@ -14,5 +15,11 @@
     },
     "ul-indent": {
         "indent": 4
+    },
+    "proper-names": {
+        "names": [
+            "JavaScript"
+        ],
+        "code_blocks": true
     }
 }
