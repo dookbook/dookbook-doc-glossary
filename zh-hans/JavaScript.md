@@ -26,6 +26,42 @@ Node.js使开发者可以在PC上使用JavaScript作为脚本语言使用以自�
 
 JavaScript是高度**面向对象**的。它遵循基于 **`prototype`**的模型（与基于类的模型相反）。
 
+## 动态类型
+
+JavaScript是一种*弱类型*或者说 *[动态语言](/zh-hans/glossary/dynamic_programming_language)*。这意味着你不用提前声明变量的类型，在程序运行过程中，类型会被自动确定。这也意味着你可以使用同一个变量保存不同类型的数据：
+
+```javascript
+let foo = 42;    // foo现在是数字
+foo     = 'bar'; // foo现在是字符串
+foo     = true;  // foo现在是布尔类型
+```
+
+## 数据类型
+
+最新的[[ECMAScript]]标准定义了8种数据类型:
+
+- 7种原始类型:
+    - [`boolean`](/zh-hans/webfrontend/Boolean)
+    - [`null`](/zh-hans/webfrontend/null)
+    - [`undefined`](/zh-hans/webfrontend/undefined)
+    - `number`
+    - `bigint`
+    - `string`
+    - `symbol` (ECMAScript 2016新增)
+- 和`Object`。
+
+### JavaScript中的基本类型的包装对象
+
+除了[`null`](/zh-hans/webfrontend/null)和[`undefined`](/zh-hans/webfrontend/undefined)之外，所有基本类型都有其对应的包装对象：
+
+- `String`为字符串基本类型`string`。
+- `Number`为数值基本类型`number`。
+- `BigInt`为`bigint`基本类型。
+- [`boolean`](/zh-hans/webfrontend/Boolean)为布尔基本类型`boolean`。
+- `Symbol`为字面量基本类型。
+
+这个包裹对象的`valueOf()`方法返回基本类型值。
+
 ## 了解更多
 
 - [JavaScript - 维基百科](https://en.wikipedia.org/wiki/JavaScript)
