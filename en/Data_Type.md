@@ -1,7 +1,4 @@
 TOPIC: Data Type
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Data Type
 
@@ -24,7 +21,20 @@ type inference allows the programmer to not indicate their variable types.
 **Dynamically-typed** languages are those (like [[JavaScript]]) where the **interpreter** assigns variables
 a type at **runtime** based on the variable's value at the time.
 
+## Primitive
+
+The **primitive** (primitive value, primitive data type) is data that is
+not an object and has no methods.
+
+Most of the time, a primitive value is represented directly at **the lowest level of the language implementation**.
+
+All primitives are **immutable**, i.e., they cannot be altered. It is important not to
+confuse a primitive itself with a variable assigned a primitive value. The variable may
+be reassigned a new value, but the existing value can not be changed in the ways that
+objects, arrays, and functions can be altered.
+
 ## Learn More
 
 - [Data Type on Wikipedia](https://en.wikipedia.org/wiki/Data%20type)
 - [Type System on Wikipedia](https://en.wikipedia.org/wiki/Type%20system)
+- [Primitive Data Type on Wikipedia](https://en.wikipedia.org/wiki/Primitive%20data%20type)

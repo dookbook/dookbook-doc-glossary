@@ -14,7 +14,16 @@ TOPIC: Data Type
 
 **动态类型**的语言是指**解释程序**（也叫**解释器**）在**运行时**根据当时的变量值为变量动态分配类型，比如[[JavaScript]]。
 
+## 基本类型 (Primitive)
+
+**基本类型**（基本数值、基本数据类型）是一种既非对象也无方法的数据。
+
+多数情况下，基本类型直接代表了**最底层的语言实现**。
+
+所有基本类型的值都是**不可改变**的。但需要注意的是，基本类型本身和一个赋值为基本类型的变量的区别。变量会被赋予一个新值，而原值不能像数组、对象以及函数那样被改变。
+
 ## 更多
 
 - [Data Type - 维基百科](https://en.wikipedia.org/wiki/Data%20type)
 - [Type System - 维基百科](https://en.wikipedia.org/wiki/Type%20system)
+- [Primitive Data Type - 维基百科](https://en.wikipedia.org/wiki/Primitive%20data%20type)
