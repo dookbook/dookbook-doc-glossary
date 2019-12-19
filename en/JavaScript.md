@@ -36,7 +36,46 @@ build fully functional [[HTTP]] and [[WebSocket]] servers.
 
 JavaScript is heavily **object-oriented**. It follows a **`prototype`**-based model (as opposed to class-based).
 
+## Dynamic Typing
+
+JavaScript is a **loosely typed** or a *[dynamic language](/en/glossary/dynamic_programming_language)*.
+Variables in JavaScript are not directly associated with any particular value type, and any variable
+can be assigned (and re-assigned) values of all types:
+
+```javascript
+let foo = 42;    // foo is now a number
+foo     = 'bar'; // foo is now a string
+foo     = true;  // foo is now a boolean
+```
+
+## Data Type
+
+The latest [[ECMAScript]] standard defines eight data types:
+
+- Seven data types that are primitives:
+    - [`boolean`](/en/webfrontend/Boolean)
+    - [`null`](/en/webfrontend/null)
+    - [`undefined`](/en/webfrontend/undefined)
+    - `number`
+    - `bigint`
+    - `string`
+    - `symbol` (new in ECMAScript 2016)
+- and `Object`.
+
+### Primitive Wrapper Objects In JavaScript
+
+Except for [`null`](/en/webfrontend/null) and [`undefined`](/en/webfrontend/undefined), all
+primitive values have object equivalents that wrap around the primitive values:
+
+- `String` for the `string` primitive.
+- `Number` for the `number` primitive.
+- `BigInt` for the `bigint` primitive.
+- `Boolean` for the `boolean` primitive.
+- `Symbol` for the `symbol` primitive.
+
+The wrapper's `valueOf()` method returns the primitive value.
+
 ## Learn More
 
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia
+- [JavaScript on Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
 - [ECMAScript (ECMA-262) Standard](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
