@@ -5,7 +5,7 @@ TOPIC: JavaScript
 **JavaScript** (**JS**) is a programming language mostly used to dynamically script webpages on the client
 side, but it is also often utilized on the server-side, using packages such as [Node.js](http://nodejs.org/).
 
-JavaScript should not be confused with the [[Java programming language]].
+JavaScript should not be confused with the [[Java]] programming language.
 Both "Java" and
 "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries.
 However, the two programming languages are significantly different in their syntax, semantics, and uses.
