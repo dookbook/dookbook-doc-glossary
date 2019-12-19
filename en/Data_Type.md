@@ -1,8 +1,7 @@
 TOPIC: Data Type
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Michael[tm] Smith; mike@w3.org; github:sideshowbarker
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Data Type
 
@@ -16,9 +15,14 @@ can be multiplied by an integer, but not by a string.
 ## Static Typing
 
 A **statically-typed** language is a language (such as *[[Java]]*, *C*, or *C++*) where variable
-types are known at **compile time**. In most of these languages, types must be expressly indicated
-by the programmer; in other cases (such as *OCaml*),
+types are known at **compile time** by **compiler**. In most of these languages, types must be
+expressly indicated by the programmer; in other cases (such as *OCaml*),
 type inference allows the programmer to not indicate their variable types.
+
+## Dynamic Typing
+
+**Dynamically-typed** languages are those (like [[JavaScript]]) where the **interpreter** assigns variables
+a type at **runtime** based on the variable's value at the time.
 
 ## Learn More
 
