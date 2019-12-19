@@ -45,6 +45,7 @@
             "WAI",
             "ARIA",
             "JSON",
+            "ATAG",
             "jQuery"
         ],
         "code_blocks": false
