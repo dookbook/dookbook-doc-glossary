@@ -7,6 +7,9 @@ TOPIC: Boolean
 
 布尔值以英国数学家 *[George Boole](https://en.wikipedia.org/wiki/George%20Boole)*的名字命名，他是*数学逻辑*领域的先驱。
 
+**真值** (**Truthy Values**)指的是在布尔值上下文中转换后的值为*真*的值。所有值都是真值，
+除非它们被定义为**假值**(**falsy**)
+
 ## 更多
 
 - [Boolean数据类型 - 维基百科](https://en.wikipedia.org/wiki/Boolean%20data%20type)

@@ -9,6 +9,9 @@ execute (such as in `if` statements or repeat (such as in `for` loops).
 The Boolean value is named after English mathematician *[George Boole](https://en.wikipedia.org/wiki/George%20Boole)*,
 who pioneered the field of *mathematical logic*.
 
+**Truthy** value is a value that is considered *true* when encountered in a
+Boolean context. All values are truthy unless they are defined as **falsy**.
+
 ## Learn More
 
 - [Boolean Data Type on Wikipedia](https://en.wikipedia.org/wiki/Boolean%20data%20type)
