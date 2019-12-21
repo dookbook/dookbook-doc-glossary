@@ -15,6 +15,12 @@ XML标签类似[[HTML]]标签，但由于XML允许用户定义他们自己的标
 
 **XQuery**是一门用于更新、检索以及计算**XML数据库**中数据的计算机语言。
 
+## XLink
+
+**XLink**是 *[[W3C]]标准*，用于描述XML与XML或其他文档之间的**链接**。 它的某些行为留给实现来确定如何处理。
+
+XLink用于[[SVG]]，[[MathML]]和其他重要标准中。
+
 ## 更多
 
 - [XML简介 - MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
@@ -24,3 +30,4 @@ XML标签类似[[HTML]]标签，但由于XML允许用户定义他们自己的标
 - [XPath文档 - MDN](https://developer.mozilla.org/en-US/docs/Web/XPath)
 - [XQuery官网](http://www.w3.org/XML/Query/)
 - [XQuery - 维基百科](https://en.wikipedia.org/wiki/XQuery)
+- [XLink规范](http://www.w3.org/TR/xlink/)

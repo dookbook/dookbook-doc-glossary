@@ -1,7 +1,7 @@
 TOPIC: eXtensible Markup Language
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
          Rolfe Dlugy-Hegwer; rolfedh@github.com; github:rolfedh
+         Teoli; teoli@mozilla.net; mdn:teoli
 
 # eXtensible Markup Language (XML)
 
@@ -22,6 +22,13 @@ use XML to exchange requests and responses.
 
 **XQuery** is a computer language for updating, retrieving, and calculating data in **XML databases**.
 
+## XLink
+
+**XLink** is a *[[W3C]] standard* which is used to describe **links** between XML and XML or other documents.
+Some its behaviors are left to the implementation to determine how to handle.
+
+XLink is used in [[SVG]], [[MathML]], and other important standards.
+
 ## Learn More
 
 - [XML Introduction on MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
@@ -31,3 +38,4 @@ use XML to exchange requests and responses.
 - [XPath Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/XPath)
 - [XQuery Official Website](http://www.w3.org/XML/Query/)
 - [XQuery on Wikipedia](https://en.wikipedia.org/wiki/XQuery)
+- [XLink Specification](http://www.w3.org/TR/xlink/)
