@@ -1,7 +1,8 @@
 TOPIC: eXtensible Markup Language
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Rolfe Dlugy-Hegwer; rolfedh@github.com; github:rolfedh
-         Teoli; teoli@mozilla.net; mdn:teoli
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
+         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
 
 # eXtensible Markup Language (XML)
 
@@ -209,6 +210,15 @@ since cannot convert the encoding after receiving it (to know what the encoding 
   return docu;
 }
 ```
+
+## XForms
+
+!!! danger "Obsolete"
+    This feature is **obsolete**. Although it may still work in some browsers, its use is discouraged
+    since it could be removed at any time. Try to avoid using it.
+
+**XForms** is a convention for building Web forms and processing form data in the XML format.
+No major browser supports XForms any longer—we suggest using **HTML5 forms** instead.
 
 ## Learn More
 
