@@ -1,6 +1,6 @@
 TOPIC: Array
 
-# Array
+# Array Data Structure
 
 An **array** is an **ordered collection** of data (either *primitive* or *object* depending upon the
 language).
