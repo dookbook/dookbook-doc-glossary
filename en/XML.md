@@ -18,6 +18,10 @@ use XML to exchange requests and responses.
 
 **XPath** is a **query language** that can access sections and content in an XML document.
 
+## XQuery
+
+**XQuery** is a computer language for updating, retrieving, and calculating data in **XML databases**.
+
 ## Learn More
 
 - [XML Introduction on MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
@@ -25,3 +29,5 @@ use XML to exchange requests and responses.
 - [XPath Specification](http://www.w3.org/TR/xpath-30/)
 - [XPath Official Website](http://www.w3.org/standards/techs/xpath#w3c_all)
 - [XPath Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/XPath)
+- [XQuery Official Website](http://www.w3.org/XML/Query/)
+- [XQuery on Wikipedia](https://en.wikipedia.org/wiki/XQuery)

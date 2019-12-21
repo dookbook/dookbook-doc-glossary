@@ -11,6 +11,10 @@ XML标签类似[[HTML]]标签，但由于XML允许用户定义他们自己的标
 
 **XPath**是一种可以访问XML文件中的节和内容的**查询语言**。
 
+## XQuery
+
+**XQuery**是一门用于更新、检索以及计算**XML数据库**中数据的计算机语言。
+
 ## 更多
 
 - [XML简介 - MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
@@ -18,3 +22,5 @@ XML标签类似[[HTML]]标签，但由于XML允许用户定义他们自己的标
 - [XPath规范](http://www.w3.org/TR/xpath-30/)
 - [XPath官网](http://www.w3.org/standards/techs/xpath#w3c_all)
 - [XPath文档 - MDN](https://developer.mozilla.org/en-US/docs/Web/XPath)
+- [XQuery官网](http://www.w3.org/XML/Query/)
+- [XQuery - 维基百科](https://en.wikipedia.org/wiki/XQuery)
