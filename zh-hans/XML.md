@@ -195,6 +195,13 @@ since cannot convert the encoding after receiving it (to know what the encoding 
 }
 ```
 
+## XForms
+
+!!! danger "过时废弃"
+    此功能已**过时废弃**。尽管它可能在某些浏览器中仍然可以使用，但不建议使用它，因为可能随时将其删除。尽量避免使用它。
+
+**XForms**是用于构建Web表单和处理XML格式的表单数据的约定。不再有主流浏览器支持XForms，我们建议改用**HTML5表单**。
+
 ## 更多
 
 - [XML简介 - MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
