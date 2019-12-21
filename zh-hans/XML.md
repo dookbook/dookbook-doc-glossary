@@ -1,4 +1,10 @@
 TOPIC: eXtensible Markup Language
+       XPath
+       XQuery
+       XLink
+       XInclude
+       XForms
+       XSLT
 
 # 可扩展标记语言 (XML)
 
@@ -202,6 +208,12 @@ since cannot convert the encoding after receiving it (to know what the encoding 
 
 **XForms**是用于构建Web表单和处理XML格式的表单数据的约定。不再有主流浏览器支持XForms，我们建议改用**HTML5表单**。
 
+## 可扩展样式表语言转换 (XSLT)
+
+**可扩展样式表语言转换**（**XSLT**）是一种声明性语言，用于将XML文档转换为其他XML文档，[[HTML]]，PDF，纯文本等。
+
+XSLT拥有自己的处理器，可以接受XML输入或任何可转换为XQuery和XPath数据模型的格式.XSLT处理器基于XML文档和XSLT样式表生成一个新文档，在此过程中无需更改原始文件。
+
 ## 更多
 
 - [XML简介 - MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
@@ -213,3 +225,5 @@ since cannot convert the encoding after receiving it (to know what the encoding 
 - [XQuery - 维基百科](https://en.wikipedia.org/wiki/XQuery)
 - [XLink规范](http://www.w3.org/TR/xlink/)
 - [XML Inclusions (XInclude)规范](http://www.w3.org/TR/xinclude/)
+- [XSLT on Wikipedia](https://en.wikipedia.org/wiki/XSLT)
+- [XSLT Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/XSLT)
