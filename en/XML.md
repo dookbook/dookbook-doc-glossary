@@ -1,8 +1,15 @@
 TOPIC: eXtensible Markup Language
+       XPath
+       XQuery
+       XLink
+       XInclude
+       XForms
+       XSLT
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         ExE Boss; ExE-Boss@github.com; github:ExE-Boss
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+         Ajinkya Patil; ajinkya_p@mozilla.net; mdn:ajinkya_p
 
 # eXtensible Markup Language (XML)
 
@@ -220,6 +227,15 @@ since cannot convert the encoding after receiving it (to know what the encoding 
 **XForms** is a convention for building Web forms and processing form data in the XML format.
 No major browser supports XForms any longer—we suggest using **HTML5 forms** instead.
 
+## eXtensible Stylesheet Language Transformations (XSLT)
+
+**eXtensible Stylesheet Language Transformations** (**XSLT**) is a declarative language used to convert
+XML documents into other XML documents, [[HTML]], PDF, plain text, and so on.
+
+XSLT has its own processor that accepts XML input, or any format convertible to an
+XQuery and XPath Data Model. The XSLT processor produces a new document based on the XML document and
+an XSLT stylesheet, making no changes to the original files in the process.
+
 ## Learn More
 
 - [XML Introduction on MDN](https://wiki.developer.mozilla.org/en-US/docs/XML_Introduction)
@@ -231,3 +247,5 @@ No major browser supports XForms any longer—we suggest using **HTML5 forms** i
 - [XQuery on Wikipedia](https://en.wikipedia.org/wiki/XQuery)
 - [XLink Specification](http://www.w3.org/TR/xlink/)
 - [XML Inclusions (XInclude) Specification](http://www.w3.org/TR/xinclude/)
+- [XSLT on Wikipedia](https://en.wikipedia.org/wiki/XSLT)
+- [XSLT Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/XSLT)
