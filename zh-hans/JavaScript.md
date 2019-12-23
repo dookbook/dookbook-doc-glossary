@@ -44,7 +44,7 @@ foo     = true;  // foo现在是布尔类型
     - [`boolean`](/zh-hans/webfrontend/Boolean)
     - [`null`](/zh-hans/webfrontend/null)
     - [`undefined`](/zh-hans/webfrontend/undefined)
-    - `number`
+    - [`number`](/zh-hans/webfrontend/Number)
     - `bigint`
     - `string`
     - `symbol` (ECMAScript 2016新增)

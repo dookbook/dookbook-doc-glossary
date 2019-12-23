@@ -56,7 +56,7 @@ The latest [[ECMAScript]] standard defines eight data types:
     - [`boolean`](/en/webfrontend/Boolean)
     - [`null`](/en/webfrontend/null)
     - [`undefined`](/en/webfrontend/undefined)
-    - `number`
+    - [`number`](/en/webfrontend/Number)
     - `bigint`
     - `string`
     - `symbol` (new in ECMAScript 2016)
