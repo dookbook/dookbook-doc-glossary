@@ -27,7 +27,7 @@ the device running the browser through various APIs, and so forth. JavaScript is
 commonly-used languages, owing to the recent growth and performance
 improvement of APIs available in browsers.
 
-Recently, JavaScript's popularity has expanded even further through the successful **[Node.js](http://nodejs.org/)**
+Recently, JavaScript's popularity has expanded even further through the successful [**Node.js**](http://nodejs.org/)
 platform - the most popular cross-platform JavaScript runtime environment outside the browser.
 Node.js allows developers to use JavaScript as a scripting language to automate things on a PC and
 build fully functional [[HTTP]] and [[WebSocket]] servers.
@@ -57,7 +57,7 @@ The latest [[ECMAScript]] standard defines eight data types:
     - [`null`](/en/webfrontend/null)
     - [`undefined`](/en/webfrontend/undefined)
     - [`number`](/en/webfrontend/Number)
-    - `bigint`
+    - [`bigint`](/en/webfrontend/BigInt)
     - `string`
     - `symbol` (new in ECMAScript 2016)
 - and `Object`.
@@ -68,9 +68,9 @@ Except for [`null`](/en/webfrontend/null) and [`undefined`](/en/webfrontend/unde
 primitive values have object equivalents that wrap around the primitive values:
 
 - `String` for the `string` primitive.
-- `Number` for the `number` primitive.
+- [`Number`](/en/webfrontend/Number) for the `number` primitive.
 - `BigInt` for the `bigint` primitive.
-- `Boolean` for the `boolean` primitive.
+- [`Boolean`](/en/webfrontend/Boolean) for the `boolean` primitive.
 - `Symbol` for the `symbol` primitive.
 
 The wrapper's `valueOf()` method returns the primitive value.
