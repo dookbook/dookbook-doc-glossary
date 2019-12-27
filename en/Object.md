@@ -1,11 +1,9 @@
 TOPIC: Object
        Object-Oriented Programming
-AUTHORS: Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+AUTHORS: Victor Borges; victor-borges@mozilla.net; mdn:victor-borges
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Prashant Bhende; pbmj5233@mozilla.net; mdn:pbmj5233
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Object
 
@@ -17,6 +15,12 @@ Objects sometimes refer to real-world things, for example a car or map object in
 
 **Object-Oriented Programming** (**OOP**) is *an approach in programming* in which data is encapsulated
 within objects and the **object** itself is operated on, rather than its component parts.
+
+### Class
+
+In object-oriented programming, a **class** defines an object's **characteristics**. Class is *a template
+definition of an object's properties and methods*, the "blueprint" from which other more
+specific instances of the object are drawn.
 
 ### Constructor
 
@@ -79,4 +83,5 @@ myNotification.close();
 ## Learn More
 
 - [Object-oriented programming on Wikipedia](https://en.wikipedia.org/wiki/Object-oriented%20programming)
+- [Class-Based Programming on Wikipedia](https://en.wikipedia.org/wiki/Class-based_programming)
 - [Constructor for OOP on Wikipedia](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
