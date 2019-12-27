@@ -10,7 +10,11 @@ TOPIC: Object
 
 **面向对象编程** (**OOP**)是一种*编程方法*，其中数据封装在**对象**中，对象本身在其上运行，而不是其组成部分。
 
-### 构造函数
+### 类 (Class)
+
+在面向对象的程序设计中，“类”定义对象的“特性”。 类是*对象属性和方法的模板定义*，是绘制对象的特定实例的“蓝图”。
+
+### 构造函数 (Constructor)
 
 **构造函数**属于被实例化的特定类对象。构造函数初始化这个对象，并提供可以访问其私有信息的方法。构造函数的概念可以应用于大多数面向对象的编程语言。本质上，[[JavaScript]]中的构造函数通常在类的实例中声明。
 
@@ -61,4 +65,5 @@ myNotification.close();
 ## 了解更多
 
 - [OOP - 维基百科](https://en.wikipedia.org/wiki/Object-oriented%20programming)
+- [Class-Based Programming - 维基百科](https://en.wikipedia.org/wiki/Class-based_programming)
 - [Constructor for OOP - 维基百科](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
