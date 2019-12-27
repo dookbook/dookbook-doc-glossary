@@ -1,12 +1,10 @@
 TOPIC: Object
        Object-Oriented Programming
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+AUTHORS: Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Prashant Bhende; pbmj5233@mozilla.net; mdn:pbmj5233
+         Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Object
@@ -19,6 +17,38 @@ Objects sometimes refer to real-world things, for example a car or map object in
 
 **Object-Oriented Programming** (**OOP**) is *an approach in programming* in which data is encapsulated
 within objects and the **object** itself is operated on, rather than its component parts.
+
+### Constructor
+
+A **constructor** belongs to a particular class object that is instantiated. The constructor
+initializes this object and can provide access to its private information. The concept of a
+constructor can be applied to most object-oriented programming languages. Essentially,
+a constructor in [[JavaScript]] is usually declared at the instance of a class.
+
+#### Constructor in JavaScript
+
+```javascript
+// This is a generic default constructor class Default
+function Default() {
+}
+
+// This is an overloaded constructor class Overloaded
+// with parameter arguments
+function Overloaded(arg1, arg2, ...,argN){
+}
+```
+
+To call the constructor of the class in [[JavaScript]], use a `new` operator to assign a new object
+reference to a variable.
+
+```javascript
+function Default() {
+}
+
+// A new reference of a Default object assigned to a
+// local variable defaultReference
+var defaultReference = new Default();
+```
 
 ### Static Method
 
@@ -49,3 +79,4 @@ myNotification.close();
 ## Learn More
 
 - [Object-oriented programming on Wikipedia](https://en.wikipedia.org/wiki/Object-oriented%20programming)
+- [Constructor for OOP on Wikipedia](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
