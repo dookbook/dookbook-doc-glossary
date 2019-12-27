@@ -1,4 +1,5 @@
 TOPIC: Syntax
+       Statement
 
 # 语法
 
@@ -10,7 +11,12 @@ TOPIC: Syntax
 
 如果框架产生简单、可读、简洁的结果，则据说它们具有“**干净**”的语法。如果代码库使用“很多语法”，则它需要更多字符才能实现相同的功能。
 
+## 语句 (Statement)
+
+在计算机编程语言中，**语句**是一行任务指令的代码。每个程序都包含若干语句。
+
 ## 更多
 
-- [Syntax (programming language) - 维基百科](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
+- [Syntax (Programming Language) - 维基百科](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error - 维基百科](https://en.wikipedia.org/wiki/Syntax%20error)
+- [Statement (Computer Science) - 维基百科](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
