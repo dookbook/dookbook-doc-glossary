@@ -1,9 +1,9 @@
 TOPIC: Object
        Object-Oriented Programming
-AUTHORS: Victor Borges; victor-borges@mozilla.net; mdn:victor-borges
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+         Gustavo Leindecker Pereira; gusleindecker@github.com; github:gusleindecker
 
 # Object
 
@@ -54,6 +54,10 @@ function Default() {
 var defaultReference = new Default();
 ```
 
+### Instance
+
+An object created by a constructor is an instance of that constructor.
+
 ### Static Method
 
 A **static method** (or **static function**) is a method defined as a member of an object but is accessible
@@ -85,3 +89,4 @@ myNotification.close();
 - [Object-oriented programming on Wikipedia](https://en.wikipedia.org/wiki/Object-oriented%20programming)
 - [Class-Based Programming on Wikipedia](https://en.wikipedia.org/wiki/Class-based_programming)
 - [Constructor for OOP on Wikipedia](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
+- [Instance on Wikipedia](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
