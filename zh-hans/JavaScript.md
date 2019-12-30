@@ -46,7 +46,7 @@ foo     = true;  // foo现在是布尔类型
     - [`undefined`](/zh-hans/webfrontend/undefined)
     - [`number`](/zh-hans/webfrontend/Number)
     - [`bigint`](/zh-hans/webfrontend/BigInt)
-    - `string`
+    - [`string`](/zh-hans/webfrontend/String)
     - `symbol` (ECMAScript 2016新增)
 - 和[`Object`](/zh-hans/webfrontend/Object)。
 
