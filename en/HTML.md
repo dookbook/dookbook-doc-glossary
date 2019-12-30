@@ -83,7 +83,7 @@ The term was coined by *Ted Nelson* around 1965.
 The term represents two different concepts.
 It is a new version of the language HTML, with new elements, attributes, and behaviors,
 and a larger set of technologies that allows the building of more diverse and powerful Web sites and
-applications. This set is sometimes called *HTML5 & friends* and often shortened to just HTML5.
+applications. This set is sometimes called *HTML5 & friends* and often shortened to just *HTML5*.
 
 HTML5 technologies classifies into several groups based on their function:
 
@@ -182,15 +182,9 @@ HTML5 technologies classifies into several groups based on their function:
 - [DHTML on Wikipedia](https://en.wikipedia.org/wiki/Dynamic%20HTML)
 - [HTML Living Standard / Specification - WHATWG](https://html.spec.whatwg.org/) (Recommended)
 - [The HTML 5 Specification - W3C](http://www.w3.org/TR/html5/)
-- [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
 - [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
 - [Quirks Mode and Standards Mode](https://wiki.developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)
-
-### Technical Reference
-
-- [HTML5 a - hyperlink - W3C](https://w3c.github.io/html-reference/a.html)
-- [Hypertext Information Base](http://www.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/aix6kdov/hyperv1aix.htm)
 - [Document.doctype](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Document/doctype),
   a JavaScript method that returns the doctype
