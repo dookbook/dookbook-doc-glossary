@@ -48,7 +48,7 @@ foo     = true;  // foo现在是布尔类型
     - [`bigint`](/zh-hans/webfrontend/BigInt)
     - `string`
     - `symbol` (ECMAScript 2016新增)
-- 和`Object`。
+- 和[`Object`](/zh-hans/webfrontend/Object)。
 
 ### JavaScript中的基本类型的包装对象
 

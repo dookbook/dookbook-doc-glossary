@@ -60,7 +60,7 @@ The latest [[ECMAScript]] standard defines eight data types:
     - [`bigint`](/en/webfrontend/BigInt)
     - `string`
     - `symbol` (new in ECMAScript 2016)
-- and `Object`.
+- and [`Object`](/en/webfrontend/Object).
 
 ### Primitive Wrapper Objects In JavaScript
 
