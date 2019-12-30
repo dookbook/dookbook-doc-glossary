@@ -7,8 +7,8 @@ HTML（**HyperText Markup Language**，*超文本标记语言*）是用来定义
 
 ## 发展简史
 
-1990年，由于对 [Web](/zh-hans/glossary/World_Wide_Web) 未来发展的远见，*Tim Berners-Lee*提出了
-**[超文本](/zh-hans/glossary/Hypertext)** 的概念，并在第二年在 *[[SGML]]*的基础上将其正式定义为一个标记语言。
+1990年，由于对[Web](/zh-hans/glossary/World_Wide_Web)未来发展的远见，*Tim Berners-Lee*提出了
+**[超文本](/zh-hans/glossary/Hypertext)** 的概念，并与第二年在 *[[SGML]]*的基础上将其正式定义为一个标记语言。
 [[IETF]]于1993年正式开始制定HTML规范，并在经历了几个版本的草案后于1995年发布了
 *HTML 2.0*版本。1994年，*Berners-Lee*为了Web发展而成立了**[[W3C]]**。
 1996年，W3C接管了HTML的标准化工作，并在1年后发布了*HTML 3.2*推荐标准。1999年，*HTML 4.0*发布，并在2000年成为[[ISO]]标准。
@@ -26,7 +26,7 @@ HTML文件通常会以`.htm`或`.html`为扩展名。用户可以从Web服务器
 
 ## 文档类型 (Doctype)
 
-**Doctype**是在所有文档顶部找到的必需的“`<!DOCTYPE html>`”前导。其唯一目的是防止呈现文档时浏览器切换到所谓的“*quirks模式*”。
+**Doctype**是在所有文档顶部找到的必需的“*`<!DOCTYPE html>`*”前导。其唯一目的是防止呈现文档时浏览器切换到所谓的“*quirks模式*”。
 也就是说，“`<!DOCTYPE html>`”文档类型可确保浏览器尽最大努力遵循相关规范，而不是使用与某些规范不兼容的其他呈现模式。
 
 ## 元素 (Element)
@@ -47,14 +47,11 @@ HTML文件通常会以`.htm`或`.html`为扩展名。用户可以从Web服务器
 
 你可以使用**属性**来扩展HTML*标签*。属性用来提供一些附加信息，这些信息可能会影响[浏览器](/zh-hans/glossary/Web_browser)对元素的解析。
 
-标签**属性** (**Attribute**）用于拓展HTML*标签*，可改变标签行为或提供元数据，属性总是以`name = value`的格式（属性的识别码后接与之相关的值）。
+标签**属性** (**Attribute**）用于拓展HTML*标签*，可改变标签行为或提供元数据，属性总是以`name=value`的格式（属性的识别码后接与之相关的值）。
 
 ## 超链接 (Hyperlink)
 
-**超链接**简单来讲，就是指按内容链接。超级链接在本质上属于一个网页的一部分，它是一种允许我们同其他网页或站点之间进行连接的元素。
-各个网页链接在一起后，才能真正构成一个网站。所谓的超链接是指从一个网页指向一个目标的连接关系，这个目标可以是另一个网页，
-也可以是相同网页上的不同位置，还可以是一个图片，一个电子邮件地址，一个文件，甚至是一个应用程序。而在一个网页中用来超链接的对象，
-可以是一段文本或者是一个图片。当浏览者单击已经链接的文字或图片后，链接目标将显示在浏览器上，并且根据目标的类型来打开或运行。
+**超链接**是指从一个网页指向一个目标的连接关系。这个目标可以是另一个网页或数据项。在HTML中，[`<a>`](/zh-hans/webfrontend/<a>)元素定义了网页中的一个项目（像文本，图片等）到在其他网页（甚至是同一个网页中）另一个项目的超链接。
 
 ## 超文本 (Hypertext)
 
@@ -64,12 +61,71 @@ HTML文件通常会以`.htm`或`.html`为扩展名。用户可以从Web服务器
 
 ## HTML5
 
-HTML的最新稳定版本, **HTML5**将HTML从用于构造一个文档的一个简单标记，到一个完整的应用程序开发平台。除其他功能外,
-HTML5还包括新元素和用于增强存储、多媒体和硬件访问的JavaScript APIs。
+**HTML5**是定义*HTML*标准的最新演进版本。该术语通过两个不同的概念来表现：
+
+- 它是一个新版本的HTML语言，具有新的元素、属性和行为；
+- 它有更大的技术集，允许构建更多样化和更强大的网站和应用程序。这个集合有时称为*HTML5和它的朋友们*，不过大多数时候仅缩写为一个词：HTML5。
+
+HTML5技术根据其功能分为几个组：
+
+- [**语义**](/zh-hans/glossary/Semantics)：能够让你更恰当地描述你的内容是什么。
+    - 新的区块和段落元素: [`<section>`](/zh-hans/webfrontend/<section>),
+    [`<article>`](/zh-hans/webfrontend/<article>), [`<nav>`](/zh-hans/webfrontend/<nav>), [`<header>`](/zh-hans/webfrontend/<header>),
+    [`<footer>`](/zh-hans/webfrontend/<header>)和[`<aside>`](/zh-hans/webfrontend/<aside>).
+    - 新的多媒体内容: [`<video>`](/zh-hans/webfrontend/<video>),
+    [`<audio>`](/zh-hans/webfrontend/<audio>)元素
+    - 表单的改进: 强制校验API, 一些新的属性，一些新的[`<input>`](/zh-hans/webfrontend/<input>)元素的`type`属性值, 和新的[`<output>`](/zh-hans/webfrontend/<output>)元素
+    - 新的语义元素: [`<mark>`](/zh-hans/webfrontend/<mark>), [`<figure>`](/zh-hans/webfrontend/<figure>),
+    [`<figcaption>`](/zh-hans/webfrontend/<figcaption>), [`<data>`](/zh-hans/webfrontend/<data>), [`<time>`](/zh-hans/webfrontend/<time>),
+    [`<output>`](/zh-hans/webfrontend/<output>), [`<progress>`](/zh-hans/webfrontend/<progress>),
+    or [`<meter>`](/zh-hans/webfrontend/<meter>)和[`<main>`](/zh-hans/webfrontend/<main>)等。
+    - *[`<iframe>`](/zh-hans/webfrontend/<iframe>)* 的改进: 通过使用`sandbox`和`srcdoc`属性，可以精确控制[`<iframe>`](/zh-hans/webfrontend/<iframe>)元素的安全级别以及期望的渲染
+    - **MathML**: 允许直接嵌入数学公式。
+- **连通性**：能够让你和服务器之间通过创新的新技术方法进行通信。
+    - **[[WebSocket]]**
+    - **Server-Sent Event** (**SSE**): 允许服务器向客户端推送事件，而不是仅在响应客户端请求时服务器才能发送数据的传统范式。
+    - **WebRTC**: 这项即时通信技术，允许直接在浏览器中连接到其他人，控制视频会议，而不需要一个插件或是外部的应用程序。
+- **离线和存储**：能够让网页在客户端本地存储数据以及更高效地离线运行。
+    - **应用程序缓存** (**Application Cache**)
+    - **在线和离线事件**: 可以让应用程序和扩展检测是否存在可用的网络连接，以及在连接建立和断开时能感知到。
+    - **客户端会话**和**持久化存储**(即**DOM存储**): 让Web应用程序能够在客户端存储结构化数据。
+    - **IndexedDB**：能够在浏览器中存储大量结构化数据，并且能够在这些数据上使用索引进行高性能检索的Web标准。
+    - **文件API**（**File API**）：使Web应用程序可以访问由用户选择的本地文件。
+    这包括使用`type=file`的`<input>`元素的新的`multiple`属性针对多文件选择的支持，还有`FileReader`。
+- **多媒体**
+    - **[`<audio>`](/zh-hans/webfrontend/<audio>)** 和 **[`<video>`](/zh-hans/webfrontend/<video>)** 元素
+    - **WebRTC**
+    - **摄像头API** (**Camera API**)
+    - **[`<track>`](/zh-hans/webfrontend/<track>)** 和 **WebVTT**
+- **2D/3D图形和特效**
+    - **[`<canvas>`](/zh-hans/webfrontend/<canvas>)** 元素
+    - 针对 *[`<canvas>`](/zh-hans/webfrontend/<canvas>)* 元素的 **文本API** （**Text API**）
+    - **WebGL**: WebGL通过引入了一套非常地符合 **OpenGL ES 2.0**
+    并且可以用在HTML5 *[`<canvas>`](/zh-hans/webfrontend/<canvas>)* 元素中的 API，给Web带来了2D/3D图像及特效功能。
+    - **[[SVG]]**: 一个基于[[XML]]的可以直接嵌入到HTML中的矢量图像格式。
+- **性能和集成**：提供了非常显著的性能优化和更有效的计算机硬件使用。
+    - **Web Workers**: 能够把[[JavaScript]]计算委托给后台线程，通过允许这些活动以防止使交互型事件变得缓慢。
+    - **`XMLHttpRequest`** level 2: 允许*异步*读取页面的某些部分，允许其显示动态内容，根据时间和用户行为而有所不同。这是在 **[[Ajax]]** 背后的技术。
+    - **即时编译** (**JIT**)的[[JavaScript]]引擎
+    - **History API**: 允许对浏览器历史记录进行操作。这对于那些交互地加载新信息的页面尤其有用。
+    - **`contentEditable`属性**: HTML5已经把`contentEditable`属性标准化了。
+    把你的网站改变成wiki！
+    - **拖放API** (**Drag and Drop API**): 能够支持在网站内部和网站之间拖放项目。同时也提供了一个更简单的供扩展和应用程序使用的API。
+    - **焦点管理**: 支持新的HTML5`activeElement`和`hasFocus`属性。
+    - **基于Web的协议处理程序**: 你现在可以使用`navigator.registerProtocolHandler()`方法把Web应用程序注册成一个协议处理程序。
+    - **requestAnimationFrame**: 允许控制动画渲染以获得更优性能。
+    - **全屏API** (**Fullscreen API**)
+    - **指针锁定 API** (**Pointer Lock API**): 允许锁定到内容的指针，这样游戏或者类似的应用程序在指针到达窗口限制时也不会失去焦点。
+- **设备访问**：能够处理各种输入和输出设备。
+    - **摄像头API** (**Camera API**)
+    - **触控事件**
+    - **地理位置定位**
+    - **检测设备方向**: 让用户在运行浏览器的设备变更方向时能够得到信息。这可以被用作一种输入设备（例如制作能够对设备位置做出反应的游戏）或者使页面的布局跟屏幕的方向相适应（横向或纵向）。
+    - **指针锁定 API** (**Pointer Lock API**): 允许锁定到内容的指针，这样游戏或者类似的应用程序在指针到达窗口限制时也不会失去焦点。
 
 ## DHTML
 
-**DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，CSS，[[DOM]]和[[JavaScript]]的组合功能。
+**DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，[[CSS]]，[[DOM]]和[[JavaScript]]的组合功能。
 
 DHTML不是[[W3C]]标准。它是一个营销术语，被网景公司（Netscape）和微软公司用来描述4.x代浏览器应当支持的新技术。
 
@@ -82,4 +138,5 @@ DHTML不是一种技术、标准或规范，只是一种将目前已有的网页
 - [超链接 - 维基百科](https://en.wikipedia.org/wiki/Hyperlink)
 - [超文本 - 维基百科](https://en.wikipedia.org/wiki/Hypertext)
 - [DHTML - 维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
-- [HTML5 规范](http://www.w3.org/TR/html5/)
+- [HTML 实时标准 / 规范 (WHATWG版本)](https://html.spec.whatwg.org/) (推荐)
+- [HTML5 规范 (W3C版本)](http://www.w3.org/TR/html5/)

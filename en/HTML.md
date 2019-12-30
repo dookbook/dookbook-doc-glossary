@@ -30,7 +30,7 @@ and can be rendered by any [[Web browser]].
 
 ## Doctype
 
-The **doctype** is the required "`<!DOCTYPE html>`" preamble found at the top of all documents.
+The **doctype** is the required "*`<!DOCTYPE html>`*" preamble found at the top of all documents.
 Its sole purpose is to prevent a browser from switching into so-called "*quirks mode*" when
 rendering a document; that is, the "`<!DOCTYPE html>`" doctype ensures that the browser makes a
 best-effort attempt at following the relevant specifications, rather than using a different rendering
@@ -66,9 +66,9 @@ the form `name=value` (the attribute's identifier followed by its associated val
 
 ## Hyperlink
 
-**Hyperlinks** connect webpages or data items to one another. In HTML, `<a>` elements define hyperlinks
-from a spot on a webpage (like a text string or image) to another spot on some other webpage
-(or even on the same page).
+**Hyperlinks** connect webpages or data items to one another. In HTML, [`<a>`](/en/webfrontend/<a>)
+elements define hyperlinks from a spot on a webpage (like a text string or image) to another spot on
+some other webpage (or even on the same page).
 
 ## Hypertext
 
@@ -79,47 +79,117 @@ The term was coined by *Ted Nelson* around 1965.
 
 ## HTML5
 
-The latest stable release of HTML, **HTML5** takes HTML from a simple markup for structuring a document
-to a full app development platform. Among other features, HTML5 includes new elements and JavaScript
-APIs to enhance storage, multimedia, and hardware access.
+**HTML5** is the *latest* evolution of the standard that defines *HTML*.
+The term represents two different concepts.
+It is a new version of the language HTML, with new elements, attributes, and behaviors,
+and a larger set of technologies that allows the building of more diverse and powerful Web sites and
+applications. This set is sometimes called *HTML5 & friends* and often shortened to just HTML5.
+
+HTML5 technologies classifies into several groups based on their function:
+
+- **[[Semantics]]**: allowing you to describe more precisely what your content is.
+    - new outlining and sectioning elements: [`<section>`](/en/webfrontend/<section>),
+    [`<article>`](/en/webfrontend/<article>), [`<nav>`](/en/webfrontend/<nav>), [`<header>`](/en/webfrontend/<header>),
+    [`<footer>`](/en/webfrontend/<header>) and [`<aside>`](/en/webfrontend/<aside>).
+    - new multimedia content: [`<video>`](/en/webfrontend/<video>),
+    [`<audio>`](/en/webfrontend/<audio>) elements
+    - forms improvements: forms constraint validation API, several new attributes, new values
+    for the [`<input>`](/en/webfrontend/<input>) attribute type and the new
+    [`<output>`](/en/webfrontend/<output>) element
+    - new semantic elements: [`<mark>`](/en/webfrontend/<mark>), [`<figure>`](/en/webfrontend/<figure>),
+    [`<figcaption>`](/en/webfrontend/<figcaption>), [`<data>`](/en/webfrontend/<data>), [`<time>`](/en/webfrontend/<time>),
+    [`<output>`](/en/webfrontend/<output>), [`<progress>`](/en/webfrontend/<progress>),
+    or [`<meter>`](/en/webfrontend/<meter>) and [`<main>`](/en/webfrontend/<main>), etc.
+    - improvement in *[`<iframe>`](/en/webfrontend/<iframe>)*: Using the `sandbox` and `srcdoc`
+    attributes, authors can now be precise about the level of security and the wished rendering of an
+    [`<iframe>`](/en/webfrontend/<iframe>) element
+    - **MathML**: Allows directly embedding mathematical formulas.
+- **Connectivity**: allowing you to communicate with the server in new and innovative ways.
+    - **[[WebSocket]]**
+    - **Server-Sent Event** (**SSE**): Allows a server to push events to a client, rather than the classical
+    paradigm where the server could send data only in response to a client's request.
+    - **WebRTC**: This technology, where *RTC* stands for *Real-Time Communication*, allows connecting
+    to other people and controlling videoconferencing directly in the browser, without the need for
+    a plugin or an external application.
+- **Offline and Storage**: allowing webpages to store data on the client-side locally and operate
+  offline more efficiently.
+    - **Application Cache**
+    - **Online and Offline Events**: let applications and extensions detect whether or not there's
+    an active Internet connection, as well as to detect when the connection goes up and down.
+    - **Client-Side Session** and **Persistent Storage** (aka **DOM Storage**):
+    allow Web applications to
+    store structured data on the client side.
+    - **IndexedDB**: IndexedDB is a Web standard for the storage of significant amounts of structured
+    data in the browser and for high performance searches on this data using indexes.
+    - **File API**: makes it possible for Web applications to access local files selected by the
+    user. This includes support for selecting multiple files using the `<input>` of `type=file` HTML
+    element's new `multiple` attribute. There also is `FileReader`.
+- **Multimedia**: making video and audio first-class citizens in the Open Web.
+    - **[`<audio>`](/en/webfrontend/<audio>)** and **[`<video>`](/en/webfrontend/<video>)** elements
+    - **WebRTC**
+    - **Camera API**
+    - **[`<track>`](/en/webfrontend/<track>)** and **WebVTT**
+- **2D/3D graphics and effects**: Allows a much more diverse range of presentation options.
+    - **[`<canvas>`](/en/webfrontend/<canvas>)** element
+    - **Text API** for *[`<canvas>`](/en/webfrontend/<canvas>)* elements
+    - **WebGL**: WebGL brings 3D graphics to the Web by introducing an API that closely conforms to
+    **OpenGL ES 2.0** that can be used in HTML5 *[`<canvas>`](/en/webfrontend/<canvas>)* elements.
+    - **[[SVG]]**: An [[XML]]-based format of vectorial images that can directly be embedded in the HTML.
+- **Performance and integration**: providing greater speed optimization and better usage of computer
+  hardware.
+    - **Web Workers**: Allows delegation of [[JavaScript]] evaluation to background threads, allowing
+    these activities to prevent slowing down interactive events.
+    - **`XMLHttpRequest`** level 2: Allows fetching *asynchronously* some parts of the page, allowing
+    it to display dynamic content, varying according to the time and user actions.
+    This is the technology behind **[[Ajax]]**.
+    - **JIT**-compiling [[JavaScript]] engine
+    - **History API**: Allows the manipulation of the browser history. This is especially useful for
+    pages loading interactively new information.
+    - **`contentEditable` Attribute**: HTML5 has standardized the contentEditable attribute.
+    Transform your website to a wiki!
+    - **Drag and Drop API**: Allows support for dragging and dropping items
+    within and between Web sites. This also provides a simpler API for use by extensions and applications.
+    - **Focus Management**: The new HTML5 `activeElement` and `hasFocus` attributes are supported.
+    - **Web-based Protocol Handlers**: You can now register Web applications as protocol handlers
+    using the `navigator.registerProtocolHandler()` method.
+    - **requestAnimationFrame**: Allows control of animations rendering to obtain optimal performance.
+    - **Fullscreen API**: Controls the usage of the whole screen for a Web page or application,
+    without the browser UI displayed.
+    - **Pointer Lock API**: Allows locking the pointer to the content, so games and similar
+    applications don't lose focus when the pointer reaches the window limit.
+- **Device access**: allowing for the usage of various input and output devices.
+    - **Camera API**
+    - **Touch Events**
+    - **Geolocation**
+    - **Detecting Device Orientation**: Get the information when the device on which the browser runs
+    changes orientation. This can be used as an input device (e.g., to make games that react to the
+    position of the device) or to adapt the layout of a page to the orientation of the screen
+    (portrait or landscape).
+    - **Pointer Lock API**: Allows locking the pointer to the content, so games and similar
+    applications don't lose focus when the pointer reaches the window limit.
 
 ## DHTML
 
 **DHTML** (*Dynamic HTML*) refers to the code behind interactive webpages that need no plugins like
-*Flash* or *Java*. DHTML aggregates the combined functionality of HTML, CSS, the [[DOM]], and [[JavaScript]].
+*Flash* or *Java*. DHTML aggregates the combined functionality of HTML, [[CSS]], the [[DOM]], and [[JavaScript]].
 
 ## Learn More
 
-### General Knowledge
-
 - [HTML on Wikipedia](https://en.wikipedia.org/wiki/HTML)
-- [HTML element on Wikipedia](https://en.wikipedia.org/wiki/HTML%20element)
+- [HTML Element on Wikipedia](https://en.wikipedia.org/wiki/HTML%20element)
 - [Hyperlink on Wikipedia](https://en.wikipedia.org/wiki/Hyperlink)
 - [Hypertext on Wikipedia](https://en.wikipedia.org/wiki/Hypertext)
 - [DHTML on Wikipedia](https://en.wikipedia.org/wiki/Dynamic%20HTML)
-- [HTML TOPIC on W3](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/TOPIC.html)
+- [HTML Living Standard / Specification - WHATWG](https://html.spec.whatwg.org/) (Recommended)
+- [The HTML 5 Specification - W3C](http://www.w3.org/TR/html5/)
 - [The Hyperlink guide on MDN](https://w3c.github.io/html-reference/a.html)
 - [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
-- [Definition of the DOCTYPE in the HTML specification](https://html.spec.whatwg.org/multipage/syntax.html#the-doctype)
 - [Quirks Mode and Standards Mode](https://wiki.developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)
-
-### Learning HTML
-
-- [HTML Tutorial on MDN](https://wiki.developer.mozilla.org/en-US/Learn/HTML)
-- [HTML5 Guide on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [`<a>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-- [`<link>` on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
 ### Technical Reference
 
-- [Introduction to HTML](https://wiki.developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-- [The HTML documentation on MDN](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML)
-- [The HTML 5 specification](http://www.w3.org/TR/html5/)
-- [Links in HTML Documents - W3C](https://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html)
-- [HTML attribute reference](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
-- Information about HTML's [global attributes](https://wiki.developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 - [HTML5 a - hyperlink - W3C](https://w3c.github.io/html-reference/a.html)
 - [Hypertext Information Base](http://www.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixuser/aix6kdov/hyperv1aix.htm)
 - [Document.doctype](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Document/doctype),
