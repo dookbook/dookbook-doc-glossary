@@ -43,6 +43,8 @@ the document model for displaying the page in the [browser](/en/glossary/Web_bro
 A typical element includes an **opening tag** with some **attributes**, **enclosed text content**, and
 **a closing tag**.
 
+### Empty Elements (Void Elements)
+
 There are a few **empty elements** (**void elements**) that cannot enclose any text, for instance `<img>`.
 
 ### Block and Inline Elements
@@ -225,9 +227,6 @@ HTML5 technologies classifies into several groups based on their function:
 - [DHTML on Wikipedia](https://en.wikipedia.org/wiki/Dynamic%20HTML)
 - [HTML Living Standard / Specification - WHATWG](https://html.spec.whatwg.org/) (Recommended)
 - [The HTML 5 Specification - W3C](http://www.w3.org/TR/html5/)
+- [W3C HTML Validator](http://validator.w3.org/ "W3C HTML Validator")
 - [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
-- [More details about elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
-- [Quirks Mode and Standards Mode](https://wiki.developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)
-- [Document.doctype](https://wiki.developer.mozilla.org/en-US/docs/Web/API/Document/doctype),
-  a JavaScript method that returns the doctype
