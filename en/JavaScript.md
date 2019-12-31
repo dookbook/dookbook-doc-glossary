@@ -67,9 +67,9 @@ The latest [[ECMAScript]] standard defines eight data types:
 Except for [`null`](/en/webfrontend/null) and [`undefined`](/en/webfrontend/undefined), all
 primitive values have object equivalents that wrap around the primitive values:
 
-- `String` for the `string` primitive.
+- [`String`](/en/webfrontend/String) for the `string` primitive.
 - [`Number`](/en/webfrontend/Number) for the `number` primitive.
-- `BigInt` for the `bigint` primitive.
+- [`BigInt`](/en/webfrontend/BigInt) for the `bigint` primitive.
 - [`Boolean`](/en/webfrontend/Boolean) for the `boolean` primitive.
 - `Symbol` for the `symbol` primitive.
 

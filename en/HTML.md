@@ -1,36 +1,30 @@
 TOPICS: HyperText Markup Language
-        Hyperlink
 
 # HyperText Markup Language (HTML)
 
-**HTML** (*HyperText Markup Language*) is a *descriptive* language that specifies webpage structure.
+**HTML** (*HyperText Markup Language*) is a *descriptive*, *[markup]* language that specifies
+webpage **structure**.
+
+An HTML file is normally saved with an **`.htm`** or **`.html`** extension, served by a web server,
+and can be rendered by any *[[Web browser]]*.
 
 ## Brief History
 
 In 1990, as part of his vision of the [Web](/en/glossary/World_Wide_Web), *Tim Berners-Lee* defined
 the concept of **[[hypertext]]**,
-which *Berners-Lee* formalized the following year through a markup mainly based on *[[SGML]]*.
-The [[IETF]] began formally specifying HTML in 1993, and after several drafts released version 2.0
+which *Berners-Lee* formalized the following year through a markup mainly based on **[[SGML]]**.
+The **[[IETF]]** began formally specifying HTML in 1993, and after several drafts released version 2.0
 in 1995. In 1994 *Berners-Lee* founded the **[[W3C]]** to develop the Web. In 1996, the W3C took
-over the HTML work and published the HTML 3.2 recommendation a year later. *HTML 4.0* was released
+over the HTML work and published the *HTML 3.2 recommendation* a year later. *HTML 4.0* was released
 in 1999 and became an [[ISO]] standard in 2000.
 
 At that time, the W3C nearly abandoned HTML in favor of *[[XHTML]]*, prompting the founding of an
 independent group called **[[WHATWG]]** in 2004. Thanks to WHATWG, work on *HTML5* continued: the
 two organizations released the first draft in 2008 and the final standard in 2014.
 
-## Concept And Syntax
-
-An HTML document is a plaintext document structured with **elements**.
-
-![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)
-
-An HTML file is normally saved with an `.htm` or `.html` extension, served by a web server,
-and can be rendered by any [[Web browser]].
-
 ## Doctype
 
-The **doctype** is the required "*`<!DOCTYPE html>`*" preamble found at the top of all documents.
+The **doctype** is the required "**`<!DOCTYPE html>`**" preamble found at the top of all documents.
 Its sole purpose is to prevent a browser from switching into so-called "*quirks mode*" when
 rendering a document; that is, the "`<!DOCTYPE html>`" doctype ensures that the browser makes a
 best-effort attempt at following the relevant specifications, rather than using a different rendering
@@ -38,31 +32,80 @@ mode that is incompatible with some specifications.
 
 ## Element
 
-**Elements** are surrounded by matching opening and closing TOPIC. *Elements* and *TOPIC* are not the
-same things. TOPIC begin or end an element in source code, whereas elements are part of the **[[DOM]]**,
+An HTML document is a *plaintext* document structured with **elements**.
+
+![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)
+
+**Elements** are surrounded by matching opening and closing **tag**. *Elements* and *tags* are not the
+same things. Tags begin or end an element in source code, whereas elements are part of the **[[DOM]]**,
 the document model for displaying the page in the [browser](/en/glossary/Web_browser).
 
-A typical **element** includes an *opening tag* with some *attributes*, *enclosed text content*, and
-*a closing tag*.
+A typical element includes an **opening tag** with some **attributes**, **enclosed text content**, and
+**a closing tag**.
 
-There are a few **empty** or **void** TOPIC that cannot enclose any text, for instance `<img>`.
+There are a few **empty elements** (**void elements**) that cannot enclose any text, for instance `<img>`.
+
+### Block and Inline Elements
+
+There are two important categories of elements in HTML which you should know about.
+They are **block-level elements** and **inline elements**.
+
+- **Block-level elements** form a visible block on a page — they will appear on a new line from
+  whatever content went before it, and any content that goes after it will also appear on a new line.
+  Block-level elements tend to be structural elements on the page that represent, for example,
+  paragraphs (`<p>`), lists (`<ul>`, `<ol>`), navigation menus (`<nav>`), footers (`<footer>`),
+  and so on. A block-level element wouldn't be nested inside an inline element, but it might be
+  nested inside another block-level element.
+- **Inline elements** are those that are contained within block-level elements and surround only
+  small parts of the document’s content, not entire paragraphs and groupings of content. An inline
+  element will not cause a new line to appear in the document; they would normally appear inside a
+  paragraph of text, for example an `<a>` element (hyperlink) or emphasis elements such as
+  `<em>` or `<strong>`.
 
 ## Tag
 
-In HTML a **tag** is used for creating an *element*.  The **name** of an HTML element is the **name**
-used in angle brackets such as `<p>` for paragraph.  Note that the end tag's **name** is preceded by
-a slash character, "`</p>`", and that in empty elements the end tag is neither required nor allowed.
+In HTML a **tag** is used for creating an *element*.  The *name* of an HTML element is the name
+used in **angle brackets** such as `<p>` for paragraph.  Note that the end tag's name is preceded by
+a **slash character**, "`</p>`", and that in *empty elements* the end tag is neither required nor allowed.
 If *attributes* are not mentioned, default values are used in each case.
 
-Each **tag** begins and ends with angle brackets (`<>`).
+!!! warn "Note"
+    Tags in HTML are **case-insensitive**, i.e. they can be written in uppercase or lowercase.
+    For example, a `<title>` tag could be written as `<title>`, `<TITLE>`, `<Title>`, `<TiTlE>`, etc.,
+    and it will work fine. Best practice, however, is **to write all tags in lowercase** for consistency,
+    readability, and other reasons.
+
+Each **tag** begins and ends with **angle brackets** (**`<>`**).
 
 ## Attribute
 
-You can extend HTML TOPIC with **attributes**, which provide additional information affecting how the
-[browser](/en/glossary/Web_browser) interprets the element.
+You can extend HTML tag with **attributes**, which provide additional information affecting how the
+[browser](/en/glossary/Web_browser) interprets the element, such as changing its behavior or
+providing metadata.
 
-An **attribute** extends a *tag*, changing its behavior or providing metadata. An attribute always has
-the form `name=value` (the attribute's identifier followed by its associated value).
+An attribute always has
+the form **`name="value"`** (the attribute's identifier followed by its associated value).
+
+### Multiple Attributes
+
+A **space** between it and the element name (or the previous attribute, if the element already has one
+or more attributes).
+
+### Boolean Attributes
+
+You'll sometimes see attributes written *without values* — this is perfectly allowed.
+These are called **Boolean attributes**, and they can only have one value, which is generally the
+same as the attribute name. As an example, take the `disabled` attribute, which you can assign to
+form input elements, if you want them to be disabled (greyed out) so the user can't enter any
+data in them.
+
+```html
+<!-- using the disabled attribute prevents the end user from entering text into the input box -->
+<input type="text" disabled>
+
+<!-- The user can enter text into the follow input, as it doesn't contain the disabled attribute -->
+<input type="text">  
+```
 
 ## Hyperlink
 

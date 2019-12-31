@@ -54,9 +54,9 @@ foo     = true;  // foo现在是布尔类型
 
 除了[`null`](/zh-hans/webfrontend/null)和[`undefined`](/zh-hans/webfrontend/undefined)之外，所有基本类型都有其对应的包装对象：
 
-- `String`为字符串基本类型`string`。
+- [`String`](/zh-hans/webfrontend/String)为字符串基本类型`string`。
 - [`Number`](/zh-hans/webfrontend/Number)为数值基本类型`number`。
-- `BigInt`为`bigint`基本类型。
+- [`BigInt`](/zh-hans/webfrontend/BigInt)为`bigint`基本类型。
 - [`Boolean`](/zh-hans/webfrontend/Boolean)为布尔基本类型`boolean`。
 - `Symbol`为字面量基本类型。
 
