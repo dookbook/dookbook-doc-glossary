@@ -16,15 +16,27 @@ JavaScript很快获得了成功，而Internet Explorer 3.0也在1996年8月引�
 
 ## 应用场景
 
-JavaScript通常用于*浏览器*，使开发者能通过[[DOM]]来操纵网页内容、或透过[[AJAX与IndexedDB来操作数据；还可以用它在canvas上面绘图、通过各种APIs与运行浏览器的
+JavaScript通常用于*浏览器*，使开发者能通过[[DOM]]来操纵网页内容、或透过[[AJAX]] 与IndexedDB 来操作数据；还可以用它在canvas上面绘图、通过各种APIs与运行浏览器的
 各种设备交互等等。由于近年来的发展、以及各浏览器的APIs性能改善，JavaScript成了世界上最常用的编程语言之一。
 
 最近，JavaScript的流行程度 ，由于 **[Node.js](http://nodejs.org/)**平台 —— 这个除浏览器外最流行的跨平台JavaScript运行环境 —— 的成功而大大提升。
-Node.js使开发者可以在PC上使用JavaScript作为脚本语言使用以自动化处理和构建功能完备的[[HTTP]]和[[WebSocket]]服务器。
+Node.js 使开发者可以在PC上使用JavaScript作为脚本语言使用以自动化处理和构建功能完备的 [[HTTP]] 和 [[WebSocket]] 服务器。
 
 ## 面向对象
 
-JavaScript是高度**面向对象**的。它遵循基于 **`prototype`**的模型（与基于类的模型相反）。
+JavaScript是高度**面向对象**的。它遵循基于**原型**（**`prototype`**）的模型（相比于基于类的模型）。
+
+### 继承与原型链
+
+对于使用过基于类的语言 (如 Java 或 C++) 的开发人员来说，JavaScript 有点令人困惑，因为它是*动态*的，并且本身不提供一个 class的实现。（在 *ES2015*/*ES6*
+中引入了 `class` 关键字，但那只是*语法糖*，JavaScript仍然是**基于原型**的）。
+
+当谈到**继承**时，JavaScript 只有一种结构：对象。每个实例对象（ object ）都有一个*私有属性*（称之为 *`__proto__`*）指向它的构造函数的**原型对象**（**`prototype`**）。
+该原型对象也有一个自己的原型对象( `__proto__` ) ，层层向上直到一个对象的原型对象为 *`null`*。根据定义，`null` 没有原型，并作为这个**原型链**中的最后一个环节。
+
+几乎所有 JavaScript 中的对象都是位于原型链**顶端**的 [Object](/zh-hans/webfrontend/Object) 的实例。
+
+尽管这种原型继承通常被认为是 JavaScript 的弱点之一，但是原型继承模型本身实际上比经典模型更强大。例如，在原型模型的基础上构建经典模型相当简单。
 
 ## 动态类型
 
