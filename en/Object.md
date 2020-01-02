@@ -1,4 +1,8 @@
 TOPIC: Object-Oriented Programming
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
 
 # Object-Oriented Programming
 
@@ -78,6 +82,15 @@ let myNotification = new Notification('This is my notification');
 
 myNotification.close();
 ```
+
+## Inheritance
+
+**Inheritance** is a major feature of *object-oriented programming*.  **Data [[abstraction]]** can
+be carried up several levels, that is, classes can have **superclasses** and **subclasses**.
+
+As an app developer, you can choose which of the superclass's attributes and methods to keep and add
+your own, making class definition very flexible. Some languages let a class inherit from more than
+one parent (**multiple inheritance**).
 
 ## Learn More
 

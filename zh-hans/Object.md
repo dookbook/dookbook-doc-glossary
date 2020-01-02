@@ -65,6 +65,12 @@ let myNotification = new Notification('This is my notification');
 myNotification.close();
 ```
 
+## 继承 (Inheritance)
+
+**继承**是*面向对象编程*的主要功能。**数据[抽象](/zh-hans/glossary/abstraction)**可以携带多个层级，也就是说，类可以具有**父类**（**超类**）和**子类**。
+
+作为应用程序开发人员，您可以选择保留并添加您自己的超类的属性和方法，从而使类定义非常灵活。 有些语言允许一类从多个父类继承（**多重继承**）。
+
 ## 了解更多
 
 - [OOP - 维基百科](https://en.wikipedia.org/wiki/Object-oriented%20programming)
