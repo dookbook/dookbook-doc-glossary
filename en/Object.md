@@ -1,35 +1,30 @@
-TOPIC: Object
-       Object-Oriented Programming
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Gustavo Leindecker Pereira; gusleindecker@github.com; github:gusleindecker
+TOPIC: Object-Oriented Programming
 
-# Object
-
-**Object** refers to a **data structure** containing data and instructions for working with the data.
-Objects sometimes refer to real-world things, for example a car or map object in a racing game.
-[[JavaScript]], [[Java]], C++, [[Python]], and Ruby are examples of object-oriented programming languages.
-
-## Object-Oriented Programming
+# Object-Oriented Programming
 
 **Object-Oriented Programming** (**OOP**) is *an approach in programming* in which data is encapsulated
 within objects and the **object** itself is operated on, rather than its component parts.
 
-### Class
+## Object
+
+**Object** refers to a **data structure** containing data and instructions for working with the data.
+Objects sometimes refer to real-world things, for example a car or map object in a racing game.
+[[JavaScript]], [[Java]], C++, and [[Python]] are examples of object-oriented programming languages.
+
+## Class
 
 In object-oriented programming, a **class** defines an object's **characteristics**. Class is *a template
 definition of an object's properties and methods*, the "blueprint" from which other more
 specific instances of the object are drawn.
 
-### Constructor
+## Constructor
 
 A **constructor** belongs to a particular class object that is instantiated. The constructor
 initializes this object and can provide access to its private information. The concept of a
 constructor can be applied to most object-oriented programming languages. Essentially,
 a constructor in [[JavaScript]] is usually declared at the instance of a class.
 
-#### Constructor in JavaScript
+### Constructor in JavaScript
 
 ```javascript
 // This is a generic default constructor class Default
@@ -54,11 +49,11 @@ function Default() {
 var defaultReference = new Default();
 ```
 
-### Instance
+## Instance
 
 An object created by a constructor is an instance of that constructor.
 
-### Static Method
+## Static Method
 
 A **static method** (or **static function**) is a method defined as a member of an object but is accessible
 directly from an API object's constructor, rather than from an object instance created via the constructor.
