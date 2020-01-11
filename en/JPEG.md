@@ -1,12 +1,9 @@
-TOPIC: JPEG
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
+TOPIC: Joint Photographic Experts Group
 
-# JPEG
+# Joint Photographic Experts Group (JPEG)
 
-**JPEG** (Joint Photographic Experts Group) is a commonly used method of lossy
-compression for digital images.
+**JPEG** (**Joint Photographic Experts Group**) is a commonly used method of **lossy
+compression** for *digital images*.
 
 JPEG compression is composed of three compression techniques applied in successive layers, including
 chrominance subsampling, discrete cosine transformation and quantization, and run-length Delta &
@@ -17,6 +14,4 @@ of a sum of cosine functions oscillating at different frequencies.
 
 ## Learn More
 
-### General Knowledge
-
-- [JPEG](https://en.wikipedia.org/wiki/JPEG) on Wikipedia
+- [JPEG on Wikipedia](https://en.wikipedia.org/wiki/JPEG)

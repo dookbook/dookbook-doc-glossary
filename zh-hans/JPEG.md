@@ -1,5 +1,5 @@
-TOPIC: JPEG
+TOPIC: Joint Photographic Experts Group
 
-# JPEG
+# 联合图像专家小组 (JPEG) 图像格式
 
-**JPEG**（联合图像专家小组） 是一个广泛用于数字图像有损压缩的方法。
+**JPEG**（**联合图像专家小组**） 是一个广泛用于*数字图像* **有损压缩**的方法。
