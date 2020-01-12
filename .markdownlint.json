@@ -43,6 +43,9 @@
             "JSON",
             "ATAG",
             "C++",
+            "PNG",
+            "GIF",
+            "JPEG",
             "jQuery"
         ],
         "code_blocks": false
