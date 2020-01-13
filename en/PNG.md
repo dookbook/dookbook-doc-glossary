@@ -7,3 +7,4 @@ TOPIC: Portable Network Graphics
 ## Learn More
 
 - [PNG on Wikipedia](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
+- [Portable Network Graphics (PNG) Specification (Second Edition)](https://www.w3.org/TR/PNG/)
