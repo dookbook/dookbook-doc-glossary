@@ -7,3 +7,4 @@ TOPIC: Graphics Interchange Format
 ## 更多
 
 - [GIF - 维基百科](https://en.wikipedia.org/wiki/GIF)
+- [GIF规范 (89a 版本)](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)

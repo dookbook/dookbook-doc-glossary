@@ -1,4 +1,4 @@
-TOPIC: PNG
+TOPIC: Portable Network Graphics
 
 # 便携式网络图形 (PNG)
 
@@ -7,3 +7,4 @@ TOPIC: PNG
 ## 更多
 
 - [PNG - 维基百科](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
+- [PNG规范 (第二版)](https://www.w3.org/TR/PNG/)

@@ -9,3 +9,4 @@ from the **`24`-bit** color space.
 ## Learn More
 
 - [GIF on Wikipedia](https://en.wikipedia.org/wiki/GIF)
+- [Graphics Interchange Format Specification (GIF Version 89a)](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)
