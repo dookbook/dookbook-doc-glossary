@@ -37,7 +37,7 @@ function exampleFunction() {
     console.log(x);
 }
 
-console.log(x);  // Causes error
+console.log(x);  // 抛出异常
 ```
 
 但是，由于变量是在函数外部声明的，因此以下代码有效，使其成为*全局变量*：
@@ -59,3 +59,4 @@ console.log(x);
 ## 更多
 
 - [Scope (计算机科学) - 维基百科](https://en.wikipedia.org/wiki/Scope%20(computer%20science))
+- [Local Variable - 维基百科](https://en.wikipedia.org/wiki/Local%20variable)
