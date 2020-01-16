@@ -14,6 +14,12 @@ TOPIC: Scope
 
 **局部作用域**是使变量成为局部变量的特征（即变量名仅在非*全局作用域*的作用域内绑定到其值）。
 
+## 全局变量
+
+**全局变量**是在*全局作用域*中声明的变量，也就是说，在所有其他作用域内可见的变量。
+
+在[[JavaScript]]中，它是全局对象的属性。
+
 ## 局部变量
 
 名称仅在*本地作用域*内绑定到其值的变量。
@@ -59,4 +65,5 @@ console.log(x);
 ## 更多
 
 - [Scope (计算机科学) - 维基百科](https://en.wikipedia.org/wiki/Scope%20(computer%20science))
+- [Global Variable - 维基百科](https://en.wikipedia.org/wiki/Global%20variable)
 - [Local Variable - 维基百科](https://en.wikipedia.org/wiki/Local%20variable)
