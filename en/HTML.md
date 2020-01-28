@@ -231,7 +231,7 @@ Comment tag*** do not support any standard attributes **. The release tag** does
 event attributes **. <br> <br>
 **Examples** <br>
 
-HTML comments:
+HTML :
 
 `` `HTML
 <!-This is a comment. Comments are not displayed in the browser. ->
