@@ -218,26 +218,28 @@ HTML5 technologies classifies into several groups based on their function:
 **DHTML** (*Dynamic HTML*) refers to the code behind interactive webpages that need no plugins like
 *Flash* or *Java*. DHTML aggregates the combined functionality of HTML, [[CSS]], the [[DOM]], and [[JavaScript]].
 
-## HTML`<! --...-->`tags
+## HTML Comment `<!-- -->`
 
-`<! --...-->` is a comment tag, which is used to insert comments in the source code. Comments do not
-appear in the browser. <br>
+**`<!-- -->`** is a comment tag, which is used to insert comments in the source code. Comments do not
+appear in the browser.
+
 You can use comments to explain your code, which will help you edit the code at a later time. This
-is especially useful when you write a lot of code. <br>
+is especially useful when you write a lot of code.
+
 It is also a good practice to use comment tags to hide scripts that are not supported by the browser
-(so that the scripts are not displayed as plain text). <br> <br>
+(so that the scripts are not displayed as plain text).
 
 Comment tag*** do not support any standard attributes **. The release tag** does not support any
-event attributes **. <br> <br>
-**Examples** <br>
+event attributes **.
 
+**Examples**
 HTML :
 
-`` `HTML
+```HTML
 <!-This is a comment. Comments are not displayed in the browser. ->
 
 <p> This is a normal paragraph. </ p>
-`` `
+```
 
 ## Learn More
 
