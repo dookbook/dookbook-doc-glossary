@@ -232,11 +232,10 @@ It is also a good practice to use comment tags to hide scripts that are not supp
 Comment tag*** do not support any standard attributes **. The release tag** does not support any
 event attributes **.
 
-**Examples**
-HTML :
+HTML Example:
 
-```HTML
-<!-This is a comment. Comments are not displayed in the browser. ->
+```html
+<!--This is a comment. Comments are not displayed in the browser. -->
 
 <p> This is a normal paragraph. </ p>
 ```
