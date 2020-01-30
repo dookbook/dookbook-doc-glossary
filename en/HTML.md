@@ -229,8 +229,7 @@ is especially useful when you write a lot of code.
 It is also a good practice to use comment tags to hide scripts that are not supported by the browser
 (so that the scripts are not displayed as plain text).
 
-Comment tag*** do not support any standard attributes **. The release tag** does not support any
-event attributes **.
+Comment tags **do not support any standard attributes**. Annotation tags **do not support any event attributes**.
 
 HTML Example:
 
