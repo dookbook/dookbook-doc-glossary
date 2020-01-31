@@ -4,14 +4,15 @@ TOPIC: Syntax
        Conditional
        Loop
        Function
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Ahmad Nourallah; ahmadnurallah@gmail.com; github:ahmadnourallah
-         Noômen Ben Hassin; bnhassin@gmail.com; github:bnhassin
-         Leo Balter; leobalter@mozilla.net; mdn:leobalter
-         xgqfrms; xgqfrms@github.com; github:xgqfrms
+       Function Signature
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
+         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+         Teoli; teoli@mozilla.net; mdn:teoli
          Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
+         April King; april@pokeinthe.io; github:april
          Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
          Li Yun; leven.cn@gmail.com; github:leven-cn
 
@@ -162,6 +163,53 @@ extra left and right parenthesis at the end of the function’s declaration.
 If you'd like to know more about IIFEs, check out the following page on Wikipedia:
 [Immediately Invoked Function Expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
 
+### Function Signature
+
+A **function signature** (or **type signature**, or **method signature**) defines input and
+output of functions or methods.
+
+A signature can include:
+
+- **parameters** and their types
+- a **return value** and type
+- **exceptions** that might be thrown or passed back
+- information about the **availability** of the method in an *[[object-oriented programming]]* (such
+as the keywords `public`, `static`, or `prototype`).
+
+#### Signatures in JavaScript
+
+[[JavaScript]] is a loosely typed or a dynamic language. That means you don't have to
+declare the type of a variable ahead of time. The type will get determined automatically
+while the program is being processed. A signature in JavaScript can still give you some
+information about the method:
+
+```javascript
+MyObject.prototype.myFunction(value)
+```
+
+- The method is installed on an object called `MyObject`.
+- The method is installed on the `prototype` of `MyObject` (thus it is an instance
+method) as opposed to being a static method.
+- The name of the method is `myFunction`.
+- The method accepts one parameter, which is called `value` and is not further defined.
+
+#### Signatures in Java
+
+In [[Java]], signatures are used to identify methods and classes at the level of the virtual
+machine code. You have to declare types of variables in your code in order to be able to
+run the Java code. Java is strictly typed and will check any parameters at compilation
+time if they are correct.
+
+```java
+public static void main(String[] args)
+```
+
+- The `public` keyword is an access modifier and indicates that this method can be called by any object.
+- The `static` keyword indicates that this method is a class method as opposed to being an instance method.
+- The `void` keyword indicates that this method has no return value.
+- The name of the method is `main`.
+- The method accepts one parameter of type String Array. It is named `args`.
+
 ## Learn More
 
 - [Syntax (Programming Language) on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
@@ -170,3 +218,4 @@ If you'd like to know more about IIFEs, check out the following page on Wikipedi
 - [Control Flow on Wikipedia](https://en.wikipedia.org/wiki/Control%20flow)
 - [Condition on Wikipedia](https://en.wikipedia.org/wiki/Exception_handling#Condition_systems)
 - [Immediately Invoked Function Expression on Wikipedia](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
+- [Type Signature on Wikipedia](https://en.wikipedia.org/wiki/Type%20signature)
