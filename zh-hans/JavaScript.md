@@ -79,7 +79,7 @@ foo     = true;  // foo现在是布尔类型
 ### `for` 循环的语法
 
 ```javascript
-for (statement 1; statement 2; statement 3){
+for (statement 1; statement 2; statement 3) {
   execute code block
 }
 ```
@@ -93,7 +93,7 @@ for (statement 1; statement 2; statement 3){
 ### `for` 循环的示例
 
 ```javascript
-for(var i = 0; i < 10; i++){
+for (var i = 0; i < 10; i++) {
   console.log(i)
 }
 // 这个循环会打印数字0到9，然后在条件(i=10)成立时停止循环。
@@ -112,28 +112,23 @@ for(var i = 0; i < 10; i++){
 ### `while` 循环的语法
 
 ```javascript
-while (condition){
+// 代码块将一直执行到`condition`为`true`为止
+while (condition) {
   execute code block
 }
 ```
-
-- 代码块将一直执行到`condition`为`true`为止。
 
 ### `while` 循环的示例
 
 ```javascript
 var i = 0;
-while(i < 5){
+while (i < 5) {
   console.log(i)
   i++
 }
 
 // 这个循环将打印数字0到4，然后当条件为`false` (i>=5) 时停止循环。
 ```
-
-以上示例，语法如下：
-
-- 代码块将持续执行直到变量`i`小于`5`。
 
 ## 了解更多
 

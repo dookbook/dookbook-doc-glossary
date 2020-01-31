@@ -99,7 +99,7 @@ The wrapper's `valueOf()` method returns the primitive value.
 ### Syntax of `for` Loop
 
 ```javascript
-for (statement 1; statement 2; statement 3){
+for (statement 1; statement 2; statement 3) {
   execute code block
 }
 ```
@@ -113,10 +113,11 @@ for (statement 1; statement 2; statement 3){
 ### Example of `for` Loop
 
 ```javascript
-for(var i = 0; i < 10; i++){
+for (var i = 0; i < 10; i++) {
   console.log(i)
 }
-//This loop will print numbers 0-9, will stop when condition is met (i = 10)
+
+// This loop will print numbers 0-9, will stop when condition is met (i = 10)
 ```
 
 For the above example, the syntax is as follows:
@@ -132,27 +133,24 @@ For the above example, the syntax is as follows:
 ### Syntax of `while` Loop
 
 ```javascript
+// The code block will continue to loop as long as the `condition` is `true`.
 while (condition){
   execute code block
 }
 ```
 
-- The code block will continue to loop as long as the `condition` is `true`.
-
 ### Example of `while` Loop
 
 ```javascript
+// The code block will continue to run as long as the variable (`i`) is less than `5`.
 var i = 0;
-while(i < 5){
+while (i < 5) {
   console.log(i)
   i++
 }
-//This loop  will print number 0-4, will stop when condition becomes false (i >=5)
+
+// This loop will print number 0-4
 ```
-
-For the above example, the syntax is as follows:
-
-- The code block will continue to run as long as the variable (`i`) is less than `5`.
 
 ## Learn More
 
