@@ -1,5 +1,6 @@
 TOPIC: Syntax
        Statement
+       Control Flow
 
 # Syntax for Programming Language
 
@@ -22,8 +23,21 @@ If a codebase uses "a lot of syntax", it requires more characters to achieve the
 In a computer programming language, a **statement** is a line of code commanding a task.
 Every program consists of a sequence of statements.
 
+## Control Flow
+
+The **control flow** is the **order** in which the computer executes *statements* in a programming language.
+
+Code is run in order from the first line in the file to the last line, unless the computer runs
+across the (extremely frequent) structures that change the control flow.
+
+A typical programming language includes many control structures, including
+**conditionals**, **loops** and **functions**.
+Parts of a programming language may also be set to execute when
+**events** occur.
+
 ## Learn More
 
 - [Syntax (Programming Language) on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20error)
 - [Statement (Computer Science) on Wikipedia](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
+- [Control Flow on Wikipedia](https://en.wikipedia.org/wiki/Control%20flow)
