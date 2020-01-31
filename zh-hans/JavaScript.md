@@ -74,6 +74,67 @@ foo     = true;  // foo现在是布尔类型
 
 这个包裹对象的`valueOf()`方法返回基本类型值。
 
+## `for` 循环
+
+### `for` 循环的语法
+
+```javascript
+for (statement 1; statement 2; statement 3){
+  execute code block
+}
+```
+
+- `statement 1` 在代码块执行之前执行一次。
+
+- `statement 2` 定义了代码执行条件的判断。
+
+- `statement 3` 每次在代码块执行后执行一次。
+
+### `for` 循环的示例
+
+```javascript
+for(var i = 0; i < 10; i++){
+  console.log(i)
+}
+// 这个循环会打印数字0到9，然后在条件(i=10)成立时停止循环。
+```
+
+以上示例中，语法如下：
+
+- 语句1设置循环变量 (`var i = 0`)。
+
+- 语句2设置循环条件 (`i < 10`)。
+
+- 语句3每次在代码块执行之后递增变量`i` (`i++`)。
+
+## `while` 循环
+
+### `while` 循环的语法
+
+```javascript
+while (condition){
+  execute code block
+}
+```
+
+- 代码块将一直执行到`condition`为`true`为止。
+
+### `while` 循环的示例
+
+```javascript
+var i = 0;
+while(i < 5){
+  console.log(i)
+  i++
+}
+
+// 这个循环将打印数字0到4，然后当条件为`false` (i>=5) 时停止循环。
+```
+
+以上示例，语法如下：
+
+- 代码块将持续执行直到变量`i`小于`5`。
+
 ## 了解更多
 
 - [JavaScript - 维基百科](https://en.wikipedia.org/wiki/JavaScript)
