@@ -1,12 +1,7 @@
 TOPIC: Syntax
        Statement
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Çağatay Uslu; cagatayuslu@msn.com; github:pasalog
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Li Yun; leven.cn@gmail.com; github:leven-cn
 
-# Syntax
+# Syntax for Programming Language
 
 **Syntax** specifies the **required combination and sequence of characters** making up *correctly structured
 code*. Syntax varies from language to language (e.g., syntax is different in [[HTML]] and [[JavaScript]]).
@@ -28,8 +23,6 @@ In a computer programming language, a **statement** is a line of code commanding
 Every program consists of a sequence of statements.
 
 ## Learn More
-
-### General Knowledge
 
 - [Syntax (Programming Language) on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20error)

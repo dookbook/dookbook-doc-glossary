@@ -8,4 +8,4 @@ TOPIC: Constant
 
 ## 更多
 
-- [Constant - 维基百科](https://en.wikipedia.org/wiki/Constant_(computer_programming))
+- [常量(计算机编程) - 维基百科](https://en.wikipedia.org/wiki/Constant_(computer_programming))
