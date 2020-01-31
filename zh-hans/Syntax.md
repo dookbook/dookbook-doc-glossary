@@ -1,6 +1,7 @@
 TOPIC: Syntax
        Statement
        Control Flow
+       Conditional
 
 # 编程语言语法
 
@@ -24,9 +25,16 @@ TOPIC: Syntax
 
 典型的编程语言包括许多控制结构：**条件**，**循环**和**函数**。还有一些编程语言也可以设置在**事件**触发时执行。
 
+### 条件 (Conditional)
+
+**条件**是一组规则，可以根据条件是否完成而中断正常的代码执行或对其进行更改。
+
+如果满足特定条件，则执行一条指令或一组指令。否则，将执行另一条指令。在条件尚未满足的情况下，也可以重复执行一条指令或一组指令。
+
 ## 更多
 
 - [语法 (编程语言) - 维基百科](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error - 维基百科](https://en.wikipedia.org/wiki/Syntax%20error)
 - [语句 (计算机科学) - 维基百科](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
 - [控制流 - 维基百科](https://en.wikipedia.org/wiki/Control%20flow)
+- [条件 - 维基百科](https://en.wikipedia.org/wiki/Exception_handling#Condition_systems)
