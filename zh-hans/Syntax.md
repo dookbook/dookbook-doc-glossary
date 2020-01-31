@@ -4,10 +4,8 @@ TOPIC: Syntax
        Conditional
        Loop
        Function
+       Parameter
        Function Signature
-AUTHORS: Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
-         Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
-         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # 语法: 语句，控制流 和 函数
 
@@ -132,6 +130,16 @@ const loop = x => {
 ```
 
 如果你想进一步了解 IIFE, 可参考维基百科：[Immediately Invoked Function Expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
+
+### 参数
+
+**参数**是传递给*函数*的命名变量。参数变量用于将参数导入函数。
+
+注意参数（*parameter*）和参数（*argument*）之间的区别：
+
+- 函数参数（parameter）是函数定义中列出的名称。
+- 函数参数（argument）是传递给函数的实数值。
+- 参数（parameter）初始化为所提供参数（argument）的值。
 
 ### 函数签名
 
