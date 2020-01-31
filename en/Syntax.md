@@ -1,6 +1,12 @@
 TOPIC: Syntax
        Statement
        Control Flow
+       Conditional
+AUTHORS: David Ross; bunnybooboo@github.com; github:bunnybooboo
+         Pushpita Dey; PushpitaPikuDey@mozilla.net; mdn:PushpitaPikuDey
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+         Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+         Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
 
 # Syntax for Programming Language
 
@@ -35,9 +41,19 @@ A typical programming language includes many control structures, including
 Parts of a programming language may also be set to execute when
 **events** occur.
 
+### Conditional
+
+A **condition** is a set of rules that can interrupt normal code execution or change it, depending
+on whether the condition is completed or not.
+
+An instruction or a set of instructions is executed, if a specific condition is fulfilled. Otherwise,
+another instruction is executed. It is also possible to repeat the execution of an instruction,
+or set of instructions, while a condition is not yet fulfilled.
+
 ## Learn More
 
 - [Syntax (Programming Language) on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20error)
 - [Statement (Computer Science) on Wikipedia](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
 - [Control Flow on Wikipedia](https://en.wikipedia.org/wiki/Control%20flow)
+- [Condition on Wikipedia](https://en.wikipedia.org/wiki/Exception_handling#Condition_systems)
