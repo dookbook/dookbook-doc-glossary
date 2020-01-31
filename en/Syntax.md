@@ -2,13 +2,15 @@ TOPIC: Syntax
        Statement
        Control Flow
        Conditional
-AUTHORS: David Ross; bunnybooboo@github.com; github:bunnybooboo
-         Pushpita Dey; PushpitaPikuDey@mozilla.net; mdn:PushpitaPikuDey
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+       Loop
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Maria Rubina; maria-rubina@mozilla.net; mdn:maria-rubina
+         Kobe Davis; Llamaless@mozilla.net; mdn:Llamaless
+         Diana Varnes; ezrinjaz@github.com; github:ezrinjaz
          Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
 
-# Syntax for Programming Language
+# Syntax for Programming Language: Statement and Control Flow
 
 **Syntax** specifies the **required combination and sequence of characters** making up *correctly structured
 code*. Syntax varies from language to language (e.g., syntax is different in [[HTML]] and [[JavaScript]]).
@@ -49,6 +51,13 @@ on whether the condition is completed or not.
 An instruction or a set of instructions is executed, if a specific condition is fulfilled. Otherwise,
 another instruction is executed. It is also possible to repeat the execution of an instruction,
 or set of instructions, while a condition is not yet fulfilled.
+
+### Loop
+
+A **loop** is a sequence of instructions that is **continually repeated** until a certain condition
+is met in computer programming.
+An example would be the process of getting an item of data and changing it,
+and then making sure some condition is checked such as, if a counter has reached a prescribed number.
 
 ## Learn More
 
