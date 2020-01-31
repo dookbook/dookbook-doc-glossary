@@ -1,7 +1,7 @@
 TOPIC: Syntax
        Statement
 
-# 语法
+# 编程语言语法
 
 **语法**指定组成正确*结构化代码*的**所需字符组合和顺序**。语法因语言而异（例如，[[HTML]]和[[JavaScript]]中的语法不同）。语法适用于*编程语言*（计算机命令）和*标记语言*（文档结构信息）。
 
@@ -17,6 +17,6 @@ TOPIC: Syntax
 
 ## 更多
 
-- [Syntax (Programming Language) - 维基百科](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
+- [语法 (编程语言) - 维基百科](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error - 维基百科](https://en.wikipedia.org/wiki/Syntax%20error)
-- [Statement (Computer Science) - 维基百科](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
+- [语句 (计算机科学) - 维基百科](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
