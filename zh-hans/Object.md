@@ -43,7 +43,14 @@ var defaultReference = new Default();
 
 构造函数创建的对象是该构造函数的实例。
 
-## 静态方法 (Static Method)
+## 方法 (Method)
+
+**方法**是一种函数，它是对象的属性。方法有两种：*实例方法*是由对象实例执行的内置任务，而*静态方法*是直接在对象构造函数上调用的任务。
+
+!!! info
+    在[[JavaScript]]中，函数本身就是对象，因此，在这种情况下，方法实际上是对函数的对象引用。
+
+### 静态方法 (Static Method)
 
 **静态方法**（或**静态函数**）是定义为对象的方法，但可以直接从对象API的构造函数或类访问，而不是通过构造函数创建的对象实例访问。
 
@@ -75,5 +82,6 @@ myNotification.close();
 
 - [OOP - 维基百科](https://en.wikipedia.org/wiki/Object-oriented%20programming)
 - [Class-Based Programming - 维基百科](https://en.wikipedia.org/wiki/Class-based_programming)
-- [Constructor for OOP - 维基百科](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
-- [Instance - 维基百科](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
+- [OOP的构造函数 - 维基百科](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
+- [实例 - 维基百科](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
+- [方法 (计算机编程) - 维基百科](https://en.wikipedia.org/wiki/Method%20(computer%20programming))
