@@ -3,14 +3,19 @@ TOPIC: Syntax
        Control Flow
        Conditional
        Loop
+       Function
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Ahmad Nourallah; ahmadnurallah@gmail.com; github:ahmadnourallah
+         Noômen Ben Hassin; bnhassin@gmail.com; github:bnhassin
+         Leo Balter; leobalter@mozilla.net; mdn:leobalter
+         xgqfrms; xgqfrms@github.com; github:xgqfrms
          Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Maria Rubina; maria-rubina@mozilla.net; mdn:maria-rubina
-         Kobe Davis; Llamaless@mozilla.net; mdn:Llamaless
-         Diana Varnes; ezrinjaz@github.com; github:ezrinjaz
+         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
          Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
+         Li Yun; leven.cn@gmail.com; github:leven-cn
 
-# Syntax for Programming Language: Statement and Control Flow
+# Syntax: Statement, Control Flow and Function
 
 **Syntax** specifies the **required combination and sequence of characters** making up *correctly structured
 code*. Syntax varies from language to language (e.g., syntax is different in [[HTML]] and [[JavaScript]]).
@@ -59,6 +64,104 @@ is met in computer programming.
 An example would be the process of getting an item of data and changing it,
 and then making sure some condition is checked such as, if a counter has reached a prescribed number.
 
+## Function
+
+A **function** is a *code snippet* that can be called by other code or by itself, or a variable that
+refers to the function. When a function is called, *arguments* are passed to the function as input,
+and the function can optionally return an output. A function in [[JavaScript]] is also an [object](/en/webfrontend/object).
+
+A function name is an *[[identifier]]* declared as part of a *function declaration* or *function expression*.
+The function name's *[[scope]]* depends on whether the function name is a declaration or expression.
+
+### Types of Functions
+
+#### Anonymous Function
+
+An **anonymous function** is a function **without a function name**:
+
+```javascript
+function () {};
+
+// or using the ECMAScript 2015 arrow notation
+() => {};
+```
+
+#### Named Function
+
+A **named function** is a function **with a function name**:
+
+```javascript
+function foo() {};
+
+// or using the ECMAScript 2015 arrow notation
+const foo = () => {};
+```
+
+#### Inner / Outer Function
+
+An **inner function** is a function **inside another function** (`square` in this case).
+An **outer function** is a function **containing a function** (`addSquares` in this case):
+
+```javascript
+function addSquares(a,b) {
+   function square(x) {
+      return x * x;
+   }
+   return square(a) + square(b);
+};
+
+//Using ECMAScript 2015 arrow notation
+const addSquares = (a,b) => {
+   const square = x => x*x;
+   return square(a) + square(b);
+};
+```
+
+#### Recursive Function
+
+A **recursive function** is a function **that calls itself**. See [[recursion]].
+
+```javascript
+function loop(x) {
+   if (x >= 10)
+      return;
+   loop(x + 1);
+};
+
+//Using ECMAScript 2015 arrow notation
+const loop = x => {
+   if (x >= 10)
+      return;
+   loop(x + 1);
+};
+```
+
+#### Immediately Invoked Function Expressions (IIFE)
+
+An **Immediately Invoked Function Expressions** (**IIFE**) is a function that is called directly after
+the function is loaded into the browser’s compiler. The way to identify an IIFE is by locating the
+extra left and right parenthesis at the end of the function’s declaration.
+
+```javascript
+// Error (https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
+/*
+​function foo() {
+    console.log('Hello Foo');
+}();
+*/
+
+(function foo() {
+    console.log("Hello Foo");
+}());
+
+(function food() {
+    console.log("Hello Food");
+})();
+```
+
+If you'd like to know more about IIFEs, check out the following page on Wikipedia:
+[Immediately Invoked Function Expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
+
 ## Learn More
 
 - [Syntax (Programming Language) on Wikipedia](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
@@ -66,3 +169,4 @@ and then making sure some condition is checked such as, if a counter has reached
 - [Statement (Computer Science) on Wikipedia](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
 - [Control Flow on Wikipedia](https://en.wikipedia.org/wiki/Control%20flow)
 - [Condition on Wikipedia](https://en.wikipedia.org/wiki/Exception_handling#Condition_systems)
+- [Immediately Invoked Function Expression on Wikipedia](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
