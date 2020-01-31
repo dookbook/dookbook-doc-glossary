@@ -94,6 +94,66 @@ primitive values have object equivalents that wrap around the primitive values:
 
 The wrapper's `valueOf()` method returns the primitive value.
 
+## `for` Loop
+
+### Syntax of `for` Loop
+
+```javascript
+for (statement 1; statement 2; statement 3){
+  execute code block
+}
+```
+
+- `statement 1` is executed once before the code block is run.
+
+- `statement 2` defines the condition needed to execute the code block.
+
+- `statement 3` is executed every time the code block is run.
+
+### Example of `for` Loop
+
+```javascript
+for(var i = 0; i < 10; i++){
+  console.log(i)
+}
+//This loop will print numbers 0-9, will stop when condition is met (i = 10)
+```
+
+For the above example, the syntax is as follows:
+
+- Statement 1 sets the variable for the loop (`var i = 0`).
+
+- Statement 2 sets the loop condition (`i < 10`).
+
+- Statement 3 increases the value of `i` (`i++`) each time the code block is run.
+
+## `while` Loop
+
+### Syntax of `while` Loop
+
+```javascript
+while (condition){
+  execute code block
+}
+```
+
+- The code block will continue to loop as long as the `condition` is `true`.
+
+### Example of `while` Loop
+
+```javascript
+var i = 0;
+while(i < 5){
+  console.log(i)
+  i++
+}
+//This loop  will print number 0-4, will stop when condition becomes false (i >=5)
+```
+
+For the above example, the syntax is as follows:
+
+- The code block will continue to run as long as the variable (`i`) is less than `5`.
+
 ## Learn More
 
 - [JavaScript on Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
