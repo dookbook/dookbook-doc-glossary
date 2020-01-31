@@ -1,5 +1,6 @@
 TOPIC: Syntax
        Statement
+       Control Flow
 
 # 编程语言语法
 
@@ -15,8 +16,17 @@ TOPIC: Syntax
 
 在计算机编程语言中，**语句**是一行任务指令的代码。每个程序都包含若干语句。
 
+## 控制流 (Control Flow)
+
+**控制流**是计算机编程语言中执行*语句*的**顺序**。
+
+一般情况下，代码从文件的第一行到最后一行按顺序执行，除非计算机运行在不同的控制结构下。
+
+典型的编程语言包括许多控制结构：**条件**，**循环**和**函数**。还有一些编程语言也可以设置在**事件**触发时执行。
+
 ## 更多
 
 - [语法 (编程语言) - 维基百科](https://en.wikipedia.org/wiki/Syntax%20(programming%20language))
 - [Syntax Error - 维基百科](https://en.wikipedia.org/wiki/Syntax%20error)
 - [语句 (计算机科学) - 维基百科](https://en.wikipedia.org/wiki/Statement%20(computer%20science))
+- [控制流 - 维基百科](https://en.wikipedia.org/wiki/Control%20flow)
