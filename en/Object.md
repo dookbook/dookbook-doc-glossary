@@ -1,8 +1,13 @@
 TOPIC: Object-Oriented Programming
 AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
          Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
+         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
+         Kurt Larson; KurtHarlandLarson@mozilla.net; mdn:KurtHarlandLarson
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
          Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
+         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Object-Oriented Programming
 
@@ -57,7 +62,17 @@ var defaultReference = new Default();
 
 An object created by a constructor is an instance of that constructor.
 
-## Static Method
+## Method
+
+A **method** is a function which is a property of an object. There are two kind of methods: *Instance
+Methods* which are built-in tasks performed by an object instance, or *Static Methods* which are tasks
+that are called directly on an object constructor.
+
+!!! info
+    In [[JavaScript]] functions themselves are objects, so, in that context, a method is
+    actually an object reference to a function.
+
+### Static Method
 
 A **static method** (or **static function**) is a method defined as a member of an object but is accessible
 directly from an API object's constructor, rather than from an object instance created via the constructor.
@@ -98,3 +113,4 @@ one parent (**multiple inheritance**).
 - [Class-Based Programming on Wikipedia](https://en.wikipedia.org/wiki/Class-based_programming)
 - [Constructor for OOP on Wikipedia](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
 - [Instance on Wikipedia](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
+- [Method (Computer Programming) on Wikipedia](https://en.wikipedia.org/wiki/Method%20(computer%20programming))
