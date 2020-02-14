@@ -34,7 +34,11 @@ p {
 
 CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选择符之间具有特定的**优先级**。这一点非常重要，因为复杂网站可能会有非常多的 CSS 规则，因此必须规定好这些规则的优先级，以免乱套。
 
+## CSS 属性
+
+**CSS属性** （**property**）是一种特性（如`color`），其关联的值定义了浏览器应如何显示元素的一个方面。
+
 ## 更多
 
 - [CSS - 维基百科](https://en.wikipedia.org/wiki/CSS)
-- [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/css "MDN CSS文档")
+- [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/CSS "MDN CSS文档")

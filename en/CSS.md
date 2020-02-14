@@ -1,4 +1,14 @@
 TOPIC: Cascading Style Sheets
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
+         Ali; alispivak@mozilla.net; mdn:alispivak
+         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
+         Rolfe Dlugy-Hegwer; rolfedh@github.com; github:rolfedh
+         Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+         Liao Yazhi; 1594435860@qq.com; github:liaoyazhi
 
 # Cascading Style Sheets (CSS)
 
@@ -39,7 +49,13 @@ p {
 "*Cascading*" refers to the *rules* that govern how selectors are **prioritized** to change a page's
 appearance. This is a very important feature, since a complex website can have thousands of CSS rules.
 
+## CSS Property
+
+A **CSS property** is a characteristic (like `color`) whose associated value defines one
+aspect of how the browser should display the element.
+
 ## Learn More
 
 - [CSS on Wikipedia](https://en.wikipedia.org/wiki/CSS)
-- [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/css "MDN CSS文档")
+- [The CSS Working Group current work](http://www.w3.org/Style/CSS/current-work)
+- [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/CSS "MDN CSS文档")
