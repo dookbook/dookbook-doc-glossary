@@ -1,14 +1,12 @@
 TOPIC: Cascading Style Sheets
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Ali; alispivak@mozilla.net; mdn:alispivak
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
+         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
+         Julie Myers; SnoopyRules@mozilla.net; mdn:SnoopyRules
          Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Nickolay Ponomarev; asqueella@gmail.com; github:nickolay
-         Rolfe Dlugy-Hegwer; rolfedh@github.com; github:rolfedh
-         Julia Buchner; PetiPandaRou@mozilla.net; mdn:PetiPandaRou
+         Teoli; teoli@mozilla.net; mdn:teoli
          Liao Yazhi; 1594435860@qq.com; github:liaoyazhi
+         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Cascading Style Sheets (CSS)
 
@@ -49,6 +47,77 @@ p {
 "*Cascading*" refers to the *rules* that govern how selectors are **prioritized** to change a page's
 appearance. This is a very important feature, since a complex website can have thousands of CSS rules.
 
+## CSS Selector
+
+A **CSS selector** is the part of a CSS rule that describes what elements in a document
+the rule will match. The matching elements will have the rule's specified style applied to them.
+
+Consider this CSS:
+
+```css
+p {
+  ...
+}
+
+div.warning {
+  ...
+}
+
+#customized {
+  ...
+}
+```
+
+The selectors here are `"p"` (which applies the style to the text inside any
+`<p>` element), `"div.warning"` (which applies the style to all `<div>` element with the
+class `"warning"`), and `"#customized"` (which applies the
+style to the element with the `id` `"customized"`).
+
+We can then apply this CSS to some HTML, such as:
+
+```html
+<p>This is happy text.</p>
+
+<div class="warning">
+  Be careful! There are wizards present, and they are quick to anger!
+</div>
+
+<div id="customized">
+  <p>This is happy text.</p>
+  <div class="warning">
+    Be careful! There are wizards present, and they are quick to anger!
+  </div>
+</div>
+```
+
+### Types of CSS Selectors
+
+- Basic selectors
+    - [Type selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) `element-name`
+    - [Class selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) `.class-name`
+    - [ID selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) `#id-name`
+    - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+    `* ns|* *|*`
+    - [Attribute selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+    `[attr=value]`
+    - [State selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+    `a:active, a:visited`
+- Grouping
+    - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
+  `A, B`
+- Combinators
+    - [Adjacent sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors)
+    `A + B`
+    - [General sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
+    `A ~ B`
+    - [Child selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors)
+    `A > B`
+    - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
+    `A B`
+- Pseudo
+    - [Pseudo-classes](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes): **`:`**
+    - [Pseudo-elements](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements): **`::`**
+
 ## CSS Property
 
 A **CSS property** is a characteristic (like `color`) whose associated value defines one
@@ -58,4 +127,5 @@ aspect of how the browser should display the element.
 
 - [CSS on Wikipedia](https://en.wikipedia.org/wiki/CSS)
 - [The CSS Working Group current work](http://www.w3.org/Style/CSS/current-work)
+- [CSS Selectors Level 3 - W3C CSS Work Group](https://drafts.csswg.org/selectors-3/ "CSS Selector Level 3")
 - [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/CSS "MDN CSS文档")
