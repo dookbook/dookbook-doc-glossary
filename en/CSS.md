@@ -15,6 +15,13 @@ A **CSS rule** is a set of **properties** associated with a **selector**.
 A **style declaration** contains the **properties** and their **values**,
 which determine how a webpage looks.
 
+```css
+selector {
+  property: value;
+  ...
+}
+```
+
 Here is an example that makes every
 HTML paragraph yellow against a black background:
 

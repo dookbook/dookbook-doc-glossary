@@ -12,6 +12,13 @@ TOPIC: Cascading Style Sheets
 一条 CSS **规则**包含一个**选择符** (**selector**)和一组**属性**(**property**)定义。
 一条 CSS 的**样式声明** (**style declaration**)包括**属性** (**property**)和**属性值**  (**value**)，它们共同决定网页的外观。
 
+```css
+选择符 {
+  属性: 值;
+  ...
+}
+```
+
 下面这个例子用来将页面中的所有 `<p>` 标签显示为黑色背景和黄色文本：
 
 ```css
