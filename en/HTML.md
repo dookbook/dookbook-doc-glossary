@@ -2,7 +2,7 @@ TOPICS: HyperText Markup Language
 
 # HyperText Markup Language (HTML)
 
-**HTML** (*HyperText Markup Language*) is a *descriptive*, *[markup]* language that specifies
+**HTML** (*HyperText Markup Language*) is a *descriptive*, *[[markup]]* language that specifies
 webpage **structure**.
 
 An HTML file is normally saved with an **`.htm`** or **`.html`** extension, served by a web server,

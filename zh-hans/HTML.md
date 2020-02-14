@@ -153,6 +153,10 @@ HTML5技术根据其功能分为几个组：
     - **检测设备方向**: 让用户在运行浏览器的设备变更方向时能够得到信息。这可以被用作一种输入设备（例如制作能够对设备位置做出反应的游戏）或者使页面的布局跟屏幕的方向相适应（横向或纵向）。
     - **指针锁定 API** (**Pointer Lock API**): 允许锁定到内容的指针，这样游戏或者类似的应用程序在指针到达窗口限制时也不会失去焦点。
 
+### HTML5 大纲
+
+![HTML5元素流程图 (Dookbook Team 翻译整理)](/media/glossary__html5-element-flowchart.zh-Hans.png)
+
 ## DHTML
 
 **DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，[[CSS]]，[[DOM]]和[[JavaScript]]的组合功能。
