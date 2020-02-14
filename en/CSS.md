@@ -4,13 +4,25 @@ TOPIC: Cascading Style Sheets
 
 **CSS** (**Cascading Style Sheets**) is a *declarative language* that controls how webpages look in the
 browser. The browser applies CSS style declarations to selected elements to display them properly.
-A style declaration contains the **properties** and their **values**, which determine how a webpage looks.
 
-CSS is one of the three core [Web](/en/glossary/World_Wide_Web) technologies, along with [[HTML]]
-and [[JavaScript]]. CSS usually styles HTML elements, but can be also used with other markup
-languages like [[SVG]] or XML.
+**CSS** is one of the three core *[Web](/en/glossary/World_Wide_Web) technologies*, along with **[[HTML]]**
+and **[[JavaScript]]**. CSS usually styles *HTML elements*, but can be also used with other markup
+languages like *[[SVG]]* or *[[XML]]*.
 
-A CSS rule is a set of **properties** associated with a **selector**. Here is an example that makes every
+## CSS Rule
+
+A **CSS rule** is a set of **properties** associated with a **selector**.
+A **style declaration** contains the **properties** and their **values**,
+which determine how a webpage looks.
+
+```css
+selector {
+  property: value;
+  ...
+}
+```
+
+Here is an example that makes every
 HTML paragraph yellow against a black background:
 
 ```css
@@ -30,3 +42,4 @@ appearance. This is a very important feature, since a complex website can have t
 ## Learn More
 
 - [CSS on Wikipedia](https://en.wikipedia.org/wiki/CSS)
+- [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/css "MDN CSS文档")
