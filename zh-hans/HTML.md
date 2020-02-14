@@ -36,7 +36,7 @@ HTML文档是包含多个HTML**元素**的*文本*文档。
 
 ### 空元素 (Empty Elements)
 
-也有一部分标签中不需要包含文本，这些标签称为**空标签**，如`<img>`。
+也有一部分标签中不需要包含文本，这些标签称为 **[空标签](/zh-hans/webfrontend/Empty_Element)**，如[`<img>`](/zh-hans/webfrontend/<img>)。
 
 ### 块级元素和内联元素
 
