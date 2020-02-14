@@ -249,5 +249,8 @@ HTML Example:
 - [HTML Living Standard / Specification - WHATWG](https://html.spec.whatwg.org/) (Recommended)
 - [The HTML 5 Specification - W3C](http://www.w3.org/TR/html5/)
 - [W3C HTML Validator](http://validator.w3.org/ "W3C HTML Validator")
+- [W3C HTML Elements](http://www.w3.org/TR/html-markup/elements.html "W3C HTML Elements")
+- [HTML - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/html "HTML | MDN Docs")
+- [HTML5 Doctor Resources](http://html5doctor.com/resources/ "HTML5 Doctor")
 - [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)

@@ -161,7 +161,7 @@ DHTML不是[[W3C]]标准。它是一个营销术语，被网景公司（Netscape
 
 DHTML不是一种技术、标准或规范，只是一种将目前已有的网页技术、语言标准整合运用，制作出能在下载后仍然能实时变换页面元素效果的网页设计概念。
 
-## HTML注释`<!--...-->`
+## HTML注释 `<!--...-->`
 
 **`<!--...-->`** 即注释标签,用于在源代码中插入注释。注释不会显示在浏览器中。
 
@@ -186,6 +186,8 @@ HTML 示例:
 - [超链接 - 维基百科](https://en.wikipedia.org/wiki/Hyperlink)
 - [超文本 - 维基百科](https://en.wikipedia.org/wiki/Hypertext)
 - [DHTML - 维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
-- [HTML 实时标准 / 规范 (WHATWG版本)](https://html.spec.whatwg.org/) (推荐)
+- [HTML 实时标准/规范 (WHATWG版本)](https://html.spec.whatwg.org/) (**推荐**)
 - [HTML5 规范 (W3C版本)](http://www.w3.org/TR/html5/)
 - [W3C HTML验证器](http://validator.w3.org/ "W3C HTML Validator")
+- [W3C HTML元素表](http://www.w3.org/TR/html-markup/elements.html "W3C HTML元素表")
+- [MDN HTML文档](https://developer.mozilla.org/en-US/docs/Web/html "MDN HTML文档")
