@@ -215,6 +215,10 @@ HTML5 technologies classifies into several groups based on their function:
     - **Pointer Lock API**: Allows locking the pointer to the content, so games and similar
     applications don't lose focus when the pointer reaches the window limit.
 
+### HTML5 Outline
+
+![HTML5 Element Flowchart (from HTML5 Doctor)](/media/glossary__html5-element-flowchart.en.png)
+
 ## DHTML
 
 **DHTML** (*Dynamic HTML*) refers to the code behind interactive webpages that need no plugins like
