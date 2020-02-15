@@ -1,12 +1,4 @@
 TOPIC: Cascading Style Sheets
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Eric Shepherd; eshepherd@mozilla.com; github:a2sheppy
-         Julie Myers; SnoopyRules@mozilla.net; mdn:SnoopyRules
-         Heather; hbloomer@mozilla.net; mdn:hbloomer
-         Teoli; teoli@mozilla.net; mdn:teoli
-         Liao Yazhi; 1594435860@qq.com; github:liaoyazhi
-         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Cascading Style Sheets (CSS)
 
@@ -29,6 +21,8 @@ selector {
   ...
 }
 ```
+
+![CSS Rule](/media/glossary__css-rule.gif)
 
 Here is an example that makes every
 HTML paragraph yellow against a black background:
