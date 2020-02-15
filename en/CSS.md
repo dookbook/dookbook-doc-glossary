@@ -4,39 +4,23 @@ TOPIC: Cascading Style Sheets
 
 **CSS** (**Cascading Style Sheets**) is a *declarative language* that controls how webpages look in the
 browser. The browser applies CSS style declarations to selected elements to display them properly.
-
 **CSS** is one of the three core *[Web](/en/glossary/World_Wide_Web) technologies*, along with **[[HTML]]**
 and **[[JavaScript]]**. CSS usually styles *HTML elements*, but can be also used with other markup
 languages like *[[SVG]]* or *[[XML]]*.
 
 ## CSS Rule
 
-A **CSS rule** is a set of **properties** associated with a **selector**.
-A **style declaration** contains the **properties** and their **values**,
-which determine how a webpage looks.
-
-```css
-selector {
-  property: value;
-  ...
-}
-```
+A **CSS rule** is a set of **declarations** associated with a **selector**.
+A **style declaration** contains the **properties** and their **values**.
 
 ![CSS Rule](/media/glossary__css-rule.png)
 
-Here is an example that makes every
-HTML paragraph yellow against a black background:
+Note the syntax:
 
-```css
-/* The selector "p" indicate that all paragraphs in the document will be affected by that rule */
-p {
-  /* The "color" property defines the text color, in this case yellow. */
-  color: yellow;
-
-  /* The "background-color" property defines the background color, in this case black. */
-  background-color: black
-}
-```
+- Each rule set (apart from the selector) must be wrapped in **curly braces** (**`{}`**).
+- Within each declaration, you must use a **colon** (**`:`**) to separate the property from its values.
+- Within each rule set, you must use a **semicolon** (**`;`**) to separate each
+declaration from the next one.
 
 "*Cascading*" refers to the *rules* that govern how selectors are **prioritized** to change a page's
 appearance. This is a very important feature, since a complex website can have thousands of CSS rules.
@@ -44,58 +28,22 @@ appearance. This is a very important feature, since a complex website can have t
 ## CSS Selector
 
 A **CSS selector** is the part of a CSS rule that describes what elements in a document
-the rule will match. The matching elements will have the rule's specified style applied to them.
-
-Consider this CSS:
-
-```css
-p {
-  ...
-}
-
-div.warning {
-  ...
-}
-
-#customized {
-  ...
-}
-```
-
-The selectors here are `"p"` (which applies the style to the text inside any
-`<p>` element), `"div.warning"` (which applies the style to all `<div>` element with the
-class `"warning"`), and `"#customized"` (which applies the
-style to the element with the `id` `"customized"`).
-
-We can then apply this CSS to some HTML, such as:
-
-```html
-<p>This is happy text.</p>
-
-<div class="warning">
-  Be careful! There are wizards present, and they are quick to anger!
-</div>
-
-<div id="customized">
-  <p>This is happy text.</p>
-  <div class="warning">
-    Be careful! There are wizards present, and they are quick to anger!
-  </div>
-</div>
-```
+the rule will match.
 
 ### Types of CSS Selectors
 
+| Selector name | What does it select | Example |
+| :-- | :-- | :-- |
+| **Type selector** (or **element selector**) | All HTML element(s) of the specified type. | `p` to select `<p>` |
+| **Class selector** | The element(s) on the page with the specified `class`. | `p.class-name` to select `<p class="class-name">` |
+| **ID selector** | The element on the page with the specified ID `id`. | `#id-name` to select `<p id="id-name">` |
+| **Attribute selector** | The element(s) on the page with the specified attribute. | `img[src=img.png]` to select `<img src="img.png">` |
+| **Pseudo class selector** | The specified element(s), but only when in the specified state. | `a:hover` to select `<a>`, but only when the mouse pointer is hovering over the link. |
+| **Pseudo element selector** | The specific part of the selected element(s). | `p::first-line` to select the first line of every `<p>` element. |
+
 - Basic selectors
-    - [Type selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) `element-name`
-    - [Class selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) `.class-name`
-    - [ID selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) `#id-name`
     - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
     `* ns|* *|*`
-    - [Attribute selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
-    `[attr=value]`
-    - [State selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-    `a:active, a:visited`
 - Grouping
     - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
   `A, B`
@@ -108,9 +56,6 @@ We can then apply this CSS to some HTML, such as:
     `A > B`
     - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
     `A B`
-- Pseudo
-    - [Pseudo-classes](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes): **`:`**
-    - [Pseudo-elements](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements): **`::`**
 
 ## CSS Property
 
