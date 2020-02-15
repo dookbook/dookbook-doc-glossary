@@ -19,7 +19,7 @@ TOPIC: Cascading Style Sheets
 }
 ```
 
-![CSS Rule](/media/glossary__css-rule.gif)
+![CSS Rule](/media/glossary__css-rule.png)
 
 下面这个例子用来将页面中的所有 `<p>` 标签显示为黑色背景和黄色文本：
 
