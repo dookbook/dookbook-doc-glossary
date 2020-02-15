@@ -90,6 +90,12 @@ var defaultReference = new Default();
 
 作为应用程序开发人员，您可以选择保留并添加您自己的超类的属性和方法，从而使类定义非常灵活。 有些语言允许一类从多个父类继承（**多重继承**）。
 
+## 对象引用 (Object Reference)
+
+指向**对象**的链接。
+
+**对象引用**的概念，即当将同一对象分配给多个**属性**时，则每个属性都拥有链接到同一对象的对象引用，而不是持有该对象的副本。因此，当对象更改时，引用该对象的所有属性都会同时更改。
+
 ## 了解更多
 
 - [OOP - 维基百科](https://en.wikipedia.org/wiki/Object-oriented%20programming)
@@ -98,3 +104,4 @@ var defaultReference = new Default();
 - [方法 (计算机编程) - 维基百科](https://en.wikipedia.org/wiki/Method%20(computer%20programming))
 - [OOP的构造函数 - 维基百科](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
 - [实例 - 维基百科](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
+- [引用 (计算机科学) - 维基百科](https://en.wikipedia.org/wiki/Reference%20(computer%20science))

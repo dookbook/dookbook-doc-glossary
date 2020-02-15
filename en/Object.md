@@ -1,5 +1,10 @@
 TOPIC: Object-Oriented Programming
-AUTHORS: Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
+AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
+         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
+         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
+         Heather; hbloomer@mozilla.net; mdn:hbloomer
+         Florian Scholz; fscholz@mozilla.net; mdn:fscholz
+         Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
          Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Object-Oriented Programming
@@ -115,6 +120,15 @@ As an app developer, you can choose which of the superclass's attributes and met
 your own, making class definition very flexible. Some languages let a class inherit from more than
 one parent (**multiple inheritance**).
 
+## Object Reference
+
+A link to an **object**. Object references can be used exactly like the linked objects.
+
+The concept of **object references** becomes clear when assigning the same object to more than one
+**property**. Rather than holding a copy of the object, each assigned property holds object references
+that link to the same object, so that when the object changes all properties referring
+to the object reflect the change.
+
 ## Learn More
 
 - [Object-oriented programming on Wikipedia](https://en.wikipedia.org/wiki/Object-oriented%20programming)
@@ -123,3 +137,4 @@ one parent (**multiple inheritance**).
 - [Method (Computer Programming) on Wikipedia](https://en.wikipedia.org/wiki/Method%20(computer%20programming))
 - [Constructor for OOP on Wikipedia](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
 - [Instance on Wikipedia](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
+- [Reference (Computer Science) on Wikipedia](https://en.wikipedia.org/wiki/Reference%20(computer%20science))
