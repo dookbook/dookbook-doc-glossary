@@ -1,12 +1,5 @@
 TOPIC: Object-Oriented Programming
-AUTHORS: Federico Culloca; federicoculloca@github.com; github:federicoculloca
-         Andrew Pfeiffer; Andrew_Pfeiffer@mozilla.net; mdn:Andrew_Pfeiffer
-         Karen Scarfone; kscarfone@mozilla.net; mdn:kscarfone
-         Chris Mills; chrisdavidmills@mozilla.net; mdn:chrisdavidmills
-         Masahiro Fujimoto; mfujimot@gmail.com; github:mfuji09
-         Kurt Larson; KurtHarlandLarson@mozilla.net; mdn:KurtHarlandLarson
-         Jérémie Patonnier; Jeremie@mozilla.net; mdn:Jeremie
-         Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
+AUTHORS: Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
          Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # Object-Oriented Programming
@@ -20,47 +13,20 @@ within objects and the **object** itself is operated on, rather than its compone
 Objects sometimes refer to real-world things, for example a car or map object in a racing game.
 [[JavaScript]], [[Java]], C++, and [[Python]] are examples of object-oriented programming languages.
 
-## Class
+## Property
 
-In object-oriented programming, a **class** defines an object's **characteristics**. Class is *a template
-definition of an object's properties and methods*, the "blueprint" from which other more
-specific instances of the object are drawn.
+A **property** is a characteristic of an *object*, often describing attributes
+associated with a data structure.
 
-## Constructor
+There are two kinds of properties:
 
-A **constructor** belongs to a particular class object that is instantiated. The constructor
-initializes this object and can provide access to its private information. The concept of a
-constructor can be applied to most object-oriented programming languages. Essentially,
-a constructor in [[JavaScript]] is usually declared at the instance of a class.
+- **Instance properties** hold data that are specific to a given object instance.
+- **Static properties** hold data that are shared among all object instances.
 
-### Constructor in JavaScript
-
-```javascript
-// This is a generic default constructor class Default
-function Default() {
-}
-
-// This is an overloaded constructor class Overloaded
-// with parameter arguments
-function Overloaded(arg1, arg2, ...,argN){
-}
-```
-
-To call the constructor of the class in [[JavaScript]], use a `new` operator to assign a new object
-reference to a variable.
-
-```javascript
-function Default() {
-}
-
-// A new reference of a Default object assigned to a
-// local variable defaultReference
-var defaultReference = new Default();
-```
-
-## Instance
-
-An object created by a constructor is an instance of that constructor.
+A property has a *name* (a string) and a *value* (primitive, method, or object reference).
+Note that when we say that "a property holds an object", that is shorthand for "a
+property holds an object reference".  This distinction matters because the original
+referenced object remains unchanged when you change the property's value.
 
 ## Method
 
@@ -98,6 +64,48 @@ let myNotification = new Notification('This is my notification');
 myNotification.close();
 ```
 
+## Class
+
+In object-oriented programming, a **class** defines an object's **characteristics**.
+Class is *a template definition of an object's properties and methods*,
+the "blueprint" from which other more specific instances of the object are drawn.
+
+## Constructor
+
+A **constructor** belongs to a particular class object that is instantiated. The constructor
+initializes this object and can provide access to its private information. The concept of a
+constructor can be applied to most object-oriented programming languages. Essentially,
+a constructor in [[JavaScript]] is usually declared at the instance of a class.
+
+### Constructor in JavaScript
+
+```javascript
+// This is a generic default constructor class Default
+function Default() {
+}
+
+// This is an overloaded constructor class Overloaded
+// with parameter arguments
+function Overloaded(arg1, arg2, ...,argN){
+}
+```
+
+To call the constructor of the class in [[JavaScript]], use a `new` operator to assign a new object
+reference to a variable.
+
+```javascript
+function Default() {
+}
+
+// A new reference of a Default object assigned to a
+// local variable defaultReference
+var defaultReference = new Default();
+```
+
+## Instance
+
+An object created by a constructor is an instance of that constructor.
+
 ## Inheritance
 
 **Inheritance** is a major feature of *object-oriented programming*.  **Data [[abstraction]]** can
@@ -111,6 +119,7 @@ one parent (**multiple inheritance**).
 
 - [Object-oriented programming on Wikipedia](https://en.wikipedia.org/wiki/Object-oriented%20programming)
 - [Class-Based Programming on Wikipedia](https://en.wikipedia.org/wiki/Class-based_programming)
+- [Property (Programming) on Wikipedia](https://en.wikipedia.org/wiki/Property%20(programming))
+- [Method (Computer Programming) on Wikipedia](https://en.wikipedia.org/wiki/Method%20(computer%20programming))
 - [Constructor for OOP on Wikipedia](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29)
 - [Instance on Wikipedia](https://en.wikipedia.org/wiki/Instance%20(computer%20science))
-- [Method (Computer Programming) on Wikipedia](https://en.wikipedia.org/wiki/Method%20(computer%20programming))
