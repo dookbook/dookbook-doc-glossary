@@ -22,7 +22,7 @@ selector {
 }
 ```
 
-![CSS Rule](/media/glossary__css-rule.gif)
+![CSS Rule](/media/glossary__css-rule.png)
 
 Here is an example that makes every
 HTML paragraph yellow against a black background:
