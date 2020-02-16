@@ -27,10 +27,9 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 
 ### CSS 选择器类型
 
-| 选择器类型 | 匹配的元素 | 示例 |
+| 选择器 | 匹配的元素 | 示例 |
 | :-- | :-- | :-- |
 | **类型选择器** (或**元素选择器**、**标签选择器**) | 同类元素或同标签的元素。| `p`选择所有`<p>`元素 |
-| **类选择器** | 包含指定`class`的所有元素。| `p.class-name`选择所有`<p class="class-name">`元素 |
 | **类选择器** | 包含指定`class`的所有元素。| `p.class-name`选择所有`<p class="class-name">`元素 |
 | **ID选择器** | 包含指定`id`的元素。| `#id-name`选择`<p id="id-name">`元素。|
 | **属性选择器** | 包含指定属性的元素。| `img[src=img.png]` 选择`<img src="img.png">`元素。|
@@ -52,6 +51,20 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
     `A > B`
     - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
     `A B`
+
+### CSS 属性选择器
+
+| 语法 | 描述 | 示例 |
+| :-- | :-- | :-- |
+| `[attr]` | 表示带`attr`属性的元素。| `a[title]`，选择带`title`属性的`<a>`元素。|
+| `[attr=value]` | 表示`attr`属性值完全等于`value`的元素。| `a[href="https://example.org"]`， 选择`href`属性值为`https://example.org`的元素。|
+| `[attr~=value]` | 表示`attr`属性值包含`value`的元素。多个属性值以*空格*隔开。| `a[class~="logo"]`， 选择`class`属性值包含`logo`的元素。|
+| `[attr|=value]` | 表示`attr`属性值完全等于`value`或以`value-`为前缀。（**`-`**为**连字符**，Unicode 编码为 *`U+002D`*）。典型的应用场景是用来匹配*语言简写代码*（如 `zh-CN`，`zh-TW` 可以用 `zh` 作为 `value`）。| `div[lang|="zh"]`，选择所有内容为中文的`<div>`元素，不管是简体中文 (`zh-CN`)还是繁体中文 (`zh-TW`)。|
+| `[attr^=value]` | 表示`attr`属性值以`value`开头。| `a[href^="#"]`，选择`href`属性值以`#`开头的所有`<a>`元素。|
+| `[attr$=value]` | 表示`attr`属性值以`value`结尾。| `a[href$=".org"]`，选择`href`属性值以`.org`结尾的所有`<a>`元素。|
+| `[attr*=value]` | 表示`attr`属性值的字符串至少包含一次`value`。| `a[href*="example"]`，选择`href`属性值字符串至少包含一次`example`的所有`<a>`元素。|
+| `[attr operator value i]` (**Selectors Level 4 新增**) | 在中括号结束符号之前新增一个 **`i`** (或 **`I`**) 表示匹配是**忽略大小写**的。| `a[href*="Example" i]`，新增`href`属性值包含`Example`（忽略大小写）。|
+| `[attr operator value s]` (**Selectors Level 4 新增**, **试验性 API**) | 在中括号结束符号之前新增一个 **`s`** (或 **`S`**) 表示匹配是**大小写敏感**的。| `a[href*="Example" s]`，新增`href`属性值包含`Example`（匹配大小写）。 |
 
 ## CSS 属性
 
