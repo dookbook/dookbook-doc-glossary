@@ -64,7 +64,7 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 | `[attr$=value]` | 表示`attr`属性值以`value`结尾。| `a[href$=".org"]`，选择`href`属性值以`.org`结尾的所有`<a>`元素。|
 | `[attr*=value]` | 表示`attr`属性值的字符串至少包含一次`value`。| `a[href*="example"]`，选择`href`属性值字符串至少包含一次`example`的所有`<a>`元素。|
 | `[attr operator value i]` (**Selectors Level 4 新增**) | 在中括号结束符号之前新增一个 **`i`** (或 **`I`**) 表示匹配是**忽略大小写**的。| `a[href*="Example" i]`，新增`href`属性值包含`Example`（忽略大小写）。|
-| `[attr operator value s]` (**Selectors Level 4 新增**, **试验性 API**) | 在中括号结束符号之前新增一个 **`s`** (或 **`S`**) 表示匹配是**大小写敏感**的。| `a[href*="Example" s]`，新增`href`属性值包含`Example`（匹配大小写）。 |
+| `[attr operator value s]` (**Selectors Level 4 新增**, **试验性 API**) | 在中括号结束符号之前新增一个 **`s`** (或 **`S`**) 表示匹配是**区分大小写**的。| `a[href*="Example" s]`，新增`href`属性值包含`Example`（区分大小写）。 |
 
 ## CSS 属性
 
