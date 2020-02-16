@@ -32,14 +32,14 @@ the rule will match.
 
 ### Types of CSS Selectors
 
-| Selector name | What does it select | Example |
+| Selector | What does it select | Example |
 | :-- | :-- | :-- |
-| **Type selector** (or **element selector**) | All HTML element(s) of the specified type. | `p` to select `<p>` |
-| **Class selector** | The element(s) on the page with the specified `class`. | `p.class-name` to select `<p class="class-name">` |
-| **ID selector** | The element on the page with the specified ID `id`. | `#id-name` to select `<p id="id-name">` |
-| **Attribute selector** | The element(s) on the page with the specified attribute. | `img[src=img.png]` to select `<img src="img.png">` |
-| **Pseudo class selector** | The specified element(s), but only when in the specified state. | `a:hover` to select `<a>`, but only when the mouse pointer is hovering over the link. |
-| **Pseudo element selector** | The specific part of the selected element(s). | `p::first-line` to select the first line of every `<p>` element. |
+| **Type selector** (or **element selector**) | All HTML element(s) of the specified type (or node name, tag name). | `p` selects `<p>` |
+| **Class selector** | The element(s) on the page with the specified `class`. | `p.class-name` { style properties } selects `<p class="class-name">` |
+| **ID selector** | The element on the page with the specified ID `id`. | `#id-name` selects `<p id="id-name">` |
+| **Attribute selector** | The element(s) on the page with the specified attribute. | `img[src=img.png]` selects `<img src="img.png">` |
+| **Pseudo class selector** | The specified element(s), but only when in the specified state. | `a:hover` selects `<a>`, but only when the mouse pointer is hovering over the link. |
+| **Pseudo element selector** | The specific part of the selected element(s). | `p::first-line` selects the first line of every `<p>` element. |
 
 - Basic selectors
     - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
@@ -56,6 +56,20 @@ the rule will match.
     `A > B`
     - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
     `A B`
+
+### CSS Attribute Selector
+
+| Syntax | Description | Example |
+| :-- | :-- | :-- |
+| `[attr]` | Represents elements with an attribute name of `attr`. | `a[title]` selects `<a>` elements with a `title` attribute. |
+| `[attr=value]` | Represents elements with an attribute name of `attr` whose value is exactly `value`. | `a[href="https://example.org"]` selects `<a>` elements with an `href` matching `https://example.org`. |
+| `[attr~=value]` | Represents elements with an attribute name of `attr` whose value is a *whitespace*-separated list of words, one of which is exactly `value`. | `a[class~="logo"]` selects `<a>` elements whose `class` attribute contains the word `logo`. |
+| `[attr|=value]` | Represents elements with an attribute name of `attr` whose value can be exactly `value` or can begin with `value` immediately followed by a **hyphen**, **`-`** (*`U+002D`*). It is often used for *language subcode* matches. | `div[lang|="zh"]` selects all `<div>` elements in Chinese, whether simplified (`zh-CN`) or traditional (`zh-TW`). |
+| `[attr^=value]` | Represents elements with an attribute name of `attr` whose value is prefixed (preceded) by `value`. | `a[href^="#"]` selects all `<a>` elements with an `href` beginning with `#`. |
+| `[attr$=value]` | Represents elements with an attribute name of `attr` whose value is suffixed (followed) by `value`. | `a[href$=".org"]` selects all `<a>` elements with an `href` ending `.org`. |
+| `[attr*=value]` | Represents elements with an attribute name of `attr` whose value contains **at least one occurrence** of `value` within the string. | `a[href*="example"]` selects all `<a>` elements with an `href` containing at least one occurrence of `example`. |
+| `[attr operator value i]` (**Selectors Level 4 added**) | Adding an **`i`** (or **`I`**) before the closing bracket causes the `value` to be compared **case-insensitively** (for characters within the ASCII range). | `a[href*="Example" i]` selects all `<a>` elements with an `href` containing `Example` regardless of capitalization. |
+| `[attr operator value s]` (**Selectors Level 4 added**, **experimental API**) | Adding an **`s`** (or **`S`**) before the closing bracket causes the `value` to be compared **case-sensitively** (for characters within the ASCII range). | `a[href*="Example" s]` selects all `<a>` elements with an `href` containing `Example` with matching capitalization. |
 
 ## CSS Property
 
