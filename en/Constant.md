@@ -11,4 +11,4 @@ identifier `pi` could be bound to the value `3.14...`.
 
 ## Learn More
 
-- [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) on Wikipedia
+- [Constant (Computer Programming) on Wikipedia](https://en.wikipedia.org/wiki/Constant_(computer_programming))

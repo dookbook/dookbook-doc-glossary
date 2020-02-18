@@ -36,15 +36,14 @@ HTML文档是包含多个HTML**元素**的*文本*文档。
 
 ### 空元素 (Empty Elements)
 
-有一部分标签中不需要包含文本，这些标签称为**空标签**，如`<img>`。
-同样在HTML元素中，也有一部分元素没有内容被称为**空元素**。
+也有一部分标签中不需要包含文本，这些标签称为 **[空标签](/zh-hans/webfrontend/Empty_Element)**，如[`<img>`](/zh-hans/webfrontend/<img>)。
 
 ### 块级元素和内联元素
 
 在HTML中有两种你需要知道的重要元素类别，**块级元素**(**Block Elements**)和**内联元素**(**Inline Elements**)。
 
 - **块级元素**在页面中以块的形式展现 —— 相对于其前面的内容它会出现在新的一行，其后的内容也会被挤到下一行展现。块级元素通常用于展示页面上结构化的内容，例如段落 (`<p>`)、
-  列表 (`<ul>`, `<ol>`)、导航菜单 (`<nav>`)、页脚 (`<footer>`)等等。块级元素不会被嵌套进内联元素中，但可以嵌套在其它块级元素中。
+  列表 (`<ul>`, `<ol>`)、导航菜单 ([`<nav>`](/zh-hans/webfrontend/<nav>))、页脚 ([`<footer>`](/zh-hans/webfrontend/<footer>))等等。块级元素不会被嵌套进内联元素中，但可以嵌套在其它块级元素中。
 - **内联元素**通常出现在块级元素中并环绕文档内容的一小部分，而不是一整个段落或者一组内容。内联元素不会导致文本换行：它通常出现在一堆文字之间例如超链接元素`<a>`或者强调元素`<em>`和`<strong>`。
 
 ## 标签 (Tag)
@@ -154,6 +153,10 @@ HTML5技术根据其功能分为几个组：
     - **检测设备方向**: 让用户在运行浏览器的设备变更方向时能够得到信息。这可以被用作一种输入设备（例如制作能够对设备位置做出反应的游戏）或者使页面的布局跟屏幕的方向相适应（横向或纵向）。
     - **指针锁定 API** (**Pointer Lock API**): 允许锁定到内容的指针，这样游戏或者类似的应用程序在指针到达窗口限制时也不会失去焦点。
 
+### HTML5 大纲
+
+![HTML5元素流程图 (Dookbook Team 翻译整理)](/media/glossary__html5-element-flowchart.zh-Hans.png)
+
 ## DHTML
 
 **DHTML**（*动态HTML*）是指不需要*Flash*或*Java*等插件的交互式网页背后的代码。DHTML聚合了HTML，[[CSS]]，[[DOM]]和[[JavaScript]]的组合功能。
@@ -162,7 +165,7 @@ DHTML不是[[W3C]]标准。它是一个营销术语，被网景公司（Netscape
 
 DHTML不是一种技术、标准或规范，只是一种将目前已有的网页技术、语言标准整合运用，制作出能在下载后仍然能实时变换页面元素效果的网页设计概念。
 
-## HTML注释`<!--...-->`
+## HTML注释 `<!--...-->`
 
 **`<!--...-->`** 即注释标签,用于在源代码中插入注释。注释不会显示在浏览器中。
 
@@ -187,6 +190,8 @@ HTML 示例:
 - [超链接 - 维基百科](https://en.wikipedia.org/wiki/Hyperlink)
 - [超文本 - 维基百科](https://en.wikipedia.org/wiki/Hypertext)
 - [DHTML - 维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
-- [HTML 实时标准 / 规范 (WHATWG版本)](https://html.spec.whatwg.org/) (推荐)
+- [HTML 实时标准/规范 (WHATWG版本)](https://html.spec.whatwg.org/) (**推荐**)
 - [HTML5 规范 (W3C版本)](http://www.w3.org/TR/html5/)
 - [W3C HTML验证器](http://validator.w3.org/ "W3C HTML Validator")
+- [W3C HTML元素表](http://www.w3.org/TR/html-markup/elements.html "W3C HTML元素表")
+- [MDN HTML文档](https://developer.mozilla.org/en-US/docs/Web/html "MDN HTML文档")

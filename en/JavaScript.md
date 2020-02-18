@@ -1,4 +1,6 @@
 TOPIC: JavaScript
+AUTHORS: Liao Yazhi; 1594435860@qq.com; github:Liaoyazhi
+         Li Yun; leven.cn@gmail.com; github:leven-cn
 
 # JavaScript Programming Language
 
@@ -93,6 +95,73 @@ primitive values have object equivalents that wrap around the primitive values:
 - `Symbol` for the `symbol` primitive.
 
 The wrapper's `valueOf()` method returns the primitive value.
+
+## `for` Loop
+
+### Syntax of `for` Loop
+
+```javascript
+for (statement 1; statement 2; statement 3) {
+  execute code block
+}
+```
+
+- `statement 1` is executed once before the code block is run.
+
+- `statement 2` defines the condition needed to execute the code block.
+
+- `statement 3` is executed every time the code block is run.
+
+### Example of `for` Loop
+
+```javascript
+for (var i = 0; i < 10; i++) {
+  console.log(i)
+}
+
+// This loop will print numbers 0-9, will stop when condition is met (i = 10)
+```
+
+For the above example, the syntax is as follows:
+
+- Statement 1 sets the variable for the loop (`var i = 0`).
+
+- Statement 2 sets the loop condition (`i < 10`).
+
+- Statement 3 increases the value of `i` (`i++`) each time the code block is run.
+
+## `while` Loop
+
+### Syntax of `while` Loop
+
+```javascript
+// The code block will continue to loop as long as the `condition` is `true`.
+while (condition){
+  execute code block
+}
+```
+
+### Example of `while` Loop
+
+```javascript
+// The code block will continue to run as long as the variable (`i`) is less than `5`.
+var i = 0;
+while (i < 5) {
+  console.log(i)
+  i++
+}
+
+// This loop will print number 0-4
+```
+
+## Strict Mode
+
+JavaScript's **strict mode** is a way to opt in to a restricted variant of JavaScript, thereby implicitly
+opting-out of "*sloppy mode*". Strict mode isn't just a subset: it intentionally has different
+semantics from normal code.
+
+Strict mode for an entire script is invoked by including the
+statement **`"use strict";`** before any other statements.
 
 ## Learn More
 

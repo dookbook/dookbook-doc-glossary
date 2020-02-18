@@ -2,7 +2,7 @@ TOPICS: HyperText Markup Language
 
 # HyperText Markup Language (HTML)
 
-**HTML** (*HyperText Markup Language*) is a *descriptive*, *[markup]* language that specifies
+**HTML** (*HyperText Markup Language*) is a *descriptive*, *[[markup]]* language that specifies
 webpage **structure**.
 
 An HTML file is normally saved with an **`.htm`** or **`.html`** extension, served by a web server,
@@ -45,7 +45,8 @@ A typical element includes an **opening tag** with some **attributes**, **enclos
 
 ### Empty Elements (Void Elements)
 
-There are a few **empty elements** (**void elements**) that cannot enclose any text, for instance `<img>`.
+There are a few **[empty elements](/en/webfrontend/Empty_Element)** (**void elements**)
+that cannot enclose any text, for instance [`<img>`](/en/webfrontend/<img>).
 Also in HTML elements, there are some elements with no content called **empty elements**.
 
 ### Block and Inline Elements
@@ -56,7 +57,8 @@ They are **block-level elements** and **inline elements**.
 - **Block-level elements** form a visible block on a page — they will appear on a new line from
   whatever content went before it, and any content that goes after it will also appear on a new line.
   Block-level elements tend to be structural elements on the page that represent, for example,
-  paragraphs (`<p>`), lists (`<ul>`, `<ol>`), navigation menus (`<nav>`), footers (`<footer>`),
+  paragraphs (`<p>`), lists (`<ul>`, `<ol>`), navigation menus ([`<nav>`](/en/webfrontend/<nav>)),
+  footers ([`<footer>`](/en/webfrontend/<footer>)),
   and so on. A block-level element wouldn't be nested inside an inline element, but it might be
   nested inside another block-level element.
 - **Inline elements** are those that are contained within block-level elements and surround only
@@ -214,6 +216,10 @@ HTML5 technologies classifies into several groups based on their function:
     - **Pointer Lock API**: Allows locking the pointer to the content, so games and similar
     applications don't lose focus when the pointer reaches the window limit.
 
+### HTML5 Outline
+
+![HTML5 Element Flowchart (from HTML5 Doctor)](/media/glossary__html5-element-flowchart.en.png)
+
 ## DHTML
 
 **DHTML** (*Dynamic HTML*) refers to the code behind interactive webpages that need no plugins like
@@ -250,5 +256,8 @@ HTML Example:
 - [HTML Living Standard / Specification - WHATWG](https://html.spec.whatwg.org/) (Recommended)
 - [The HTML 5 Specification - W3C](http://www.w3.org/TR/html5/)
 - [W3C HTML Validator](http://validator.w3.org/ "W3C HTML Validator")
+- [W3C HTML Elements](http://www.w3.org/TR/html-markup/elements.html "W3C HTML Elements")
+- [HTML - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/html "HTML | MDN Docs")
+- [HTML5 Doctor Resources](http://html5doctor.com/resources/ "HTML5 Doctor")
 - [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
