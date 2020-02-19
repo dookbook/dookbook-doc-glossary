@@ -135,7 +135,8 @@ applications. This set is sometimes called *HTML5 & friends* and often shortened
 
 HTML5 technologies classifies into several groups based on their function:
 
-- **[[Semantics]]**: allowing you to describe more precisely what your content is.
+- [**Semantics**](/en/webfrontend/Semantics): allowing you to describe more precisely
+what your content is.
     - new outlining and sectioning elements: [`<section>`](/en/webfrontend/<section>),
     [`<article>`](/en/webfrontend/<article>), [`<nav>`](/en/webfrontend/<nav>), [`<header>`](/en/webfrontend/<header>),
     [`<footer>`](/en/webfrontend/<header>) and [`<aside>`](/en/webfrontend/<aside>).

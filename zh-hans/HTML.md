@@ -98,7 +98,7 @@ HTML文档是包含多个HTML**元素**的*文本*文档。
 
 HTML5技术根据其功能分为几个组：
 
-- [**语义**](/zh-hans/glossary/Semantics)：能够让你更恰当地描述你的内容是什么。
+- [**语义**](/zh-hans/webfrontend/Semantics)：能够让你更恰当地描述你的内容是什么。
     - 新的区块和段落元素: [`<section>`](/zh-hans/webfrontend/<section>),
     [`<article>`](/zh-hans/webfrontend/<article>), [`<nav>`](/zh-hans/webfrontend/<nav>), [`<header>`](/zh-hans/webfrontend/<header>),
     [`<footer>`](/zh-hans/webfrontend/<header>)和[`<aside>`](/zh-hans/webfrontend/<aside>).
