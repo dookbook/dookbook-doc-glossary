@@ -98,7 +98,7 @@ HTML文档是包含多个HTML**元素**的*文本*文档。
 
 HTML5技术根据其功能分为几个组：
 
-- [**语义**](/zh-hans/glossary/Semantics)：能够让你更恰当地描述你的内容是什么。
+- [**语义**](/zh-hans/webfrontend/Semantics)：能够让你更恰当地描述你的内容是什么。
     - 新的区块和段落元素: [`<section>`](/zh-hans/webfrontend/<section>),
     [`<article>`](/zh-hans/webfrontend/<article>), [`<nav>`](/zh-hans/webfrontend/<nav>), [`<header>`](/zh-hans/webfrontend/<header>),
     [`<footer>`](/zh-hans/webfrontend/<header>)和[`<aside>`](/zh-hans/webfrontend/<aside>).
@@ -185,6 +185,7 @@ HTML 示例:
 
 ## 了解更多
 
+- 书籍： ***Designing With Web Standards*, Third Edition (2009)**
 - [HTML - 维基百科](https://en.wikipedia.org/wiki/HTML)
 - [HTML元素 - 维基百科](https://en.wikipedia.org/wiki/HTML%20element)
 - [超链接 - 维基百科](https://en.wikipedia.org/wiki/Hyperlink)
@@ -192,6 +193,6 @@ HTML 示例:
 - [DHTML - 维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
 - [HTML 实时标准/规范 (WHATWG版本)](https://html.spec.whatwg.org/) (**推荐**)
 - [HTML5 规范 (W3C版本)](http://www.w3.org/TR/html5/)
-- [W3C HTML验证器](http://validator.w3.org/ "W3C HTML Validator")
+- [W3C HTML验证器](http://validator.w3.org/ "W3C HTML验证器")
 - [W3C HTML元素表](http://www.w3.org/TR/html-markup/elements.html "W3C HTML元素表")
 - [MDN HTML文档](https://developer.mozilla.org/en-US/docs/Web/html "MDN HTML文档")

@@ -72,5 +72,7 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 
 ## 更多
 
+- Book: ***Designing With Web Standards*, Third Edition (2009)**
 - [CSS - 维基百科](https://en.wikipedia.org/wiki/CSS)
 - [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/CSS "MDN CSS文档")
+- [W3C CSS验证器](http://jigsaw.w3.org/css-validator/ "W3C CSS验证器")
