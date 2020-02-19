@@ -133,6 +133,8 @@ It is a new version of the language HTML, with new elements, attributes, and beh
 and a larger set of technologies that allows the building of more diverse and powerful Web sites and
 applications. This set is sometimes called *HTML5 & friends* and often shortened to just *HTML5*.
 
+See [HTML5 Differences from HTML4 - W3C](https://www.w3.org/TR/html5-diff/).
+
 HTML5 technologies classifies into several groups based on their function:
 
 - [**Semantics**](/en/webfrontend/Semantics): allowing you to describe more precisely
@@ -259,6 +261,7 @@ HTML Example:
 - [The HTML 5 Specification - W3C](http://www.w3.org/TR/html5/)
 - [W3C HTML Validator](http://validator.w3.org/ "W3C HTML Validator")
 - [W3C HTML Elements](http://www.w3.org/TR/html-markup/elements.html "W3C HTML Elements")
+- [HTML5 Differences from HTML4 - W3C](https://www.w3.org/TR/html5-diff/)
 - [HTML - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/html "HTML | MDN Docs")
 - [HTML5 Doctor Resources](http://html5doctor.com/resources/ "HTML5 Doctor")
 - [The `Element` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)

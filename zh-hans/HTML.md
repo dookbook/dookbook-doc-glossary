@@ -10,7 +10,7 @@ HTML文件通常会以 **`.htm`** 或 **`.html`** 为扩展名。用户可以从
 ## 发展简史
 
 1990年，由于对[Web](/zh-hans/glossary/World_Wide_Web)未来发展的远见，*Tim Berners-Lee*提出了
-**[超文本](/zh-hans/glossary/Hypertext)** 的概念，并与第二年在 **[[SGML]]**的基础上将其正式定义为一个标记语言。
+**[超文本](/zh-hans/glossary/Hypertext)** 的概念，并于第二年在 **[[SGML]]**的基础上将其正式定义为一个标记语言。
 **[[IETF]]**于1993年正式开始制定HTML规范，并在经历了几个版本的草案后于1995年发布了
 *HTML 2.0*版本。1994年，*Berners-Lee*为了Web发展而成立了**[[W3C]]**。
 1996年，W3C接管了HTML的标准化工作，并在1年后发布了*HTML 3.2推荐标准*。1999年，*HTML 4.0*发布，并在2000年成为[[ISO]]标准。
@@ -95,6 +95,8 @@ HTML文档是包含多个HTML**元素**的*文本*文档。
 
 - 它是HTML语言的一个新版本，具有新的元素、属性和行为；
 - 它有更大的技术集，允许构建更多样化和更强大的网站和应用程序。这个集合有时称为*HTML5和它的朋友们*，不过大多数时候仅缩写为一个词：*HTML5*。
+
+参见[W3C: HTML5和HTML4区别](https://www.w3.org/TR/html5-diff/) ([中文版](https://swordair.com/docs/html5-diff/))。
 
 HTML5技术根据其功能分为几个组：
 
@@ -195,4 +197,5 @@ HTML 示例:
 - [HTML5 规范 (W3C版本)](http://www.w3.org/TR/html5/)
 - [W3C HTML验证器](http://validator.w3.org/ "W3C HTML验证器")
 - [W3C HTML元素表](http://www.w3.org/TR/html-markup/elements.html "W3C HTML元素表")
+- [W3C: HTML5和HTML4区别](https://www.w3.org/TR/html5-diff/) ([中文版](https://swordair.com/docs/html5-diff/))
 - [MDN HTML文档](https://developer.mozilla.org/en-US/docs/Web/html "MDN HTML文档")
