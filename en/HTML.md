@@ -47,6 +47,7 @@ A typical element includes an **opening tag** with some **attributes**, **enclos
 
 There are a few **[empty elements](/en/webfrontend/Empty_Element)** (**void elements**)
 that cannot enclose any text, for instance [`<img>`](/en/webfrontend/<img>).
+Also in HTML elements, there are some elements with no content called **empty elements**.
 
 ### Block and Inline Elements
 
