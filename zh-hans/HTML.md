@@ -193,6 +193,6 @@ HTML 示例:
 - [DHTML - 维基百科](https://en.wikipedia.org/wiki/Dynamic%20HTML)
 - [HTML 实时标准/规范 (WHATWG版本)](https://html.spec.whatwg.org/) (**推荐**)
 - [HTML5 规范 (W3C版本)](http://www.w3.org/TR/html5/)
-- [W3C HTML验证器](http://validator.w3.org/ "W3C HTML Validator")
+- [W3C HTML验证器](http://validator.w3.org/ "W3C HTML验证器")
 - [W3C HTML元素表](http://www.w3.org/TR/html-markup/elements.html "W3C HTML元素表")
 - [MDN HTML文档](https://developer.mozilla.org/en-US/docs/Web/html "MDN HTML文档")
