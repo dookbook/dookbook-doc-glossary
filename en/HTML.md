@@ -249,6 +249,7 @@ HTML Example:
 
 ## Learn More
 
+- Book: ***Designing With Web Standards*, Third Edition (2009)**
 - [HTML on Wikipedia](https://en.wikipedia.org/wiki/HTML)
 - [HTML Element on Wikipedia](https://en.wikipedia.org/wiki/HTML%20element)
 - [Hyperlink on Wikipedia](https://en.wikipedia.org/wiki/Hyperlink)
