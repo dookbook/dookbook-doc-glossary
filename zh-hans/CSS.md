@@ -29,16 +29,14 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 
 | 选择器 | 匹配的元素 | 示例 |
 | :-- | :-- | :-- |
-| **类型选择器** (或**元素选择器**、**标签选择器**) | 同类元素或同标签的元素。| `p`选择所有`<p>`元素 |
-| **类选择器** | 包含指定`class`的所有元素。| `p.class-name`选择所有`<p class="class-name">`元素 |
-| **ID选择器** | 包含指定`id`的元素。| `#id-name`选择`<p id="id-name">`元素。|
-| **属性选择器** | 包含指定属性的元素。| `img[src=img.png]` 选择`<img src="img.png">`元素。|
-| **伪类选择器** | 包含指定状态的元素。| `a:hover`选择`<a>`元素，当鼠标划过的时候。|
-| **伪元素选择器** | 包含指定元素的部分。 | `p::first-line`选择所有`<p>`元素内容的第一行。|
+| **类型选择器** (或**元素选择器**、**标签选择器**) (**`<>`**) | 同类元素或同标签的元素。| `p`选择所有`<p>`元素 |
+| **类选择器** (**`.`**) | 包含指定`class`的所有元素。| `p.class-name`选择所有`<p class="class-name">`元素 |
+| **ID选择器** (**`#`**) | 包含指定`id`的元素。| `#id-name`选择`<p id="id-name">`元素。|
+| **属性选择器** (**`[]`**) | 包含指定属性的元素。| `img[src=img.png]` 选择`<img src="img.png">`元素。|
+| **伪类选择器** (**`:`**) | 包含指定状态的元素。| `a:hover`选择`<a>`元素，当鼠标划过的时候。|
+| **伪元素选择器** (**`::`**) | 包含指定元素的部分。 | `p::first-line`选择所有`<p>`元素内容的第一行。|
+| **通配符选择器** (**`*`**) | 包含所有元素。 | `*`选择所有元素。|
 
-- 基础选择器
-    - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
-    `* ns|* *|*`
 - Grouping
     - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
   `A, B`

@@ -34,15 +34,16 @@ the rule will match.
 
 | Selector | What does it select | Example |
 | :-- | :-- | :-- |
-| **Type selector** (or **element selector**) | All HTML element(s) of the specified type (or node name, tag name). | `p` selects `<p>` |
-| **Class selector** | The element(s) on the page with the specified `class`. | `p.class-name` { style properties } selects `<p class="class-name">` |
-| **ID selector** | The element on the page with the specified ID `id`. | `#id-name` selects `<p id="id-name">` |
-| **Attribute selector** | The element(s) on the page with the specified attribute. | `img[src=img.png]` selects `<img src="img.png">` |
-| **Pseudo class selector** | The specified element(s), but only when in the specified state. | `a:hover` selects `<a>`, but only when the mouse pointer is hovering over the link. |
-| **Pseudo element selector** | The specific part of the selected element(s). | `p::first-line` selects the first line of every `<p>` element. |
+| **Type selector** (or **element selector**) (**`<>`**) | All HTML element(s) of the specified type (or node name, tag name). | `p` selects `<p>` |
+| **Class selector** (**`.`**) | The element(s) on the page with the specified `class`. | `p.class-name` { style properties } selects `<p class="class-name">` |
+| **ID selector** (**`#`**) | The element on the page with the specified ID `id`. | `#id-name` selects `<p id="id-name">` |
+| **Attribute selector** (**`[]`**) | The element(s) on the page with the specified attribute. | `img[src=img.png]` selects `<img src="img.png">` |
+| **Pseudo class selector** (**`:`**) | The specified element(s), but only when in the specified state. | `a:hover` selects `<a>`, but only when the mouse pointer is hovering over the link. |
+| **Pseudo element selector** (**`::`**) | The specific part of the selected element(s). | `p::first-line` selects the first line of every `<p>` element. |
+| **Universal selectors** (**`*`**) | Matches elements of any type. | `*` selects all elements. |
 
 - Basic selectors
-    - [Universal selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+    - [](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
     `* ns|* *|*`
 - Grouping
     - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
