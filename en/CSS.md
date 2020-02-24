@@ -34,29 +34,18 @@ the rule will match.
 
 | Selector | What does it select | Example |
 | :-- | :-- | :-- |
-| **Type selector** (or **element selector**) (**`<>`**) | All HTML element(s) of the specified type (or node name, tag name). | `p` selects `<p>` |
-| **Class selector** (**`.`**) | The element(s) on the page with the specified `class`. | `p.class-name` { style properties } selects `<p class="class-name">` |
-| **ID selector** (**`#`**) | The element on the page with the specified ID `id`. | `#id-name` selects `<p id="id-name">` |
-| **Attribute selector** (**`[]`**) | The element(s) on the page with the specified attribute. | `img[src=img.png]` selects `<img src="img.png">` |
-| **Pseudo class selector** (**`:`**) | The specified element(s), but only when in the specified state. | `a:hover` selects `<a>`, but only when the mouse pointer is hovering over the link. |
-| **Pseudo element selector** (**`::`**) | The specific part of the selected element(s). | `p::first-line` selects the first line of every `<p>` element. |
-| **Universal selectors** (**`*`**) | Matches elements of any type. | `*` selects all elements. |
-
-- Basic selectors
-    - [](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
-    `* ns|* *|*`
-- Grouping
-    - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
-  `A, B`
-- Combinators
-    - [Adjacent sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors)
-    `A + B`
-    - [General sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
-    `A ~ B`
-    - [Child selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors)
-    `A > B`
-    - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
-    `A B`
+| **Type selector** (or **element selector**) (**`< >`**) | all HTML element(s) of the specified type (or node name, tag name). | `p` selects `<p>` |
+| **Class selector** (**`.`**) | the element(s) on the page with the specified `class`. | `p.class-name` { style properties } selects `<p class="class-name">` |
+| **ID selector** (**`#`**) | the element on the page with the specified ID `id`. | `#id-name` selects `<p id="id-name">` |
+| **Attribute selector** (**`[ ]`**) | the element(s) on the page with the specified attribute. | `img[src=img.png]` selects `<img src="img.png">` |
+| **Pseudo class selector** (**`:`**) | the specified element(s), but only when in the specified state. | `a:hover` selects `<a>`, but only when the mouse pointer is hovering over the link. |
+| **Pseudo element selector** (**`::`**) | the specific part of the selected element(s). | `p::first-line` selects the first line of every `<p>` element. |
+| **Universal selectors** (**`*`**) | match elements of any type. | `*` selects all elements. |
+| **Descendant selectors** (or **descendant combinator**) (**`A B`**) | typically represented by a *single space* character — combines two selectors such that elements matched by the second selector are selected if they have an **ancestor** (parent, parent's parent, parent's parent's parent, etc) element matching the first selector. | `ul.my-things li` lists items that are descendants of the "`my-things`" list. |
+| **Child selectors** (or **child combinator**) (**`A > B`**) | match only those elements matched by the second selector that are **the direct children** of elements matched by the first. | `ul.my-things > li` lists items that are children of the "`my-things`" list. |
+| **General sibling selectors** (**`A ~ B`**) | match the second element only if it follows the first element (though not necessarily immediately), and both are children of the same parent element. | `img ~ p` matches paragraphs that are siblings of and subsequent to any image. |
+| **Adjacent sibling selectors** (**`A + B`**) | match the second element **only** if it immediately follows the first element, and both are children of the same parent element. | `img + p` matches paragraphs that come immediately after any image. |
+| **Grouping selectors** (**`A, B`**) | grouping selectors in a single line or a multiple lines using a comma-separated lists. | `h1, h2` selects all `<h1>`, `<h2>` elements. |
 
 ### CSS Attribute Selector
 

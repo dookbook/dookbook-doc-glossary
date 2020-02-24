@@ -36,19 +36,12 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 | **伪类选择器** (**`:`**) | 包含指定状态的元素。| `a:hover`选择`<a>`元素，当鼠标划过的时候。|
 | **伪元素选择器** (**`::`**) | 包含指定元素的部分。 | `p::first-line`选择所有`<p>`元素内容的第一行。|
 | **通配符选择器** (**`*`**) | 包含所有元素。 | `*`选择所有元素。|
-
-- Grouping
-    - [Grouping selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Grouping_selectors)
-  `A, B`
-- Combinators
-    - [Adjacent sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors)
-    `A + B`
-    - [General sibling selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
-    `A ~ B`
-    - [Child selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors)
-    `A > B`
-    - [Descendant selectors](https://wiki.developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
-    `A B`
+| **通配符选择器** (**`*`**) | 包含所有元素。 | `*`选择所有元素。|
+| **后代选择器** (**`A B`**) | 连接两个元素时使得该选择器可以只匹配那些由第一个元素作为**祖先元素**的所有第二个元素(**后代元素**)。 | `ul.my-things li`选择所有类为`my-things`的`<ul>`元素的后代元素。|
+| **子元素选择器** (或**子选择器**) (**`A > B`**) | 匹配那些作为第一个元素的**直接后代**(**子元素**)的第二元素。| `ul.my-things > li`选择所有类为`my-things`的`<ul>`元素的子元素。|
+| **兄弟选择符** (**`A ~ B`**) | A元素之后所有同层级B元素。| `img ~ p`选择`<img>`元素之后的所有兄弟`<p>`元素。 |
+| **相邻兄弟选择器** (**`A + B`**) | 紧跟A元素之后的同层级B元素。| `img + p`选择`<img>`元素后面紧跟着的`<p>`元素。 |
+| **选择器列表** (或**并集选择器**, **并集组合器**, **组合选择器**) (**`A, B`**) | 以*一行*或*多行*选择器选择所有能被列表中的任意一个选择器选中的节点。| `h1, h2`选择所有`<h1>`,`<h2>`元素。 |
 
 ### CSS 属性选择器
 
