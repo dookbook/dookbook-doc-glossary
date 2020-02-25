@@ -8,6 +8,40 @@ browser. The browser applies CSS style declarations to selected elements to disp
 and **[[JavaScript]]**. CSS usually styles *HTML elements*, but can be also used with other markup
 languages like *[[SVG]]* or *[[XML]]*.
 
+## Apply CSS to HTML Document
+
+There are several ways to introduce CSS, and the priority is from high to low:
+
+1. Inline styles ([**`style` attribute**](/en/webfrontend/style_attribute))
+2. Inner stylesheets ([**`<style>`**](/en/webfrontend/<style>) element)
+3. **External stylesheets** ([**`<link>`**](/en/webfrontend/<link>) element) (**Recommended**)
+
+```html
+<!-- Example: Apply CSS -->
+
+<!-- External stylesheet -->
+<head>
+  <link href="style.css" ref="stylesheet">
+</head>
+
+<!-- Inner stylesheet, priority higher than external stylesheet -->
+<style>
+  p {
+    color: black;
+  }
+</style>
+
+<!-- Inline styles, highest priority -->
+<p style="color: black;">A paragraph.</p>
+```
+
+```css
+/* style.css */
+p {
+  color: black;
+}
+```
+
 ## CSS Rule
 
 A **CSS rule** is a set of **declarations** associated with a **selector**.
@@ -65,6 +99,24 @@ the rule will match.
 
 A **CSS property** is a characteristic (like `color`) whose associated value defines one
 aspect of how the browser should display the element.
+
+## CSS Comment `/* ... */`
+
+**`/* ... */`** is the CSS comment, which is used to insert comments in the source code.
+Comments do not appear in the browser.
+
+CSS Example:
+
+```css
+/* This is a comment. */
+p {
+  text-align: center;  /* This is a comment, too */
+
+  /* This is another comment. */
+  color: black;
+  font-family: arial;
+}
+```
 
 ## Learn More
 
