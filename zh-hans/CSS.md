@@ -6,6 +6,40 @@ TOPIC: Cascading Style Sheets
 **CSS** 与 **[[HTML]]** 和 **[[JavaScript]]** 并称 *[Web](/zh-hans/glossary/World_Wide_Web) 三大核心技术*。
 一般用它来定义 *HTML 元素* 的样式，但它也能用于其他标记语言，如 *[[SVG]]* 和 *[[XML]]*。
 
+## 引入CSS
+
+引入CSS有以下几种方式，且优先级由高到低：
+
+1. 内联样式 ([**`style`属性**](/zh-hans/webfrontend/style_attribute))
+2. 内部样式表 ([**`<style>`**](/zh-hans/webfrontend/<style>)元素)
+3. **外部样式表** ([**`<link>`**](/zh-hans/webfrontend/<link>)元素) (**推荐**)
+
+```html
+<!-- 示例：引入CSS -->
+
+<!-- 外部样式表 -->
+<head>
+  <link href="style.css" ref="stylesheet">
+</head>
+
+<!-- 内部样式表，优先级高于外部样式表 -->
+<style>
+  p {
+    color: black;
+  }
+</style>
+
+<!-- 内联样式，最高优先级 -->
+<p style="color: black;">一个段落</p>
+```
+
+```css
+/* style.css */
+p {
+  color: black;
+}
+```
+
 ## CSS 规则
 
 一条 CSS **规则**包含一个**选择器** (**selector**)和一组**声明**(**declaration**)定义。
@@ -60,6 +94,23 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 ## CSS 属性
 
 **CSS属性** （**property**）是一种特性（如`color`），其关联的值定义了浏览器应如何显示元素的一个方面。
+
+## CSS 注释 `/* ... */`
+
+**`/* ... */`**是CSS代码的注释，浏览器不会显示它。
+
+CSS示例如下：
+
+```css
+/* 这是一个注释 */
+p {
+  text-align: center;  /* 这也是一个注释 */
+
+  /* 这是另外一个注释 */
+  color: black;
+  font-family: arial;
+}
+```
 
 ## 更多
 
