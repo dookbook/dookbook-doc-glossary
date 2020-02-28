@@ -81,6 +81,29 @@ the rule will match.
 | **Adjacent sibling selectors** (**`A + B`**) | match the second element **only** if it immediately follows the first element, and both are children of the same parent element. | `img + p` matches paragraphs that come immediately after any image. |
 | **Grouping selectors** (**`A, B`**) | grouping selectors in a single line or a multiple lines using a comma-separated lists. | `h1, h2` selects all `<h1>`, `<h2>` elements. |
 
+### Weights of CSS Selectors
+
+Regarding CSS weights, it is represented by a four-digit number string (CSS2 is three digits). It is
+more like four levels, with values from left to right, the largest on the left, a level greater
+than one level, and no digits between the levels. No one can surpass.
+
+| Category | Contribution|
+| :-- | :-- |
+| **Contribution value inherited or `*`** | 0,0,0,0 |
+| **Contribution of each element (tag)** | 0,0,0,1 |
+| **Contributing value for each class** | 0,0,1,0 |
+| **Contribution value for each ID** | 0,1,0,0 |
+| **Contribution value for inline style** | 1,0,0,0 |
+| **Each `!Important` contribution value** | ∞  infinity. |
+
+For example:
+
+![Weights of CSS Selectors](/media/glossary__css-weights.png)
+
+!!! wran "Attention"
+    There are no bases between digits. For example: 0,0,0,5 + 0,0,0,5 =0,0,0,10 instead of 0,0, 1, 0，
+    so there will not be 10 [`div`](/en/webfrontend/<div>) that can enter a class selector. Happening.
+
 ### CSS Attribute Selector
 
 | Syntax | Description | Example |
