@@ -91,7 +91,7 @@ CSS 中的 “**C**” (*Cascading*) 表示 “*层叠的*”，意为多个选�
 
 例如:
 
-![Weights of CSS Selectors](/media/glossary__css-weights.png)
+![Weights of CSS Selectors](/media/glossary__css-weight.png)
 
 !!! wran "注意"
     数位之间没有进制。比如说： 0,0,0,5 + 0,0,0,5 =0,0,0,10 而不是 0,0, 1, 0， 所以不会存在10个[`div`](/zh-hans/webfrontend/<div>)能进一个类选择器的情况。

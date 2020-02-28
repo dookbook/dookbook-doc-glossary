@@ -98,7 +98,7 @@ than one level, and no digits between the levels. No one can surpass.
 
 For example:
 
-![Weights of CSS Selectors](/media/glossary__css-weights.png)
+![Weights of CSS Selectors](/media/glossary__css-weight.png)
 
 !!! wran "Attention"
     There are no bases between digits. For example: 0,0,0,5 + 0,0,0,5 =0,0,0,10 instead of 0,0, 1, 0，
