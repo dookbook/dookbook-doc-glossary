@@ -146,6 +146,6 @@ p {
 - Book: ***Designing With Web Standards*, Third Edition (2009)**
 - [CSS on Wikipedia](https://en.wikipedia.org/wiki/CSS)
 - [The CSS Working Group current work](http://www.w3.org/Style/CSS/current-work)
-- [CSS Selectors Level 3 - W3C CSS Work Group](https://drafts.csswg.org/selectors-3/ "CSS Selector Level 3")
+- [CSS Standard - W3C CSS Work Group](https://drafts.csswg.org/ "CSS Standard")
 - [MDN CSS文档](https://developer.mozilla.org/en-US/docs/Web/CSS "MDN CSS文档")
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/ "W3C CSS Validator")
