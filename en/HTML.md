@@ -249,7 +249,7 @@ HTML Example:
 <p> This is a normal paragraph. </ p>
 ```
 
-### HTML Phrasing Content
+## HTML Phrasing Content
 
 In HTML, *phrase content* are specialized tags used to indicate that text blocks have a structural meaning
 and perform specific operations similar to text format tags. Such as emphasizing text and text
