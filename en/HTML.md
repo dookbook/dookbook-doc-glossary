@@ -249,6 +249,15 @@ HTML Example:
 <p> This is a normal paragraph. </ p>
 ```
 
+## HTML Phrasing Content
+
+In HTML, *phrase content* are specialized tags used to indicate that text blocks have a structural meaning
+and perform specific operations similar to text format tags. Such as emphasizing text and text
+abbreviations in web pages and so on.Not only do most of the text defined by these tags present
+special styles, in fact, these tags have exact semantics.
+
+ *phrase content* include:**[`<em>`](/en/webfrontend/<em>)**,**[`<strong>`](/en/webfrontend/<strong>)**,**[`<dfn>`](/en/webfrontend/<dfn>)**,**[`<code>`](/en/webfrontend/<code>)**,**[`<samp>`](/en/webfrontend/<samp>)**,**[`<kbd>`](/en/webfrontend/<kbd>)**,**[`<var>`](/en/webfrontend/<var>)**,**[`<cite>`](/en/webfrontend/<cite>)**.
+
 ## Learn More
 
 - Book: ***Designing With Web Standards*, Third Edition (2009)**

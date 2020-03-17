@@ -167,7 +167,7 @@ DHTML不是[[W3C]]标准。它是一个营销术语，被网景公司（Netscape
 
 DHTML不是一种技术、标准或规范，只是一种将目前已有的网页技术、语言标准整合运用，制作出能在下载后仍然能实时变换页面元素效果的网页设计概念。
 
-## HTML注释 `<!--...-->`
+## HTML 注释 `<!--...-->`
 
 **`<!--...-->`** 即注释标签,用于在源代码中插入注释。注释不会显示在浏览器中。
 
@@ -184,6 +184,12 @@ HTML 示例:
 
 <p>这是一段普通的段落。</p>
 ```
+
+## HTML 短语标签
+
+在HTML中，*短语标签* 是专用标签，用于指示文本块具有结构意义，执行与文本格式标签类似的特定操作。如强调网页中的文本和文字缩写等等。这些标签定义的文本不仅大多会呈现出特殊的样式，实际上，这些标签都拥有确切的语义。
+
+短语标签包括：**[`<em>`](/zh-hans/webfrontend/<em>)**、**[`<strong>`](/zh-hans/webfrontend/<strong>)**、**[`<dfn>`](/zh-hans/webfrontend/<dfn>)**、**[`<code>`](/zh-hans/webfrontend/<code>)**、**[`<samp>`](/zh-hans/webfrontend/<samp>)**、**[`<kbd>`](/zh-hans/webfrontend/<kbd>)**、**[`<var>`](/zh-hans/webfrontend/<var>)**、**[`<cite>`](/zh-hans/webfrontend/<cite>)**。
 
 ## 了解更多
 
